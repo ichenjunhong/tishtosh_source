@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.p683ss.android.ugc.aweme.views.RoundedFrameLayout android:id="@+id/c0y" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_centerVertical="true" app:rounded_radius="@dimen/yv">
+        <RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent">
+            <com.bytedance.lighten.loader.SmartImageView android:id="@+id/anr" android:layout_width="match_parent" android:layout_height="match_parent" app:placeholderImage="@color/a1v" app:placeholderImageScaleType="6" app:viewAspectRatio="1"/>
+            <com.bytedance.ies.dmt.p664ui.widget.DmtTextView android:textStyle="bold" android:textColor="@color/jf" android:gravity="center" android:id="@+id/anm" android:layout_width="wrap_content" android:layout_height="wrap_content" android:shadowColor="@color/jd" android:shadowDy="2" android:shadowRadius="4" android:layout_centerInParent="true" style="@style/uu"/>
+            <View android:id="@+id/ba2" android:background="@drawable/cs0" android:layout_width="15dp" android:layout_height="1.5dp" android:layout_marginRight="8.5dp" android:layout_toLeftOf="@+id/anm" android:layout_centerVertical="true" android:layout_marginEnd="8.5dp" android:layout_toStartOf="@+id/anm"/>
+            <View android:id="@+id/cck" android:background="@drawable/cs0" android:layout_width="15dp" android:layout_height="1.5dp" android:layout_marginLeft="8.5dp" android:layout_toRightOf="@+id/anm" android:layout_centerVertical="true" android:layout_marginStart="8.5dp" android:layout_toEndOf="@+id/anm"/>
+            <com.bytedance.ies.dmt.p664ui.widget.DmtTextView android:textSize="9sp" android:textColor="@color/jg" android:gravity="center" android:id="@+id/anw" android:background="@drawable/crz" android:paddingLeft="4dp" android:paddingRight="4dp" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="4dp" android:layout_alignParentRight="true"/>
+        </RelativeLayout>
+    </com.p683ss.android.ugc.aweme.views.RoundedFrameLayout>
+</LinearLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:gravity="center" android:id="@+id/uy" android:background="@drawable/di7" android:layout_width="28dp" android:layout_height="28dp" android:layout_alignParentEnd="true">
+        <com.p683ss.android.ugc.aweme.music.p1978ui.CheckableImageView android:id="@+id/azc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/dg0" android:scaleType="fitXY"/>
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@+id/d40" android:background="@drawable/di7" android:layout_width="match_parent" android:layout_height="28dp" android:paddingStart="12dp" android:paddingEnd="12dp" android:layout_marginEnd="4dp" android:layout_toStartOf="@+id/uy">
+        <com.p683ss.android.ugc.aweme.music.p1978ui.CheckableImageView android:id="@+id/b53" android:layout_width="16dp" android:layout_height="16dp" android:scaleType="fitXY" android:layout_marginEnd="6dp"/>
+        <com.bytedance.ies.dmt.p664ui.widget.DmtTextView android:textColor="@color/am1" android:ellipsize="end" android:id="@+id/dhz" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:fontFamily="ProximaNova-Semibold" app:fontType="2" style="@style/un"/>
+    </LinearLayout>
+</RelativeLayout>

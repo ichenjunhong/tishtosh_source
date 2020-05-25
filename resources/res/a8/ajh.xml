@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.p683ss.android.ugc.aweme.common.widget.PullUpLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/c70" android:background="@color/a8w" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <android.support.p043v7.widget.CardView android:id="@+id/cdu" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="12dp" android:layout_marginTop="12dp" android:layout_marginRight="12dp" android:layout_marginBottom="12dp" app:cardBackgroundColor="@color/in" app:cardCornerRadius="4dp" app:cardElevation="8dp">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="12dp" android:layout_marginTop="10dp" android:layout_marginRight="12dp" android:layout_marginBottom="10dp">
+            <RelativeLayout android:layout_width="52dp" android:layout_height="52dp">
+                <com.p683ss.android.ugc.aweme.base.p1420ui.SmartAvatarImageView android:id="@+id/ay2" android:layout_width="48dp" android:layout_height="48dp" android:layout_centerInParent="true"/>
+                <com.p683ss.android.ugc.aweme.feed.p1736ui.LiveCircleView android:id="@+id/bcb" android:padding="3dp" android:layout_width="52dp" android:layout_height="52dp" android:layout_centerInParent="true" app:live_strokeWidth="1dp"/>
+            </RelativeLayout>
+            <LinearLayout android:orientation="vertical" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:layout_marginStart="12dp">
+                <com.bytedance.ies.dmt.p664ui.widget.DmtTextView android:textColor="@color/avn" android:ellipsize="end" android:id="@+id/dhb" android:layout_width="wrap_content" android:layout_height="wrap_content" android:lines="1" android:singleLine="true" android:layout_toEndOf="@+id/ay2" app:fontType="7" style="@style/ur"/>
+                <com.bytedance.ies.dmt.p664ui.widget.DmtTextView android:textColor="@color/avn" android:ellipsize="end" android:id="@+id/dbw" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2dp" android:lines="1" android:singleLine="true" style="@style/ur"/>
+            </LinearLayout>
+        </LinearLayout>
+    </android.support.p043v7.widget.CardView>
+</com.p683ss.android.ugc.aweme.common.widget.PullUpLayout>

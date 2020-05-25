@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="bv">
+    </style>
+    <style name="c5">
+    </style>
+    <style name="cf">
+    </style>
+    <style name="cm">
+    </style>
+    <style name="dy">
+        <item name="b">?android:attr/actionBarItemBackground</item>
+        <item name="o">?android:attr/actionMenuTextAppearance</item>
+        <item name="p">?android:attr/actionMenuTextColor</item>
+        <item name="ig">@drawable/x</item>
+        <item name="xx">?android:attr/ratingBarStyleIndicator</item>
+        <item name="xy">?android:attr/ratingBarStyleSmall</item>
+    </style>
+    <style name="dz">
+        <item name="b">?android:attr/actionBarItemBackground</item>
+        <item name="o">?android:attr/actionMenuTextAppearance</item>
+        <item name="p">?android:attr/actionMenuTextColor</item>
+        <item name="ig">@drawable/x</item>
+        <item name="xx">?android:attr/ratingBarStyleIndicator</item>
+        <item name="xy">?android:attr/ratingBarStyleSmall</item>
+    </style>
+    <style name="ep">
+    </style>
+    <style name="er">
+    </style>
+    <style name="fl">
+    </style>
+    <style name="fm">
+    </style>
+    <style name="fs">
+    </style>
+    <style name="g5">
+        <item name="e3">?unknown_attr_ref: 10104e2</item>
+    </style>
+</resources>

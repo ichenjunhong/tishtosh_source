@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.p683ss.android.ugc.aweme.themechange.base.AVDmtPanelRelativeLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/eop" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" app:fsPanel="true" app:secondPanel="true">
+    <FrameLayout android:id="@+id/eor" android:layout_width="match_parent" android:layout_height="68dp">
+        <SeekBar android:layout_gravity="center" android:id="@+id/eoq" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="48dp" android:layout_marginRight="48dp" android:maxHeight="3dp" android:progressDrawable="@drawable/cce" android:minHeight="3dp" android:thumb="@drawable/ccf"/>
+    </FrameLayout>
+    <View android:id="@+id/eon" android:background="@color/dv" android:layout_width="match_parent" android:layout_height="0.5dp" android:layout_below="@+id/eor"/>
+    <LinearLayout android:layout_width="match_parent" android:layout_height="52dp" android:layout_below="@+id/eon">
+        <com.bytedance.ies.dmt.p664ui.widget.DmtTextView android:textSize="15sp" android:textColor="@color/asw" android:gravity="center" android:id="@+id/eoo" android:layout_width="0dp" android:layout_height="match_parent" android:text="@string/ald" android:layout_weight="1" android:lineSpacingExtra="3sp"/>
+        <View android:layout_gravity="center_vertical" android:background="@color/dv" android:layout_width="0.5dp" android:layout_height="16dp"/>
+        <com.bytedance.ies.dmt.p664ui.widget.DmtTextView android:textSize="15sp" android:textColor="@color/aso" android:gravity="center" android:id="@+id/eos" android:layout_width="0dp" android:layout_height="match_parent" android:text="@string/alc" android:layout_weight="1" android:lineSpacingExtra="3sp"/>
+    </LinearLayout>
+</com.p683ss.android.ugc.aweme.themechange.base.AVDmtPanelRelativeLayout>

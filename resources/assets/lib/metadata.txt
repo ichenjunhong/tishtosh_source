@@ -1,0 +1,20 @@
+lib/armeabi-v7a/libawemetool.so 1 8
+9918988 26562024
+lib/armeabi-v7a/libx264.so 792056 78b7a8c6b1ff2671d377f7499e913637
+lib/armeabi-v7a/libeffect.so 20537028 5b2fb56c89d7a6768b7f1465cb9d68f8
+lib/armeabi-v7a/libttmain.so 20854764 997573b034e9c2e1e84af04a8280fe48
+lib/armeabi-v7a/libfdk-aac.so 21474800 c439036dbecb9df35057c08dded9e3e8
+lib/armeabi-v7a/libttvebase.so 23297600 ade11d3718c7b974a59b16dd285f0efb
+lib/armeabi-v7a/libttvideoeditor.so 25553864 be2805ff62ff506276c1ad2d2d0c59d0
+lib/armeabi-v7a/libttvideorecorder.so 26552184 80f3cf71a030e9738ffe4a185bb9205e
+lib/armeabi-v7a/libdownloadable_model_support.so 26562024 9dda369a007330ee712b3819afc4a47b
+lib/arm64-v8a/libawemetool.so 1 8
+9896797 37745504
+lib/arm64-v8a/libx264.so 935704 a671a8285f81d147e921d31c182be642
+lib/arm64-v8a/libeffect.so 29278536 e07d104a1baa5314e06dfe1c1485da2d
+lib/arm64-v8a/libttmain.so 29716024 b84242b9e764f094c4da37360b5792df
+lib/arm64-v8a/libfdk-aac.so 30492024 93a27b944d7612c0c3053d7c49da8f4e
+lib/arm64-v8a/libttvebase.so 32889464 aca323be940968a0f2a09dfbd1aa617
+lib/arm64-v8a/libttvideoeditor.so 36298416 fd374ad718fdc6b6cd868ff161f6e1c5
+lib/arm64-v8a/libttvideorecorder.so 37735528 2c286c9a26f92a9747b2084f5e4fbe5
+lib/arm64-v8a/libdownloadable_model_support.so 37745504 e09ff378175a8cf13977cc598226c0d7

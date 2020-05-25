@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="f">48dp</dimen>
+    <dimen name="bb">12dp</dimen>
+    <dimen name="bd">14dp</dimen>
+    <dimen name="f3">48dp</dimen>
+    <dimen name="o2">170dp</dimen>
+    <dimen name="pc">190dp</dimen>
+    <dimen name="pf">232dp</dimen>
+</resources>

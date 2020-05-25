@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent" android:layout_height="match_parent">
+    <View android:id="@+id/csm" android:layout_height="0dp" style="@style/a7s"/>
+    <RelativeLayout android:id="@+id/d10" android:background="@color/a2j" android:layout_width="match_parent" android:layout_height="@dimen/vn" android:layout_below="@+id/csm">
+        <ImageView android:id="@+id/ik" android:padding="12dp" android:visibility="gone" android:layout_width="44dp" android:layout_height="44dp" android:layout_marginLeft="3dp" android:src="@drawable/dsm" android:layout_centerVertical="true" android:layout_marginStart="3dp"/>
+        <RelativeLayout android:id="@+id/dh" android:layout_width="60dp" android:layout_height="match_parent" android:layout_centerVertical="true">
+            <ImageView android:id="@+id/axt" android:layout_width="32dp" android:layout_height="32dp" android:scaleType="centerInside" android:layout_centerInParent="true" app:srcCompat="@drawable/doj"/>
+            <com.p683ss.android.ugc.aweme.profile.p2090ui.RecommendPointView android:id="@+id/c9x" android:background="@drawable/dmp" android:visibility="gone" android:layout_width="6dp" android:layout_height="6dp" android:layout_toRightOf="@+id/axt" android:layout_above="@+id/axt" android:layout_toEndOf="@+id/axt"/>
+            <View android:background="@drawable/dsf" android:layout_width="match_parent" android:layout_height="match_parent"/>
+        </RelativeLayout>
+        <com.bytedance.lighten.loader.SmartImageView android:id="@+id/emk" android:paddingTop="8dp" android:paddingRight="16dp" android:paddingBottom="8dp" android:visibility="gone" android:layout_width="40dp" android:layout_height="40dp" android:layout_toRightOf="@+id/dh" android:layout_centerVertical="true" android:layout_toEndOf="@+id/dh"/>
+        <com.bytedance.ies.dmt.p664ui.widget.DmtTextView android:textColor="@color/a1k" android:ellipsize="end" android:gravity="center" android:id="@+id/title" android:layout_width="wrap_content" android:layout_height="match_parent" android:maxWidth="184dp" android:maxLines="1" android:layout_centerInParent="true" app:fontType="2" style="@style/uu"/>
+        <ImageView android:id="@+id/a0" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/dpz" android:layout_centerVertical="true" android:rotation="180" android:layout_marginStart="2dp" android:layout_toEndOf="@+id/title"/>
+        <View android:id="@+id/caq" android:background="@drawable/dly" android:visibility="gone" android:layout_width="8dp" android:layout_height="8dp" android:layout_marginTop="12dp" android:layout_marginEnd="4dp" android:layout_toEndOf="@+id/a0"/>
+        <RelativeLayout android:id="@+id/bn2" android:layout_width="49dp" android:layout_height="match_parent" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:layout_alignParentEnd="true">
+            <ImageView android:id="@+id/bn5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/dsq" android:scaleType="centerInside" android:layout_centerInParent="true"/>
+            <View android:id="@+id/bna" android:background="@drawable/dmp" android:visibility="gone" android:layout_width="8dp" android:layout_height="8dp" android:layout_marginLeft="-5dp" android:layout_toRightOf="@+id/bn5" android:layout_alignTop="@+id/bn5" android:layout_marginStart="-5dp" android:layout_toEndOf="@+id/bn5"/>
+            <View android:background="@drawable/dsf" android:layout_width="match_parent" android:layout_height="match_parent"/>
+        </RelativeLayout>
+        <ImageView android:id="@+id/bpd" android:layout_width="22dp" android:layout_height="22dp" android:src="@drawable/drc" android:layout_toLeftOf="@+id/bn2" android:layout_centerVertical="true" android:layout_toStartOf="@+id/bn2"/>
+        <View android:id="@+id/f09" android:background="@color/a0s" android:layout_width="match_parent" android:layout_height="0.5dp" android:layout_alignParentBottom="true"/>
+    </RelativeLayout>
+    <LinearLayout android:orientation="vertical" android:id="@+id/yw" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_below="@+id/d10" android:layout_alignParentLeft="true" android:layout_alignParentStart="true">
+        <com.p683ss.android.ugc.aweme.profile.p2090ui.MTDampScrollableLayout android:orientation="vertical" android:id="@+id/chv" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <include layout="@layout/bp7"/>
+            <include layout="@layout/ad6"/>
+            <com.p683ss.android.ugc.aweme.profile.p2090ui.SwipableViewPager android:id="@+id/ci0" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        </com.p683ss.android.ugc.aweme.profile.p2090ui.MTDampScrollableLayout>
+    </LinearLayout>
+    <ViewStub android:id="@+id/br3" android:layout="@layout/bq2" android:layout_width="200dp" android:layout_height="wrap_content" android:layout_marginBottom="44dp" android:minWidth="178dp" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true"/>
+    <com.p683ss.android.ugc.aweme.discover.p1659ui.NoticeView android:id="@+id/f7_" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="44dp" android:layout_alignParentBottom="true"/>
+    <com.p683ss.android.ugc.aweme.profile.p2090ui.widget.NoticeButtonView android:id="@+id/f7e" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="56dp" android:layout_alignParentBottom="true" app:bv_contentText="Start earning free gifts today." app:bv_iconImage="@drawable/do6" app:bv_itemText="Join" app:bv_titleText="TikTok Rewards"/>
+    <ViewStub android:id="@+id/bpc" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="56dp" android:layout_alignParentBottom="true"/>
+    <ViewStub android:id="@+id/eml" android:layout="@layout/bpt" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true"/>
+</RelativeLayout>

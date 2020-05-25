@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:id="@+id/cfe" android:paddingBottom="@dimen/j5" android:layout_width="match_parent" android:layout_height="match_parent">
+    <View android:id="@+id/csm" android:layout_width="match_parent" android:layout_height="0dp" style="@style/iw"/>
+    <FrameLayout android:layout_width="match_parent" android:layout_height="match_parent">
+        <android.support.p030v4.widget.SwipeRefreshLayout android:id="@+id/cvt" android:layout_width="match_parent" android:layout_height="match_parent">
+            <com.p683ss.android.ugc.aweme.views.FpsRecyclerView android:id="@+id/ca3" android:background="@color/a0_" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        </android.support.p030v4.widget.SwipeRefreshLayout>
+        <com.bytedance.ies.dmt.p664ui.widget.DmtStatusView android:id="@+id/csl" android:background="@color/a0_" android:visibility="invisible" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    </FrameLayout>
+</LinearLayout>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/a0g" android:background="@color/arz" android:layout_width="match_parent" android:layout_height="match_parent">
+    <View android:id="@+id/bov" android:layout_width="match_parent" android:layout_height="match_parent" android:soundEffectsEnabled="false" android:importantForAccessibility="no"/>
+    <com.p683ss.android.ugc.aweme.themechange.base.AVDmtPanelRelativeLayout android:layout_gravity="bottom" android:orientation="vertical" android:id="@+id/bo4" android:visibility="visible" android:clickable="true" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <FrameLayout android:id="@+id/ahx" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <FrameLayout android:orientation="vertical" android:id="@+id/ce_" android:layout_width="match_parent" android:layout_height="175dp"/>
+            <FrameLayout android:layout_width="match_parent" android:layout_height="175dp">
+                <include layout="@layout/g5"/>
+            </FrameLayout>
+        </FrameLayout>
+        <com.p683ss.android.ugc.aweme.themechange.base.AVDmtView android:layout_width="match_parent" android:layout_height="0.5dp" android:layout_above="@+id/bgt" app:subView="true"/>
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/bgt" android:layout_width="match_parent" android:layout_height="51.5dp" android:layout_below="@+id/ahx">
+            <com.p683ss.android.ugc.aweme.themechange.base.AVDmtTextView android:textSize="15dp" android:textStyle="bold" android:textColor="@color/bm" android:gravity="center" android:id="@+id/div" android:layout_width="0dp" android:layout_height="match_parent" android:text="@string/c5" android:maxLines="1" android:layout_weight="1" android:lineSpacingExtra="3sp" app:avFontType="7" app:isChangeTextSize="false" app:isSelectState="true"/>
+            <com.p683ss.android.ugc.aweme.themechange.base.AVDmtView android:layout_width="0.5dp" android:layout_height="16dp" app:subView="true"/>
+            <com.p683ss.android.ugc.aweme.themechange.base.AVDmtTextView android:textSize="15dp" android:textStyle="bold" android:textColor="@color/bm" android:gravity="center" android:id="@+id/dj0" android:layout_width="0dp" android:layout_height="match_parent" android:text="@string/fd2" android:maxLines="1" android:layout_weight="1" android:lineSpacingExtra="3sp" app:avFontType="7" app:isChangeTextSize="false" app:isSelectState="true"/>
+        </LinearLayout>
+    </com.p683ss.android.ugc.aweme.themechange.base.AVDmtPanelRelativeLayout>
+</android.support.design.widget.CoordinatorLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:id="@+id/cfc" android:background="@color/in" android:fitsSystemWindows="true" android:clickable="true" android:layout_width="match_parent" android:layout_height="match_parent">
+    <include android:id="@+id/d1b" android:layout_width="match_parent" android:layout_height="@dimen/n8" android:layout_below="@+id/csm" layout="@layout/ad1"/>
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_below="@+id/d1b">
+        <com.p683ss.android.ugc.aweme.setting.p2148ui.ChooseOneOfMultiItemView android:id="@+id/dxo" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8dp" app:itemDesc="@string/hg1" app:itemText="@string/hg0"/>
+        <com.p683ss.android.ugc.aweme.setting.p2148ui.ChooseOneOfMultiItemView android:id="@+id/enn" android:layout_width="match_parent" android:layout_height="wrap_content" app:itemDesc="@string/hg4" app:itemText="@string/hg3"/>
+        <com.p683ss.android.ugc.aweme.setting.p2148ui.ChooseOneOfMultiItemView android:id="@+id/eno" android:layout_width="match_parent" android:layout_height="wrap_content" app:itemDesc="@string/hg5" app:itemText="@string/ge_" app:showDiv="false"/>
+    </LinearLayout>
+</RelativeLayout>

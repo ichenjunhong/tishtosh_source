@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.p683ss.android.ugc.aweme.p1807im.sdk.widget.DragView android:id="@+id/a8o" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <com.bytedance.ies.dmt.p664ui.widget.DmtStatusView android:id="@+id/csl" android:layout_width="match_parent" android:layout_height="match_parent"/>
+</FrameLayout>

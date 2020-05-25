@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <com.p683ss.android.ugc.aweme.themechange.base.AVDmtImageTextView android:id="@+id/avq" android:layout_width="wrap_content" android:layout_height="wrap_content" app:isCircle="true" app:isShowDotOnImageView="false" app:isShowDownloadIcon="false" app:isShowText="true" app:itemImgHeight="52dp" app:itemImgWidth="52dp" app:placeHolderDrawable="@drawable/ccp"/>
+        <RelativeLayout android:layout_width="60dp" android:layout_height="60dp">
+            <ImageView android:id="@+id/b0b" android:visibility="gone" android:layout_width="@dimen/cd" android:layout_height="@dimen/cd" android:layout_marginRight="5dp" android:layout_marginBottom="5dp" android:src="@drawable/ec" android:scaleType="fitXY" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" android:layout_alignParentEnd="true"/>
+        </RelativeLayout>
+    </FrameLayout>
+</LinearLayout>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout android:id="@+id/d1b" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="6dp">
+        <ImageView android:id="@+id/cv6" android:layout_width="50dp" android:layout_height="32dp" android:layout_marginRight="16dp" android:src="@drawable/vb" android:layout_alignParentRight="true" android:layout_marginEnd="16dp" android:layout_alignParentEnd="true"/>
+        <TextView android:textSize="17sp" android:textStyle="bold" android:textColor="#ffffff" android:id="@+id/dgx" android:padding="14dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="2dp" android:text="@string/b3g" android:layout_alignParentRight="true" android:layout_marginEnd="2dp" android:layout_alignParentEnd="true"/>
+        <FrameLayout android:id="@+id/cko" android:layout_width="32dp" android:layout_height="32dp" android:layout_centerInParent="true">
+            <View android:layout_gravity="center" android:id="@+id/k1" android:layout_width="20dp" android:layout_height="20dp"/>
+            <View android:layout_gravity="center" android:id="@+id/k2" android:layout_width="24dp" android:layout_height="24dp"/>
+        </FrameLayout>
+        <LinearLayout android:gravity="center_vertical" android:id="@+id/eke" android:background="@drawable/ccj" android:layout_width="wrap_content" android:layout_height="24dp" android:layout_marginLeft="16dp" android:layout_centerVertical="true" android:paddingStart="6dp" android:paddingEnd="6dp" android:layout_marginStart="16dp">
+            <ImageView android:layout_width="16dp" android:layout_height="16dp" android:src="@drawable/d3e" android:scaleType="fitXY"/>
+            <TextView android:textSize="15dp" android:textColor="@color/aso" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4dp" android:text="@string/gik" android:fontFamily="Proxima Nova" android:layout_marginStart="4dp"/>
+        </LinearLayout>
+    </RelativeLayout>
+    <LinearLayout android:orientation="vertical" android:id="@+id/zl" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_below="@+id/d1b">
+        <RelativeLayout android:id="@+id/au4" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="1">
+            <com.p683ss.android.ugc.aweme.story.shootvideo.textsticker.view.TextStickerEditText android:textSize="28sp" android:textStyle="bold" android:textColor="#ffffff" android:gravity="center" android:id="@+id/abs" android:background="@null" android:paddingTop="12dp" android:paddingBottom="12dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_centerInParent="true" android:lineSpacingExtra="0dp" android:inputType="textMultiLine" android:textCursorDrawable="@drawable/b9q" android:layout_marginStart="32dp" android:layout_marginEnd="32dp"/>
+        </RelativeLayout>
+        <LinearLayout android:layout_gravity="bottom" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <LinearLayout android:gravity="center_vertical" android:id="@+id/buj" android:layout_width="wrap_content" android:layout_height="52dp" android:layout_marginLeft="12dp">
+                <LinearLayout android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="0">
+                    <ImageView android:layout_gravity="center_vertical" android:id="@+id/cm8" android:layout_width="32dp" android:layout_height="32dp" android:layout_weight="0"/>
+                    <ImageView android:layout_gravity="center_vertical" android:id="@+id/el" android:layout_width="32dp" android:layout_height="32dp" android:layout_marginLeft="12dp" android:src="@drawable/af4" android:layout_weight="0"/>
+                    <View android:background="#33ffffff" android:layout_width="1px" android:layout_height="24dp" android:layout_marginLeft="16dp"/>
+                </LinearLayout>
+                <LinearLayout android:orientation="vertical" android:id="@+id/aiu" android:layout_width="match_parent" android:layout_height="52dp" android:layout_weight="1"/>
+            </LinearLayout>
+            <com.p683ss.android.ugc.aweme.story.shootvideo.textsticker.view.ColorSelectLayout android:gravity="center_vertical" android:id="@+id/v7" android:layout_width="match_parent" android:layout_height="52dp"/>
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

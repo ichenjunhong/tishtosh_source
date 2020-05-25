@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="horizontal" android:paddingLeft="16dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="16dp">
+    <com.p683ss.android.ugc.aweme.base.p1420ui.SmartAvatarImageView android:id="@+id/erd" android:layout_width="56dp" android:layout_height="56dp"/>
+    <LinearLayout android:orientation="vertical" android:id="@+id/erh" android:paddingLeft="12dp" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:paddingStart="12dp">
+        <RelativeLayout android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <com.bytedance.ies.dmt.p664ui.widget.DmtTextView android:textSize="15sp" android:textColor="@color/avn" android:ellipsize="end" android:id="@+id/dcr" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:lineSpacingExtra="4sp" app:fontType="2"/>
+        </RelativeLayout>
+        <com.bytedance.ies.dmt.p664ui.widget.DmtTextView android:textColor="@color/avv" android:ellipsize="end" android:id="@+id/dif" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:lineSpacingExtra="4sp" style="@style/un"/>
+        <com.bytedance.ies.dmt.p664ui.widget.DmtTextView android:textColor="@color/avv" android:ellipsize="end" android:id="@+id/c_5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:lineSpacingExtra="4sp" app:fontType="1" style="@style/ul"/>
+    </LinearLayout>
+    <com.p683ss.android.ugc.aweme.friends.p1792ui.FansFollowUserBtn android:ellipsize="end" android:layout_gravity="center_vertical" android:id="@+id/nr" android:layout_width="88dp" android:layout_height="28dp" android:maxLines="1" android:layout_marginStart="16dp" android:layout_marginEnd="16dp"/>
+</LinearLayout>

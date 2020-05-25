@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" style="@style/a5y">
+    <include layout="@layout/bge"/>
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="end" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <LinearLayout android:gravity="end" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <LinearLayout android:gravity="end" android:layout_gravity="end" android:orientation="vertical" android:id="@+id/ze" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="9.5dp" android:layout_marginEnd="9.5dp">
+                    <com.bytedance.ies.dmt.p664ui.widget.DmtTextView android:textColor="@color/ar5" android:id="@+id/ctj" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="8dp" android:text="@string/bof" style="@style/un"/>
+                    <include layout="@layout/beq"/>
+                </LinearLayout>
+                <View android:background="@color/s8" android:layout_width="0.5dp" android:layout_height="match_parent" android:layout_marginRight="52dp" android:layout_marginEnd="52dp"/>
+            </LinearLayout>
+            <LinearLayout android:gravity="end" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8dp">
+                <FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <LinearLayout android:layout_gravity="bottom|right|center_vertical|center_horizontal|center|end" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                        <LinearLayout android:layout_gravity="bottom|right|center_vertical|center_horizontal|center|end" android:id="@+id/f4l" android:background="@drawable/awv" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                            <com.p683ss.android.ugc.aweme.p1807im.sdk.widget.SpanInterceptNoTextView android:id="@+id/dgq" style="@style/a61"/>
+                        </LinearLayout>
+                        <include layout="@layout/bgd"/>
+                    </LinearLayout>
+                    <LinearLayout android:gravity="center_vertical" android:layout_gravity="bottom|right|center_vertical|center_horizontal|center|end" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                        <ImageView android:id="@+id/css" android:visibility="gone" android:layout_width="16dp" android:layout_height="16dp" android:layout_marginRight="10.3dp" android:src="@drawable/d__" android:scaleType="fitXY" android:layout_marginEnd="10.3dp"/>
+                        <LinearLayout android:id="@+id/elw" android:background="@drawable/awv" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                            <com.p683ss.android.ugc.aweme.p1807im.sdk.widget.SpanInterceptNoTextView android:id="@+id/dgr" style="@style/a61"/>
+                        </LinearLayout>
+                    </LinearLayout>
+                </FrameLayout>
+                <com.p683ss.android.ugc.aweme.base.p1420ui.AvatarImageView android:id="@+id/i0" style="@style/a60"/>
+            </LinearLayout>
+            <include android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:layout_marginRight="55dp" android:layout_marginBottom="5dp" android:layout_marginEnd="55dp" layout="@layout/bgv"/>
+        </LinearLayout>
+        <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="vertical" android:id="@+id/b_6" android:layout_width="0dp" android:layout_height="wrap_content">
+                <com.bytedance.ies.dmt.p664ui.widget.DmtTextView android:textColor="@color/ar5" android:ellipsize="end" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="8dp" android:text="@string/bof" android:maxLines="1" style="@style/un"/>
+                <include layout="@layout/beq"/>
+            </LinearLayout>
+            <include android:layout_gravity="start" android:layout_width="wrap_content" android:layout_height="32dp" android:layout_marginLeft="16dp" android:layout_marginTop="8dp" android:layout_marginRight="16dp" android:layout_below="@+id/b_6" android:layout_alignParentLeft="true" android:layout_marginStart="16dp" android:layout_marginEnd="16dp" android:layout_alignParentStart="true" layout="@layout/bgr"/>
+        </RelativeLayout>
+    </RelativeLayout>
+    <include layout="@layout/bg9"/>
+</LinearLayout>

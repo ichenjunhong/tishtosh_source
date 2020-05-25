@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@+id/e88" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent">
+        <FrameLayout android:layout_gravity="end" android:id="@+id/e87" android:layout_width="56dp" android:layout_height="80dp">
+            <com.p683ss.android.ugc.aweme.themechange.base.AVDmtAutoRTLImageView android:background="@drawable/d4m" android:layout_width="match_parent" android:layout_height="match_parent"/>
+            <ImageView android:layout_gravity="right|center_vertical|center_horizontal|center|end" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="16dp" android:src="@drawable/d4n" android:layout_marginEnd="16dp"/>
+        </FrameLayout>
+        <com.bytedance.ies.dmt.p664ui.widget.DmtTextView android:textColor="@color/a7x" android:gravity="left|center_vertical|center_horizontal|center|start" android:layout_gravity="end" android:id="@+id/e86" android:paddingLeft="30dp" android:paddingRight="56dp" android:visibility="invisible" android:layout_width="166dp" android:layout_height="80dp" android:maxLines="1" android:paddingStart="30dp" android:paddingEnd="56dp" app:fontType="7" style="@style/ur"/>
+    </FrameLayout>
+</merge>

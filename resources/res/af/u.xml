@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:background="@drawable/e2x" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="8dp">
+    <LinearLayout android:orientation="vertical" android:id="@+id/dzf" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:textAppearance="@style/a8v" android:gravity="start" android:id="@+id/dzq" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16dp" android:layout_marginTop="16dp" android:text="@string/gzu" android:layout_marginStart="16dp"/>
+            <ImageView android:id="@+id/dzm" android:background="@drawable/bye" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toRightOf="@+id/dzq" android:layout_alignTop="@+id/dzq"/>
+        </RelativeLayout>
+        <TextView android:textSize="13sp" android:textColor="#80161823" android:gravity="start" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16dp" android:layout_marginTop="4dp" android:text="@string/gzv" android:lineSpacingExtra="3sp" android:translationY="-1.38sp" android:layout_marginStart="16dp"/>
+        <LinearLayout android:orientation="horizontal" android:id="@+id/dzi" android:layout_width="match_parent" android:layout_height="37dp">
+            <View android:layout_gravity="center" android:id="@+id/dze" android:background="@drawable/dz9" android:layout_width="54dp" android:layout_height="28dp" android:layout_marginLeft="16dp" android:layout_marginStart="16dp"/>
+            <RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent">
+                <android.support.p043v7.widget.RecyclerView android:id="@+id/dzn" android:layout_width="match_parent" android:layout_height="match_parent"/>
+                <View android:id="@+id/dzp" android:background="@drawable/dzb" android:layout_width="8dp" android:layout_height="match_parent" android:layout_alignParentLeft="true" android:layout_alignParentStart="true"/>
+                <View android:id="@+id/dzo" android:background="@drawable/dza" android:layout_width="8dp" android:layout_height="match_parent" android:layout_alignParentRight="true" android:layout_alignParentEnd="true"/>
+            </RelativeLayout>
+        </LinearLayout>
+        <RelativeLayout android:id="@+id/dzl" android:visibility="gone" android:layout_width="match_parent" android:layout_height="52dp">
+            <com.bytedance.android.live.core.widget.LiveEditText android:textSize="15sp" android:textColor="@color/aht" android:gravity="left|center_vertical|center_horizontal|center|start" android:layout_gravity="center_vertical" android:id="@+id/dzj" android:background="@null" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginLeft="16dp" android:layout_marginTop="17dp" android:layout_marginBottom="14dp" android:lineSpacingExtra="5sp" android:inputType="text" android:imeOptions="actionUnspecified|actionSend|flagNoExtractUi" android:textCursorDrawable="@drawable/bq2" android:textAlignment="viewStart" android:layout_marginStart="16dp"/>
+            <com.bytedance.android.live.core.widget.FitTextView android:textSize="15sp" android:textColor="#b0b0b0" android:gravity="left|center_vertical|center_horizontal|center|start" android:layout_gravity="center_vertical" android:id="@+id/dzk" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="16dp" android:layout_marginTop="17dp" android:layout_marginBottom="14dp" android:maxLines="1" android:singleLine="true" android:textAlignment="viewStart" android:layout_marginStart="16dp"/>
+            <View android:background="@color/abg" android:layout_width="match_parent" android:layout_height="1dp" android:layout_alignParentTop="true"/>
+            <View android:background="@color/abg" android:layout_width="match_parent" android:layout_height="1dp" android:layout_alignParentBottom="true"/>
+        </RelativeLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@+id/ac" android:background="@drawable/e2x" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <RelativeLayout android:id="@+id/bk3" android:layout_width="match_parent" android:layout_height="52dp">
+            <TextView android:textAppearance="@style/a8v" android:gravity="top" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16dp" android:text="@string/ep2" android:layout_alignParentLeft="true" android:layout_centerInParent="true" android:lineSpacingExtra="0sp" android:translationY="-0.21sp" android:layout_marginStart="16dp" android:layout_alignParentStart="true"/>
+            <View android:background="@drawable/e2z" android:layout_width="6dp" android:layout_height="10dp" android:layout_marginRight="19dp" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:layout_marginEnd="19dp" android:layout_alignParentEnd="true"/>
+        </RelativeLayout>
+        <RelativeLayout android:id="@+id/bp2" android:layout_width="match_parent" android:layout_height="52dp">
+            <TextView android:textAppearance="@style/a8v" android:gravity="top" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16dp" android:text="@string/ep4" android:layout_alignParentLeft="true" android:layout_centerInParent="true" android:lineSpacingExtra="0sp" android:translationY="-0.21sp" android:layout_marginStart="16dp" android:layout_alignParentStart="true"/>
+            <View android:background="@drawable/e2z" android:layout_width="6dp" android:layout_height="10dp" android:layout_marginRight="19dp" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:layout_marginEnd="19dp" android:layout_alignParentEnd="true"/>
+        </RelativeLayout>
+        <RelativeLayout android:id="@+id/b67" android:layout_width="match_parent" android:layout_height="52dp">
+            <TextView android:textAppearance="@style/a8v" android:gravity="top" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16dp" android:text="@string/f17" android:layout_alignParentLeft="true" android:layout_centerInParent="true" android:lineSpacingExtra="0sp" android:translationY="-0.21sp" android:layout_marginStart="16dp" android:layout_alignParentStart="true"/>
+            <View android:background="@drawable/e2z" android:layout_width="6dp" android:layout_height="10dp" android:layout_marginRight="19dp" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:layout_marginEnd="19dp" android:layout_alignParentEnd="true"/>
+        </RelativeLayout>
+        <View android:background="@color/abg" android:layout_width="match_parent" android:layout_height="0.5dp"/>
+        <TextView android:id="@+id/bk1" android:background="@color/alt" android:layout_width="match_parent" android:layout_height="57dp" android:text="@string/ep5" style="@style/y4"/>
+        <View android:background="@color/abg" android:layout_width="match_parent" android:layout_height="0.5dp"/>
+        <TextView android:id="@+id/b66" android:background="@color/alt" android:layout_width="match_parent" android:layout_height="57dp" android:text="@string/e4s" style="@style/y4"/>
+        <View android:background="@color/abg" android:layout_width="match_parent" android:layout_height="0.5dp"/>
+        <TextView android:id="@+id/bp1" android:background="@color/alt" android:layout_width="match_parent" android:layout_height="57dp" android:text="@string/ep3" style="@style/y4"/>
+        <View android:background="@color/abg" android:layout_width="match_parent" android:layout_height="8dp"/>
+        <TextView android:id="@+id/q7" android:layout_width="match_parent" android:layout_height="57dp" android:text="@string/e45" style="@style/y4"/>
+    </LinearLayout>
+</LinearLayout>

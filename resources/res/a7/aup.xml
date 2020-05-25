@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:background="@color/azr" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.bytedance.ies.dmt.p664ui.widget.DmtTextView android:textStyle="bold" android:textColor="@color/a7w" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/gol" android:includeFontPadding="false" android:drawableLeft="@drawable/dnn" android:drawablePadding="3dp" android:layout_centerInParent="true" android:drawableStart="@drawable/dnn" app:fontType="2" app:forceExcludeFontPadding="true" style="@style/ul"/>
+</RelativeLayout>

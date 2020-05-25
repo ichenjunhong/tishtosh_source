@@ -1,0 +1,15 @@
+package com.p683ss.android.ugc.aweme.freeflowcard.strategy;
+
+import com.bytedance.ies.abmock.p620a.C10178a;
+import com.bytedance.ies.abmock.p620a.C10179b;
+import com.bytedance.ies.abmock.p620a.C10180c;
+
+@C10178a(mo18163a = "is_wifi_toast")
+@C10180c
+/* renamed from: com.ss.android.ugc.aweme.freeflowcard.strategy.EnableWifiToastExperiment */
+public interface EnableWifiToastExperiment {
+    @C10179b(mo18165a = true)
+    public static final int NOT_SHOW = 0;
+    @C10179b
+    public static final int SHOW = 1;
+}

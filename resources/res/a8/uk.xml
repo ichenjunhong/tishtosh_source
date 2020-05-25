@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <com.facebook.drawee.view.SimpleDraweeView android:id="@+id/b5i" android:layout_width="44dp" android:layout_height="44dp" android:layout_centerVertical="true" app:failureImage="@drawable/df" app:placeholderImage="@drawable/df" app:roundAsCircle="false" app:roundedCornerRadius="2dp"/>
+    <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_marginStart="8dp" android:layout_marginEnd="4dp" android:layout_toEndOf="@+id/b5i">
+        <TextView android:textSize="15dp" android:textColor="@color/a8n" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/av4" android:lineSpacingExtra="3dp"/>
+        <TextView android:textSize="13dp" android:textColor="@color/asw" android:ellipsize="end" android:id="@+id/diw" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4dp" android:maxWidth="195dp" android:text="ljfldjapgjadsjjahgldajglsjdg" android:maxLines="1" android:lineSpacingExtra="3dp"/>
+    </LinearLayout>
+</RelativeLayout>

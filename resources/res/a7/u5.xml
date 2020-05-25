@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.p683ss.android.ugc.aweme.base.widget.FixedRatioFrameLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/cfg" android:background="@color/a3i" android:layout_width="match_parent" android:layout_height="wrap_content" app:frMode="1" app:whRatio="0.75">
+    <com.p683ss.android.ugc.aweme.base.p1420ui.RemoteImageView android:id="@+id/d00" android:layout_width="match_parent" android:layout_height="match_parent" app:actualImageScaleType="6" app:failureImage="@color/a1v" app:placeholderImage="@color/a1v"/>
+</com.p683ss.android.ugc.aweme.base.widget.FixedRatioFrameLayout>

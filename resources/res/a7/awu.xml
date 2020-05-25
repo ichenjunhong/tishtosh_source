@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:id="@+id/cfc" android:fitsSystemWindows="true" android:layout_width="match_parent" android:layout_height="match_parent">
+    <include android:id="@+id/d1b" android:layout_width="match_parent" android:layout_height="@dimen/n8" android:layout_below="@+id/csm" layout="@layout/ad1"/>
+    <ScrollView android:layout_width="match_parent" android:layout_height="match_parent" android:layout_below="@+id/d1b">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <com.bytedance.ies.dmt.p664ui.widget.setting.Divider android:layout_width="match_parent" android:layout_height="wrap_content" app:hideLine="true" app:startText="@string/hvn"/>
+            <android.support.p043v7.widget.RecyclerView android:id="@+id/do" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+            <com.bytedance.ies.dmt.p664ui.common.views.CommonItemView android:id="@+id/dk" android:layout_width="match_parent" android:layout_height="wrap_content" app:desc="@string/e8" app:left_text="@string/eh" app:left_text_color="@color/a0y"/>
+            <com.bytedance.ies.dmt.p664ui.widget.setting.Divider android:id="@+id/a6e" android:layout_width="match_parent" android:layout_height="wrap_content" app:startText="@string/hfz"/>
+            <com.bytedance.ies.dmt.p664ui.common.views.CommonItemView android:id="@+id/f7v" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" app:desc="@string/hg2" app:left_text="@string/hg6"/>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

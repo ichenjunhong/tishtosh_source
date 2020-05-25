@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/b7t" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="18dp">
+    <FrameLayout android:id="@+id/b6z" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="8dp" android:layout_marginEnd="8dp">
+        <FrameLayout android:layout_gravity="center" android:layout_width="44dp" android:layout_height="44dp">
+            <com.p683ss.android.ugc.aweme.base.p1420ui.AvatarImageView android:layout_gravity="center" android:id="@+id/dm3" android:visibility="visible" android:layout_width="36dp" android:layout_height="36dp" android:contentDescription="@string/b60" app:placeholderImage="@color/a1v" app:placeholderImageScaleType="6" app:roundAsCircle="true"/>
+            <com.p683ss.android.ugc.aweme.base.p1420ui.AnimationImageView android:id="@+id/i4" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent"/>
+        </FrameLayout>
+        <com.p683ss.android.ugc.aweme.base.p1420ui.AvatarImageView android:layout_gravity="center" android:id="@+id/dm9" android:visibility="invisible" android:layout_width="36dp" android:layout_height="36dp" app:placeholderImage="@color/a1v" app:placeholderImageScaleType="6" app:roundAsCircle="true"/>
+        <com.p683ss.android.ugc.aweme.feed.p1736ui.LiveCircleView android:layout_gravity="center" android:id="@+id/dn0" android:padding="3dp" android:visibility="invisible" android:layout_width="46dp" android:layout_height="46dp" app:live_strokeWidth="1dp"/>
+    </FrameLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <com.bytedance.ies.dmt.p664ui.widget.DmtTextView android:textStyle="bold" android:textColor="@color/a17" android:ellipsize="end" android:id="@+id/dic" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" app:fontType="7" style="@style/up"/>
+            <com.bytedance.ies.dmt.p664ui.widget.DmtTextView android:textColor="@color/f" android:ellipsize="end" android:gravity="center" android:layout_gravity="center_vertical" android:id="@+id/dh1" android:background="@drawable/cx5" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:paddingStart="3dp" android:paddingEnd="3dp" android:layout_marginStart="4dp" style="@style/uj"/>
+        </LinearLayout>
+        <com.bytedance.ies.dmt.p664ui.widget.DmtTextView android:textColor="@color/a1a" android:ellipsize="end" android:id="@+id/deg" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3dp" android:maxWidth="160dp" android:singleLine="true" style="@style/ul"/>
+        <com.p683ss.android.ugc.aweme.poi.widget.RatingBar android:id="@+id/c8n" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3dp" app:clickable="false" app:starCount="5" app:starEmpty="@drawable/dfq" app:starFill="@drawable/dfp" app:starHalf="@drawable/dfo" app:starImageSize="13dp" app:starPadding="2dp" app:starStep="2.5" app:stepSize="0"/>
+    </LinearLayout>
+    <com.p683ss.android.ugc.aweme.following.p1770ui.view.FollowUserBtn android:id="@+id/ai0" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="88dp"/>
+    <ImageView android:id="@+id/b0g" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/cx0" android:contentDescription="@string/b63"/>
+</LinearLayout>

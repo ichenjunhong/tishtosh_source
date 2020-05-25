@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.p683ss.android.ugc.aweme.commercialize.loft.LoftNestedRefreshLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/biu" android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout android:id="@+id/d3j" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <FrameLayout android:id="@+id/aka" android:background="@color/a0_" android:layout_width="match_parent" android:layout_height="0dp"/>
+        <include android:id="@+id/ciq" android:layout_width="match_parent" android:layout_height="@dimen/vn" android:layout_below="@+id/aka" layout="@layout/brs"/>
+    </RelativeLayout>
+    <FrameLayout android:id="@+id/aje" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_below="@+id/d3j">
+        <FrameLayout android:id="@+id/ajf" android:layout_width="match_parent" android:layout_height="match_parent"/>
+        <com.p683ss.android.ugc.aweme.discover.p1659ui.SearchIntermediateView android:id="@+id/cjd" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    </FrameLayout>
+</com.p683ss.android.ugc.aweme.commercialize.loft.LoftNestedRefreshLayout>

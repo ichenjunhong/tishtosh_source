@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:paddingTop="20dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <com.bytedance.ies.dmt.p664ui.widget.DmtTextView android:textSize="13sp" android:textColor="@color/jy" android:layout_gravity="start" android:id="@+id/blv" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="16dp" android:text="@string/c64"/>
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <com.p683ss.android.ugc.aweme.base.p1420ui.RemoteImageView android:id="@+id/bln" android:layout_width="56dp" android:layout_height="56dp" app:roundedCornerRadius="2dp"/>
+        <com.bytedance.ies.dmt.p664ui.widget.DmtTextView android:textSize="15sp" android:textColor="@color/k1" android:gravity="center" android:layout_gravity="center" android:id="@+id/blp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:layout_marginStart="10dp"/>
+    </LinearLayout>
+</LinearLayout>

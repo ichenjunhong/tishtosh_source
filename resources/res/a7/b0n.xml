@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/cfl" android:background="#ffffff" android:layout_width="match_parent" android:layout_height="match_parent">
+    <include android:id="@+id/d10" layout="@layout/b0l"/>
+    <LinearLayout android:orientation="horizontal" android:id="@+id/crc" android:background="0x7f1301a9" android:visibility="gone" android:layout_width="match_parent" android:layout_height="30dp" android:layout_alignParentBottom="true">
+        <CheckBox android:gravity="center" android:id="@+id/crd" android:background="@null" android:paddingLeft="3dp" android:paddingTop="2dp" android:paddingRight="3dp" android:paddingBottom="2dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="9dp" android:layout_marginRight="9dp" android:button="@drawable/chb" android:minWidth="22dp" android:minHeight="22dp"/>
+        <HorizontalScrollView android:scrollbars="none" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <com.bytedance.ies.dmt.p664ui.widget.DmtTextView android:textColor="#4d4d4d" android:id="@+id/crg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:shadowColor="#ffffff" android:shadowDy="1" android:shadowRadius="0.2" style="@style/ur"/>
+        </HorizontalScrollView>
+    </LinearLayout>
+    <com.p683ss.android.newmedia.p1202ui.webview.SSWebView android:id="@+id/crh" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_above="@+id/crc" android:layout_below="@+id/d10"/>
+    <ProgressBar android:id="@+id/crf" android:visibility="gone" android:layout_width="match_parent" android:layout_height="8dp" android:layout_marginLeft="10dp" android:layout_marginRight="10dp" android:layout_marginBottom="2dp" android:max="100" android:layout_alignBottom="@+id/crh" style="?android:attr/progressBarStyleHorizontal"/>
+    <View android:layout_below="@+id/d10" style="@style/a45"/>
+    <View android:layout_alignBottom="@+id/crh" style="@style/a3u"/>
+</RelativeLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.p683ss.android.ugc.aweme.common.widget.scrollablelayout.ScrollableLayout android:id="@+id/chv" android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:orientation="vertical" android:paddingTop="12dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <include android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="8dp" layout="@layout/tc"/>
+            <com.bytedance.ies.dmt.p664ui.widget.tablayout.DmtTabLayout android:id="@+id/cwz" android:layout_width="match_parent" android:layout_height="44dp" android:layout_marginLeft="16dp" android:layout_marginRight="16dp" app:tabBackground="@null" app:tabIndicatorColor="@color/a11" app:tabMode="0"/>
+            <View android:id="@+id/a6f" android:background="@color/j4" android:layout_width="match_parent" android:layout_height="1px" android:layout_marginLeft="16dp" android:layout_marginRight="16dp"/>
+        </LinearLayout>
+        <com.p683ss.android.ugc.aweme.views.ChallengeViewPager android:id="@+id/agz" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    </com.p683ss.android.ugc.aweme.common.widget.scrollablelayout.ScrollableLayout>
+    <com.bytedance.ies.dmt.p664ui.widget.DmtStatusView android:id="@+id/csv" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <com.bytedance.ies.dmt.p664ui.widget.DmtTextView android:background="@color/as0" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ch3"/>
+</FrameLayout>

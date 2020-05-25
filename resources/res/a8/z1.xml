@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="horizontal" android:background="@color/alt" android:layout_width="match_parent" android:layout_height="64dp">
+    <FrameLayout android:id="@+id/ano" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="18dp" android:layout_marginStart="18dp" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0">
+        <com.bytedance.android.livesdk.widget.VHeadView android:id="@+id/ao0" android:background="@drawable/bfo" android:layout_width="@dimen/q8" android:layout_height="@dimen/q8" app:placeholderImage="@drawable/bt6" app:retryImageScaleType="0" app:roundAsCircle="true"/>
+        <com.bytedance.android.livesdk.widget.VHeadView android:layout_gravity="bottom|right|center_vertical|center_horizontal|center" android:id="@+id/ake" android:background="@drawable/bfo" android:visibility="gone" android:layout_width="16dp" android:layout_height="16dp" android:src="@drawable/bqp" app:retryImageScaleType="0" app:roundAsCircle="true"/>
+    </FrameLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_marginLeft="8dp" android:layout_marginStart="8dp" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintEnd_toStartOf="@+id/n7" app:layout_constraintStart_toEndOf="@+id/ano" app:layout_constraintTop_toTopOf="0">
+        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:textSize="14sp" android:textStyle="bold" android:textColor="#404040" android:ellipsize="end" android:id="@+id/dco" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="2dp" android:maxLines="1" android:maxEms="5" android:singleLine="true" android:layout_marginStart="2dp"/>
+            <TextView android:textSize="10sp" android:id="@+id/dau" android:background="@color/b4u" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8dp" android:text="@string/hqb"/>
+        </LinearLayout>
+        <LinearLayout android:gravity="center_vertical" android:id="@+id/b7n" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4dp">
+            <TextView android:textSize="14sp" android:id="@+id/d4e" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+            <ImageView android:id="@+id/d4r" android:visibility="gone" android:layout_width="14dp" android:layout_height="14dp" android:src="@drawable/btm"/>
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4dp" android:layout_marginStart="4dp">
+                <ImageView android:id="@+id/f0z" android:visibility="gone" android:layout_width="16dp" android:layout_height="16dp" android:src="@drawable/e2k"/>
+                <TextView android:textSize="14sp" android:textColor="#808080" android:id="@+id/d_c" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <Button android:textSize="14sp" android:textColor="@color/alt" android:id="@+id/n7" android:background="@drawable/bkg" android:layout_width="64dp" android:layout_height="28dp" android:layout_marginRight="18dp" android:text="@string/eju" android:layout_marginEnd="18dp" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintEnd_toEndOf="0" app:layout_constraintTop_toTopOf="0" style="?android:attr/borderlessButtonStyle"/>
+    <TextView android:textSize="14sp" android:textColor="@color/t4" android:gravity="center" android:id="@+id/di1" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="28dp" android:layout_marginRight="18dp" android:text="@string/emm" android:layout_marginEnd="18dp" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintEnd_toEndOf="0" app:layout_constraintTop_toTopOf="0"/>
+    <View android:id="@+id/a6h" android:background="#e0e0e0" android:visibility="gone" android:layout_width="match_parent" android:layout_height="0.5dp" android:layout_marginLeft="60dp" android:layout_marginRight="0.5dp" android:layout_marginStart="60dp" android:layout_marginEnd="0.5dp" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toStartOf="0"/>
+</android.support.constraint.ConstraintLayout>

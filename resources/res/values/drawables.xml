@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <drawable name="cr4" />
+    <drawable name="b5o">#3333b5e5</drawable>
+    <drawable name="b5p">#0cffffff</drawable>
+    <drawable name="e0z" />
+    <drawable name="e10" />
+    <drawable name="e11" />
+</resources>

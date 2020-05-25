@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/brq" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:background="@drawable/cns" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="12dp">
+        <com.p683ss.android.ugc.aweme.base.p1420ui.RemoteImageView android:id="@+id/b1k" android:layout_width="24dp" android:layout_height="24dp" android:layout_marginLeft="16dp" android:layout_marginTop="16dp" android:layout_marginRight="12dp" android:layout_marginStart="16dp" android:layout_marginEnd="12dp" app:placeholderImage="@drawable/dfk"/>
+        <LinearLayout android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@+id/d17" android:paddingTop="8dp" android:paddingBottom="8dp" android:layout_width="0dp" android:layout_height="wrap_content" android:minHeight="66dp" android:layout_weight="1">
+            <com.bytedance.ies.dmt.p664ui.widget.DmtTextView android:textSize="13dp" android:textColor="@color/avn" android:id="@+id/dhb" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:lineSpacingExtra="4dp" app:fontType="1"/>
+        </LinearLayout>
+        <com.bytedance.ies.dmt.p664ui.widget.AutoRTLImageView android:id="@+id/az9" android:layout_width="24dp" android:layout_height="24dp" android:layout_marginLeft="12dp" android:layout_marginTop="16dp" android:layout_marginRight="12dp" android:src="@drawable/d1z" android:layout_marginStart="12dp" android:layout_marginEnd="12dp"/>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <View android:id="@+id/csm" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    <com.bytedance.ies.dmt.p664ui.titlebar.TextTitleBar android:id="@+id/d10" android:layout_width="match_parent" android:layout_height="@dimen/vn" app:endButtonType="1" app:endText="@string/gb0" app:endTextColor="@color/avo" app:endTextSize="15dp" app:startText="@string/vj" app:startTextColor="@color/avn" app:startTextSize="15dp" app:titleText="@string/cfh" app:titleTextColor="@color/avn" app:useBackIcon="false"/>
+    <LinearLayout android:background="@color/aua" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <com.bytedance.ies.dmt.p664ui.widget.DmtTextView android:textColor="@color/avv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="16dp" android:text="@string/av0" style="@style/up"/>
+    </LinearLayout>
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+        <com.bytedance.ies.dmt.p664ui.widget.DmtEditText android:textColor="@color/avn" android:textColorHint="@color/avo" android:id="@+id/bou" android:background="@null" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="24dp" android:hint="@string/gaz" android:lineSpacingExtra="5dp" android:textCursorDrawable="0x7f1304a1" android:textDirection="locale" android:textAlignment="viewStart" android:layout_marginStart="16dp" android:layout_marginEnd="50dp" style="@style/ur"/>
+        <ImageView android:id="@+id/tr" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="16dp" android:layout_alignTop="@+id/bou" android:layout_marginEnd="20dp" android:layout_alignParentEnd="true" app:srcCompat="@drawable/dii"/>
+        <View android:background="@color/a0u" android:layout_width="match_parent" android:layout_height="0.5dp" android:layout_marginTop="14.5dp" android:layout_below="@+id/bou" android:paddingStart="16dp" android:paddingEnd="16dp" android:layout_marginStart="16dp" android:layout_marginEnd="16dp"/>
+    </RelativeLayout>
+</LinearLayout>

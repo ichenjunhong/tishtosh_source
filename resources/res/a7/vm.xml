@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:gravity="center" android:layout_width="wrap_content" android:layout_height="64dp">
+    <com.p683ss.android.ugc.aweme.themechange.base.AVDmtImageTextView android:layout_gravity="center" android:id="@+id/ct2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="fitXY" app:isCircle="false" app:isShowBorder="true" app:isShowDotOnImageView="false" app:isShowText="false" app:itemImgHeight="54dp" app:itemImgWidth="54dp" app:roundRadius="8dp"/>
+    <com.facebook.drawee.view.SimpleDraweeView android:layout_gravity="bottom|right|center_vertical|center_horizontal|center|end" android:id="@+id/at8" android:visibility="gone" android:layout_width="16dp" android:layout_height="16dp" android:layout_margin="1dp" android:src="@drawable/d3q" android:scaleType="fitXY"/>
+</FrameLayout>

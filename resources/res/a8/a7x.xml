@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:id="@+id/dw7" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <com.p683ss.android.ugc.aweme.base.p1420ui.RemoteImageView android:id="@+id/dwt" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="16dp" android:layout_marginTop="16dp" android:layout_marginRight="16dp" android:layout_marginBottom="16dp" android:layout_marginStart="16dp" android:layout_marginEnd="16dp" app:actualImageScaleType="6" app:failureImageScaleType="1" app:placeholderImageScaleType="1" app:roundedCornerRadius="2dp"/>
+    <View android:id="@+id/f68" android:background="@color/v" android:visibility="gone" android:layout_width="match_parent" android:layout_height="0.5dp" android:layout_marginLeft="16dp" android:layout_marginRight="16dp" android:layout_marginStart="16dp" android:layout_marginEnd="16dp"/>
+</LinearLayout>

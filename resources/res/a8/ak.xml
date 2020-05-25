@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:id="@+id/cfc" android:layout_width="match_parent" android:layout_height="match_parent">
+    <android.support.p043v7.widget.Toolbar android:theme="?attr/a78" android:id="@+id/d22" android:background="?attr/fx" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="20sp" android:textColor="?attr/af" android:gravity="center" android:id="@+id/ckr" android:layout_width="wrap_content" android:layout_height="?attr/d" android:foreground="?attr/a1f" android:drawableRight="0x7f1305f4"/>
+    </android.support.p043v7.widget.Toolbar>
+    <FrameLayout android:id="@+id/md" android:background="?attr/cw" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <TextView android:textSize="16sp" android:textColor="?attr/cx" android:layout_gravity="start" android:id="@+id/q2" android:padding="16dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:foreground="?attr/a1f" android:text="@string/c4q"/>
+        <LinearLayout android:layout_gravity="center" android:orientation="horizontal" android:id="@+id/bvh" android:padding="16dp" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:foreground="?attr/a1f">
+            <com.zhihu.matisse.internal.p2254ui.widget.CheckRadioView android:layout_gravity="center_vertical" android:id="@+id/bvg" android:layout_width="16dp" android:layout_height="16dp" android:src="0x7f1306f7"/>
+            <TextView android:enabled="true" android:textSize="14sp" android:textColor="?attr/cx" android:layout_gravity="center_vertical" android:paddingLeft="4dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/c4p" android:paddingStart="4dp"/>
+        </LinearLayout>
+        <TextView android:textSize="16sp" android:textColor="?attr/cv" android:layout_gravity="end" android:id="@+id/py" android:padding="16dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:foreground="?attr/a1f"/>
+    </FrameLayout>
+    <FrameLayout android:id="@+id/yw" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_above="@+id/md" android:layout_below="@+id/d22"/>
+    <FrameLayout android:id="@+id/aa_" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_above="@+id/md" android:layout_below="@+id/d22">
+        <TextView android:textSize="16sp" android:textColor="?attr/ah" android:gravity="center" android:layout_gravity="center" android:id="@+id/aaa" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/c4t" android:drawableTop="?attr/ag" android:drawablePadding="8dp"/>
+    </FrameLayout>
+</RelativeLayout>

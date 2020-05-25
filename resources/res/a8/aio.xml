@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:id="@+id/bzy" android:paddingTop="14dp" android:paddingBottom="@dimen/ll" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/ll" android:layout_marginRight="@dimen/ll">
+    <LinearLayout android:layout_gravity="center_vertical" android:orientation="horizontal" android:id="@+id/c0c" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <com.p683ss.android.ugc.aweme.poi.widget.TextAppendViewLayout android:orientation="horizontal" android:id="@+id/emy" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" app:new_line_margin_top="6dp">
+            <com.bytedance.ies.dmt.p664ui.widget.DmtTextView android:textSize="24dp" android:textStyle="bold" android:textColor="@color/a1k" android:ellipsize="end" android:id="@+id/bzz" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="3" style="@style/uv"/>
+            <LinearLayout android:layout_gravity="center" android:orientation="horizontal" android:id="@+id/e1s" android:background="@drawable/djd" android:paddingTop="2dp" android:paddingBottom="2dp" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5dp" android:paddingStart="6dp" android:paddingEnd="5dp" android:layout_marginStart="12dp">
+                <ImageView android:layout_gravity="center" android:layout_width="12dp" android:layout_height="12dp" android:src="@drawable/dk8"/>
+                <com.bytedance.ies.dmt.p664ui.widget.DmtTextView android:textColor="@color/a3_" android:id="@+id/e1t" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="4dp" app:text="城市之窗" style="@style/ul"/>
+            </LinearLayout>
+        </com.p683ss.android.ugc.aweme.poi.widget.TextAppendViewLayout>
+        <RelativeLayout android:id="@+id/bzu" android:layout_width="72dp" android:layout_height="28dp" android:layout_marginLeft="10dp" android:layout_marginTop="2dp">
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+                <com.p683ss.android.ugc.aweme.music.p1978ui.CheckableImageView android:id="@+id/bzt" android:layout_width="16dp" android:layout_height="16dp" android:src="@drawable/df0"/>
+                <com.bytedance.ies.dmt.p664ui.widget.DmtTextView android:textColor="@color/a02" android:id="@+id/bzv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="6dp" android:text="@string/cqd" android:layout_marginStart="6dp" style="@style/up"/>
+            </LinearLayout>
+        </RelativeLayout>
+    </LinearLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/c08" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="12dp">
+        <com.p683ss.android.ugc.aweme.poi.widget.PoiLabelsLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/bzw" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1">
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/c06" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <com.p683ss.android.ugc.aweme.poi.widget.RatingBar android:id="@+id/c07" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="12dp" android:layout_marginEnd="12dp" app:clickable="false" app:starCount="5" app:starEmpty="@drawable/dfq" app:starFill="@drawable/dfp" app:starHalf="@drawable/dfo" app:starImageSize="15dp" app:starPadding="2dp" app:starStep="2.5" app:stepSize="0"/>
+                <com.bytedance.ies.dmt.p664ui.widget.DmtTextView android:textColor="@color/a02" android:id="@+id/c09" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="8dp" android:layout_marginEnd="8dp" style="@style/ur"/>
+            </LinearLayout>
+            <com.bytedance.ies.dmt.p664ui.widget.DmtTextView android:textColor="@color/a02" android:id="@+id/c0a" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="8dp" android:layout_marginEnd="8dp" style="@style/ur"/>
+            <com.bytedance.ies.dmt.p664ui.widget.DmtTextView android:textColor="@color/a02" android:id="@+id/c05" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="8dp" android:layout_marginEnd="8dp" style="@style/ur"/>
+            <com.bytedance.ies.dmt.p664ui.widget.DmtTextView android:textColor="@color/a02" android:gravity="right" android:id="@+id/c0_" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1" style="@style/ur"/>
+        </com.p683ss.android.ugc.aweme.poi.widget.PoiLabelsLayout>
+    </LinearLayout>
+    <com.bytedance.ies.dmt.p664ui.widget.DmtTextView android:textColor="@color/a02" android:ellipsize="end" android:id="@+id/c0d" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="9dp" android:maxLines="3" style="@style/un"/>
+</LinearLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent" android:layout_height="88dp" android:layout_marginTop="16dp">
+    <com.p683ss.android.ugc.aweme.base.p1420ui.RemoteImageView android:id="@+id/anp" android:layout_width="match_parent" android:layout_height="match_parent" app:roundedCornerRadius="8dp"/>
+    <ImageView android:id="@+id/asa" android:layout_width="match_parent" android:layout_height="match_parent" android:src="@drawable/iw"/>
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="match_parent">
+        <com.p683ss.android.ugc.aweme.base.p1420ui.AvatarImageView android:layout_gravity="center" android:id="@+id/i0" android:layout_width="48dp" android:layout_height="48dp" android:layout_marginLeft="16dp" android:layout_marginStart="16dp"/>
+        <LinearLayout android:gravity="left|center_vertical|center_horizontal|center|start" android:layout_gravity="center" android:orientation="vertical" android:layout_width="0dp" android:layout_height="match_parent" android:layout_marginLeft="12dp" android:layout_weight="1" android:layout_marginStart="12dp">
+            <com.bytedance.ies.dmt.p664ui.widget.DmtTextView android:textSize="14sp" android:textColor="@color/aso" android:ellipsize="end" android:id="@+id/blb" android:layout_width="175dp" android:layout_height="wrap_content" android:maxLines="1" android:lineSpacingExtra="3sp"/>
+            <com.bytedance.ies.dmt.p664ui.widget.DmtTextView android:textSize="20sp" android:textColor="@color/aso" android:ellipsize="end" android:id="@+id/d1l" android:layout_width="175dp" android:layout_height="wrap_content" android:layout_marginTop="2dp" android:maxLines="1" android:lineSpacingExtra="4sp"/>
+        </LinearLayout>
+        <com.bytedance.ies.dmt.p664ui.widget.DmtTextView android:textSize="12sp" android:textColor="@color/aso" android:id="@+id/cst" android:background="@drawable/j0" android:paddingTop="1.5dp" android:paddingBottom="1.5dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16dp" android:layout_marginRight="16dp" android:paddingStart="4dp" android:paddingEnd="4dp" android:layout_marginEnd="16dp"/>
+    </LinearLayout>
+</FrameLayout>

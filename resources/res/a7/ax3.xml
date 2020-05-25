@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:background="@color/a0_" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+        <com.p683ss.android.ugc.aweme.discover.p1665v4.p1667ui.DiscoverV4TabLayout android:id="@+id/cwz" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="2dp" app:tabBackground="@color/a0_" app:tabIndicator="@drawable/cum" app:tabIndicatorColor="@color/a10" app:tabIndicatorHeight="3dp" app:tabMinWidth="28dp" app:tabMode="0" app:tabPaddingEnd="16dp" app:tabPaddingStart="16dp" app:tabRippleColor="@color/a8w"/>
+        <com.p683ss.android.ugc.aweme.views.RtlViewPager android:id="@+id/drk" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    </LinearLayout>
+    <com.bytedance.ies.dmt.p664ui.widget.DmtStatusView android:id="@+id/csl" android:background="@color/a0_" android:visibility="invisible" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginBottom="28dp"/>
+</FrameLayout>

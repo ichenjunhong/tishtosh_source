@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/b94" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <RelativeLayout android:id="@+id/drm" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <com.bytedance.ies.dmt.p664ui.widget.DmtTextView android:textColor="@color/vc" android:id="@+id/def" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16dp" android:text="@string/c3t" android:layout_marginStart="16dp" style="@style/ul"/>
+        <ImageView android:id="@+id/c4y" android:layout_width="16dp" android:layout_height="16dp" android:layout_marginLeft="4dp" android:src="@drawable/at7" android:layout_toRightOf="@+id/def" android:layout_alignBottom="@+id/def"/>
+        <LinearLayout android:orientation="horizontal" android:id="@+id/bjm" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="16dp" android:layout_alignTop="@+id/def" android:layout_alignParentRight="true" android:layout_marginEnd="16dp" android:layout_alignParentEnd="true">
+            <com.p683ss.android.ugc.aweme.views.AutoRTLTextView android:textColor="@color/vc" android:gravity="top|center_vertical|center_horizontal|center" android:layout_gravity="center_vertical" android:id="@+id/bjk" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/c3o" style="@style/ul"/>
+            <com.p683ss.android.ugc.aweme.views.AutoRTLImageView android:layout_gravity="center_vertical" android:id="@+id/bjl" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4dp" android:layout_marginTop="1dp" android:src="@drawable/at2" android:layout_marginStart="4dp"/>
+        </LinearLayout>
+        <android.support.p043v7.widget.RecyclerView android:id="@+id/caf" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:layout_marginBottom="10dp" android:layout_below="@+id/def" android:layout_alignParentEnd="true"/>
+        <LinearLayout android:orientation="horizontal" android:id="@+id/afv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@+id/caf" android:layout_centerHorizontal="true">
+            <LinearLayout android:orientation="horizontal" android:id="@+id/aft" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true">
+                <com.p683ss.android.ugc.aweme.base.p1420ui.AvatarImageView android:layout_gravity="center_vertical" android:id="@+id/afq" android:layout_width="20dp" android:layout_height="20dp"/>
+                <com.p683ss.android.ugc.aweme.base.p1420ui.AvatarImageView android:layout_gravity="center_vertical" android:id="@+id/afr" android:layout_width="20dp" android:layout_height="20dp" android:layout_marginLeft="-4dp" android:layout_marginStart="-4dp"/>
+                <com.p683ss.android.ugc.aweme.base.p1420ui.AvatarImageView android:layout_gravity="center_vertical" android:id="@+id/afs" android:layout_width="20dp" android:layout_height="20dp" android:layout_marginLeft="-4dp" android:layout_marginStart="-4dp"/>
+            </LinearLayout>
+            <TextView android:textSize="13sp" android:textColor="@color/vc" android:gravity="top|center_vertical|center_horizontal|center" android:layout_gravity="center_vertical" android:id="@+id/afp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8dp" android:text="@string/c3n" android:lineSpacingExtra="3sp" style="@style/ul"/>
+            <ImageView android:layout_gravity="center_vertical" android:id="@+id/afu" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4dp" android:layout_marginTop="1dp" android:src="@drawable/at2" android:layout_marginStart="4dp"/>
+        </LinearLayout>
+        <TextView android:textColor="@color/jf" android:id="@+id/de0" android:padding="8dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="5dp" android:layout_below="@+id/caf" style="@style/ul"/>
+        <View android:id="@+id/bay" android:background="@color/a0x" android:visibility="gone" android:layout_width="match_parent" android:layout_height="1px" android:layout_marginLeft="16dp" android:layout_marginRight="16dp" android:layout_alignParentBottom="true" android:layout_marginStart="16dp" android:layout_marginEnd="16dp"/>
+    </RelativeLayout>
+    <RelativeLayout android:id="@+id/drn" android:background="@drawable/oq" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginLeft="16dp" android:layout_marginRight="16dp" android:layout_marginBottom="16dp">
+        <TextView android:textColor="@color/vc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/czn" android:layout_centerHorizontal="true" android:layout_centerVertical="true" style="@style/ul"/>
+    </RelativeLayout>
+</RelativeLayout>

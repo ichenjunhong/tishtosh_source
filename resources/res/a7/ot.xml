@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:background="@color/a2j" android:layout_width="match_parent" android:layout_height="match_parent">
+    <FrameLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+            <include android:id="@+id/d1b" layout="@layout/afu"/>
+            <com.bytedance.ies.dmt.p664ui.widget.DmtTextView android:id="@+id/cyw" android:text="@string/dz1" style="@style/xo"/>
+            <com.bytedance.ies.dmt.p664ui.widget.DmtTextView android:id="@+id/cyv" android:text="@string/dz0" style="@style/xn"/>
+            <include layout="@layout/a2x"/>
+        </LinearLayout>
+        <com.bytedance.ies.dmt.p664ui.widget.DmtStatusView android:id="@+id/csv" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    </FrameLayout>
+</ScrollView>

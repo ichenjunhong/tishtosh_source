@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.bytedance.ies.dmt.p664ui.titlebar.TextTitleBar android:id="@+id/d10" android:layout_width="match_parent" android:layout_height="@dimen/vn" app:endTextSize="15dp" app:lineVisible="8" app:titleText="@string/c7g" app:titleTextColor="@color/a1k" app:useBackIcon="true"/>
+    <com.bytedance.ies.dmt.p664ui.widget.DmtTextView android:textColor="@color/a15" android:gravity="left|center_vertical|center_horizontal|center|start" android:id="@+id/di4" android:layout_width="match_parent" android:layout_height="52dp" android:text="@string/ban" android:paddingStart="16dp" android:paddingEnd="16dp" app:fontType="7" style="@style/ur"/>
+    <com.bytedance.ies.dmt.p664ui.widget.DmtTextView android:textColor="@color/a1b" android:gravity="left|center_vertical|center_horizontal|center|start" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/bap" android:paddingStart="16dp" android:paddingEnd="16dp" style="@style/ul"/>
+</LinearLayout>

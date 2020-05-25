@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/b94" android:background="@color/anr" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="16dp">
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="16dp">
+        <com.bytedance.ies.dmt.p664ui.widget.DmtTextView android:textColor="@color/pz" android:id="@+id/def" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16dp" android:text="@string/czm" android:layout_marginStart="16dp" style="@style/ul"/>
+        <ImageView android:id="@+id/ebs" android:visibility="gone" android:layout_width="12dp" android:layout_height="12dp" android:layout_marginLeft="4dp" android:layout_marginTop="3dp" android:src="@drawable/cq0" android:layout_toRightOf="@+id/def" android:layout_centerVertical="true" android:layout_marginStart="4dp" android:layout_toEndOf="@+id/def"/>
+        <com.bytedance.ies.dmt.p664ui.widget.DmtTextView android:textSize="13sp" android:textColor="@color/a7x" android:id="@+id/f48" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="16dp" android:text="@string/hem" android:drawableRight="@drawable/dn_" android:layout_alignParentRight="true" android:drawableEnd="@drawable/dn_" android:layout_marginEnd="16dp" android:layout_alignParentEnd="true"/>
+    </RelativeLayout>
+    <android.support.p043v7.widget.RecyclerView android:id="@+id/caf" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="40dp" android:layout_marginBottom="16dp" android:layout_alignParentEnd="true"/>
+    <RelativeLayout android:id="@+id/drn" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent">
+        <TextView android:textColor="@color/pz" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/czn" android:layout_centerHorizontal="true" android:layout_centerVertical="true" style="@style/ul"/>
+    </RelativeLayout>
+</RelativeLayout>

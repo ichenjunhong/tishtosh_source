@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent" android:layout_height="60dp">
+    <RelativeLayout android:id="@+id/bu1" android:paddingLeft="16dp" android:paddingRight="16dp" android:layout_width="match_parent" android:layout_height="52dp">
+        <com.bytedance.ies.dmt.p664ui.widget.DmtTextView android:textColor="@color/arj" android:id="@+id/dhb" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/cjs" android:layout_centerVertical="true" style="@style/ur"/>
+        <com.p683ss.android.ugc.aweme.views.AutoRTLImageView android:id="@+id/esg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/clh" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:layout_alignParentEnd="true"/>
+        <com.bytedance.ies.dmt.p664ui.widget.DmtTextView android:textColor="@color/art" android:id="@+id/d8u" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_marginRight="5dp" android:drawableLeft="@drawable/clg" android:drawablePadding="4dp" android:layout_toLeftOf="@+id/esg" android:layout_alignTop="@+id/dhb" android:layout_alignBottom="@+id/dhb" android:layout_centerVertical="true" android:drawableStart="@drawable/clg" android:layout_marginEnd="5dp" android:layout_toStartOf="@+id/esg" style="@style/up"/>
+    </RelativeLayout>
+    <View android:background="@color/aql" android:layout_width="match_parent" android:layout_height="0.5dp" android:layout_marginLeft="16dp" android:layout_marginTop="52dp" android:layout_marginRight="16dp"/>
+</FrameLayout>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:background="@color/aso" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginLeft="16dp" android:layout_marginRight="16dp">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+        <View android:orientation="vertical" android:id="@+id/csm" android:layout_width="match_parent" android:layout_height="0dp"/>
+        <FrameLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="48dp">
+            <ViewSwitcher android:layout_gravity="left|center_vertical|center_horizontal|center|start" android:id="@+id/ec2" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <ImageView android:layout_gravity="left|center_vertical|center_horizontal|center|start" android:id="@+id/ebx" android:layout_width="24dp" android:layout_height="24dp" android:src="@drawable/cc4"/>
+                <ImageView android:layout_gravity="left|center_vertical|center_horizontal|center|start" android:id="@+id/aru" android:layout_width="24dp" android:layout_height="24dp" android:src="@drawable/cf"/>
+            </ViewSwitcher>
+            <com.bytedance.ies.dmt.p664ui.widget.DmtTextView android:textSize="17sp" android:textStyle="bold" android:textColor="@color/kg" android:layout_gravity="center" android:id="@+id/dl0" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+            <ViewSwitcher android:layout_gravity="right|center_vertical|center_horizontal|center|end" android:id="@+id/f5q" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <com.bytedance.ies.dmt.p664ui.widget.DmtTextView android:textSize="15sp" android:textColor="@color/aoi" android:layout_gravity="end" android:id="@+id/f5b" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="编辑"/>
+                <com.bytedance.ies.dmt.p664ui.widget.DmtTextView android:textSize="15sp" android:textColor="@color/apt" android:id="@+id/f5a" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="全部删除"/>
+            </ViewSwitcher>
+        </FrameLayout>
+        <com.bytedance.ies.dmt.p664ui.widget.DmtLoadingLayout android:id="@+id/ekj" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent"/>
+        <android.support.p043v7.widget.RecyclerView android:orientation="vertical" android:id="@+id/caf" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    </LinearLayout>
+</FrameLayout>

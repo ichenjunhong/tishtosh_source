@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_gravity="bottom" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <android.support.p043v7.widget.RecyclerView android:id="@+id/cg1" android:background="@color/q7" android:paddingTop="8dp" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+    <com.bytedance.ies.dmt.p664ui.widget.DmtTextView android:textColor="@color/aod" android:gravity="start" android:layout_gravity="bottom|left|center_vertical|center_horizontal|center|start" android:id="@+id/d_v" android:background="@drawable/d6b" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20dp" android:layout_marginBottom="12dp" android:text="@string/bmy" android:textAlignment="viewStart" android:layout_marginStart="20dp" style="@style/uj"/>
+</FrameLayout>

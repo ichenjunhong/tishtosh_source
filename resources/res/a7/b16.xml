@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/a5y">
+    <include layout="@layout/bge"/>
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <include layout="@layout/bgq"/>
+        <com.p683ss.android.ugc.aweme.base.p1420ui.AvatarImageView android:id="@+id/i0" style="@style/a5z"/>
+        <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <include layout="@layout/bgg"/>
+            <FrameLayout android:id="@+id/ze" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <com.p683ss.android.ugc.aweme.base.p1420ui.RemoteImageView android:id="@+id/by0" android:background="@color/arz" android:layout_width="120dp" android:layout_height="120dp" app:actualImageScaleType="2" app:roundWithOverlayColor="@color/c3" app:roundedCornerRadius="2dp" app:roundingBorderWidth="0dp"/>
+            </FrameLayout>
+            <include layout="@layout/bgu"/>
+        </LinearLayout>
+    </LinearLayout>
+    <include layout="@layout/bg9"/>
+</LinearLayout>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/cfl" android:background="@color/a4t" android:fitsSystemWindows="true" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.p683ss.android.ugc.aweme.commercialize.egg.CommerceEggLayout android:id="@+id/e3c" android:background="@color/a4t" android:fitsSystemWindows="true" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <ImageView android:layout_gravity="top|right|center_vertical|center_horizontal|center|end" android:id="@+id/ue" android:layout_width="64dp" android:layout_height="64dp" android:layout_marginTop="48dp" android:src="@drawable/akz" android:scaleType="centerInside"/>
+</FrameLayout>

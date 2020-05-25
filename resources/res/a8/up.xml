@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_gravity="bottom|left|center_vertical|center_horizontal|center|start" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_alignParentBottom="true" app:fsPanel="true">
+    <RelativeLayout android:id="@+id/ak3" android:layout_width="match_parent" android:layout_height="match_parent">
+        <RelativeLayout android:layout_width="match_parent" android:layout_height="52dp">
+            <com.p683ss.android.ugc.aweme.themechange.base.AVDmtTextView android:textColor="@color/mr" android:gravity="center" android:id="@+id/d7g" android:paddingLeft="16dp" android:paddingRight="16dp" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="52dp" android:text="@string/wf" android:layout_centerVertical="true" android:paddingStart="16dp" android:paddingEnd="16dp" app:isChangeTextSize="false" style="@style/uu"/>
+            <com.p683ss.android.ugc.aweme.themechange.base.AVDmtTextView android:textStyle="bold" android:textColor="@color/mr" android:gravity="center" android:id="@+id/df8" android:paddingLeft="16dp" android:paddingRight="16dp" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="@string/d_1" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:paddingStart="16dp" android:paddingEnd="16dp" android:layout_alignParentEnd="true" app:avFontType="7" app:isChangeTextSize="false" style="@style/uu"/>
+        </RelativeLayout>
+        <RelativeLayout android:id="@+id/zr" android:layout_width="match_parent" android:layout_height="224dp" android:layout_alignParentBottom="true">
+            <FrameLayout android:background="#161823" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="40dp"/>
+            <FrameLayout android:orientation="vertical" android:id="@+id/cka" android:paddingTop="6dp" android:layout_width="match_parent" android:layout_height="46dp">
+                <com.p683ss.android.ugc.aweme.shortvideo.widget.ChooseVideoCoverView android:id="@+id/tc" android:layout_width="match_parent" android:layout_height="28dp" android:layout_marginLeft="16dp" android:layout_marginTop="6dp" android:layout_marginRight="16dp" app:frameHeight="28dp" app:frameWidth="28dp"/>
+            </FrameLayout>
+            <com.p683ss.android.ugc.aweme.themechange.base.AVDmtTextView android:textSize="13dp" android:textColor="@color/mr" android:gravity="center" android:id="@+id/dc5" android:visibility="visible" android:layout_width="match_parent" android:layout_height="52dp" android:layout_marginLeft="64dp" android:layout_marginRight="64dp" android:text="@string/alh" android:maxLines="2" android:layout_below="@+id/cka" style="@style/uu"/>
+            <com.airbnb.lottie.LottieAnimationView android:id="@+id/bjo" android:visibility="gone" android:layout_width="155dp" android:layout_height="28dp" android:layout_marginTop="12dp" android:layout_below="@+id/cka" android:layout_centerHorizontal="true"/>
+            <FrameLayout android:orientation="horizontal" android:id="@+id/iy" android:layout_width="wrap_content" android:layout_height="28dp" android:layout_marginTop="12dp" android:layout_marginRight="16dp" android:layout_below="@+id/cka" android:layout_alignParentRight="true" android:layout_marginEnd="16dp" android:layout_alignParentEnd="true">
+                <LinearLayout android:orientation="horizontal" android:id="@+id/a92" android:layout_width="wrap_content" android:layout_height="28dp">
+                    <ImageView android:padding="4dp" android:layout_width="20dp" android:layout_height="20dp" android:layout_marginLeft="4.5dp" android:layout_marginTop="4dp" android:src="@drawable/a0x" android:scaleType="fitXY"/>
+                    <TextView android:textSize="13dp" android:textColor="#e5ffffff" android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_marginRight="9dp" android:text="@string/aw8"/>
+                </LinearLayout>
+                <RelativeLayout android:id="@+id/bnk" android:layout_width="44dp" android:layout_height="28dp">
+                    <ImageView android:padding="4dp" android:layout_width="20dp" android:layout_height="20dp" android:src="@drawable/a0x" android:scaleType="fitXY" android:layout_centerInParent="true"/>
+                </RelativeLayout>
+            </FrameLayout>
+            <com.p683ss.android.ugc.aweme.shortvideo.edit.audiorecord.AudioRecordStartButton android:id="@+id/cs_" android:layout_width="72dp" android:layout_height="72dp" android:layout_below="@+id/dc5" android:layout_centerHorizontal="true"/>
+            <CheckBox android:textSize="13dp" android:textColor="#e6ffffff" android:id="@+id/r5" android:paddingLeft="0dp" android:layout_width="wrap_content" android:layout_height="20dp" android:layout_marginLeft="16dp" android:layout_marginBottom="16dp" android:button="@drawable/bbn" android:text="@string/aku" android:drawablePadding="5dp" android:layout_alignParentLeft="true" android:layout_alignParentBottom="true" android:layout_marginStart="16dp" android:layout_alignParentStart="true"/>
+        </RelativeLayout>
+        <RelativeLayout android:id="@+id/dql" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="50dp" android:layout_above="@+id/zr" android:layout_centerHorizontal="true">
+            <ImageView android:id="@+id/b37" android:padding="50dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/a1a" android:layout_centerInParent="true"/>
+        </RelativeLayout>
+        <FrameLayout android:id="@+id/bhq" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent">
+            <com.bytedance.ies.dmt.p664ui.widget.DmtStatusView android:gravity="center" android:layout_gravity="center" android:id="@+id/bhp" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent"/>
+        </FrameLayout>
+    </RelativeLayout>
+</FrameLayout>

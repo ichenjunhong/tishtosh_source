@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.bytedance.polaris.widget.webview.PolarisWebView android:id="@+id/crh" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <ProgressBar android:id="@+id/crf" android:visibility="visible" android:layout_width="match_parent" android:layout_height="2dp" android:max="100" android:indeterminateOnly="false" android:progressDrawable="@drawable/b72" android:layout_alignParentTop="true"/>
+    <com.bytedance.polaris.widget.FullscreenVideoFrame android:id="@+id/a30" android:background="#000000" android:visibility="gone" android:clickable="true" android:layout_width="match_parent" android:layout_height="match_parent"/>
+</RelativeLayout>

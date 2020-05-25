@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:background="@color/arz" android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout android:id="@+id/dsj" android:layout_width="match_parent" android:layout_height="match_parent" android:soundEffectsEnabled="false" android:importantForAccessibility="no" android:layoutDirection="ltr">
+        <FrameLayout android:id="@+id/b97" android:background="@color/arz" android:fitsSystemWindows="true" android:layout_width="match_parent" android:layout_height="match_parent">
+            <FrameLayout android:id="@+id/b95" android:layout_width="match_parent" android:layout_height="match_parent"/>
+            <FrameLayout android:id="@+id/b96" android:layout_width="match_parent" android:layout_height="match_parent"/>
+        </FrameLayout>
+    </RelativeLayout>
+    <com.p683ss.android.ugc.aweme.themechange.base.AVDmtPanelRelativeLayout android:layout_gravity="bottom" android:orientation="vertical" android:id="@+id/dse" android:visibility="visible" android:clickable="true" android:layout_width="match_parent" android:layout_height="wrap_content" app:oldPanel="true">
+        <com.p683ss.android.ugc.aweme.themechange.base.AVDmtTextView android:gravity="center_vertical" android:id="@+id/dsi" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="16dp" android:layout_marginRight="16dp" android:minHeight="52dp" android:text="@string/alk" android:maxLines="2" android:lineSpacingExtra="3sp" app:avFontType="7" app:oldPanel="true" style="@style/tu"/>
+        <com.p683ss.android.ugc.aweme.themechange.base.AVDmtPanelRecyleView android:id="@+id/dsh" android:focusableInTouchMode="false" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="6dp" android:layout_marginBottom="24dp" android:layout_below="@+id/dsi" app:firstItemMargin="16dp" app:itemMargin="16dp" app:lastItemMargin="16dp"/>
+    </com.p683ss.android.ugc.aweme.themechange.base.AVDmtPanelRelativeLayout>
+</android.support.design.widget.CoordinatorLayout>

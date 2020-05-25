@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/bn6" android:background="@color/kg" android:saveEnabled="false" android:clipChildren="false" android:layout_width="match_parent" android:layout_height="match_parent" android:alpha="0.7">
+    <android.support.p043v7.widget.RecyclerView android:layout_gravity="end" android:id="@+id/cae" android:layout_width="40dp" android:layout_height="match_parent" android:layout_marginTop="32dp" android:layout_marginRight="10dp" android:layout_marginEnd="10dp"/>
+</FrameLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/ahd" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.p683ss.android.ugc.aweme.discover.widget.BannerSwipeRefreshLayout android:id="@+id/n2" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_below="@+id/csm">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+            <include android:id="@+id/cis" android:visibility="gone" android:layout_width="match_parent" android:layout_height="52dp" android:layout_below="@+id/csm" layout="@layout/b9t"/>
+            <View android:id="@+id/a6h" android:background="@color/a0s" android:layout_width="match_parent" android:layout_height="0.5dp" android:layout_below="@+id/cis"/>
+            <com.p683ss.android.ugc.aweme.discover.widget.DiscoveryRecyclerView android:id="@+id/bc2" android:background="@color/a0_" android:paddingBottom="@dimen/mu" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="match_parent"/>
+        </LinearLayout>
+    </com.p683ss.android.ugc.aweme.discover.widget.BannerSwipeRefreshLayout>
+    <View android:id="@+id/csm" android:layout_width="match_parent" android:layout_height="0dp" style="@style/a6k"/>
+    <com.p683ss.android.ugc.aweme.discover.p1659ui.NoticeView android:id="@+id/bx5" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" app:iconImage="@drawable/ag8" app:titleText="@string/cnr"/>
+    <com.bytedance.ies.dmt.p664ui.widget.DmtStatusView android:id="@+id/csv" android:background="@color/a0_" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_below="@+id/csm"/>
+</RelativeLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.p683ss.android.ugc.aweme.shortvideo.mvtemplate.gesturelayout.GestureLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/e_c" android:layout_width="match_parent" android:layout_height="match_parent" android:keepScreenOn="true">
+    <com.p683ss.android.ugc.aweme.photomovie.CompatTextureView android:layout_gravity="center" android:id="@+id/ezv" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <com.facebook.drawee.view.SimpleDraweeView android:id="@+id/b4w" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" app:actualImageScaleType="2"/>
+    <ImageView android:layout_gravity="center" android:id="@+id/a46" android:visibility="gone" android:layout_width="120dp" android:layout_height="120dp" android:src="@drawable/d41"/>
+    <com.p683ss.android.ugc.tools.view.widget.AVLoadingLayout android:layout_gravity="center" android:id="@+id/bhy" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+</com.p683ss.android.ugc.aweme.shortvideo.mvtemplate.gesturelayout.GestureLayout>

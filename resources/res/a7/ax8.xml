@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:paddingLeft="16dp" android:paddingTop="20dp" android:paddingRight="16dp" android:paddingBottom="4dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <com.bytedance.ies.dmt.p664ui.widget.DmtTextView android:textStyle="bold" android:textColor="@color/pg" android:id="@+id/awl" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1" style="@style/uu"/>
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/awd" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <com.bytedance.ies.dmt.p664ui.widget.DmtTextView android:textColor="@color/a02" android:id="@+id/awe" android:layout_width="wrap_content" android:layout_height="wrap_content" android:includeFontPadding="false" android:layout_toLeftOf="@+id/g_" style="@style/un"/>
+            <ImageView android:id="@+id/g_" android:layout_width="20dp" android:layout_height="22dp" android:src="@drawable/dl6"/>
+        </LinearLayout>
+    </LinearLayout>
+    <include android:id="@+id/chx" android:layout_width="match_parent" android:layout_height="wrap_content" layout="@layout/bo2"/>
+    <View android:background="@color/yb" android:layout_width="match_parent" android:layout_height="0.5dp" android:layout_marginLeft="@dimen/ll" android:layout_marginTop="16dp" android:layout_marginRight="@dimen/ll"/>
+</LinearLayout>

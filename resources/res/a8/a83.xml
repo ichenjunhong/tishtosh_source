@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/cfg" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.bytedance.android.livesdk.drawerfeed.LiveDrawerLayout android:id="@+id/a8s" android:layout_width="match_parent" android:layout_height="match_parent">
+        <FrameLayout android:id="@+id/ajf" android:layout_width="match_parent" android:layout_height="match_parent"/>
+        <RelativeLayout android:layout_gravity="end" android:id="@+id/bw4" android:background="@drawable/e0_" android:paddingTop="14dp" android:focusable="true" android:clickable="true" android:layout_width="match_parent" android:layout_height="match_parent">
+            <FrameLayout android:id="@+id/bw3" android:visibility="visible" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_toEndOf="@+id/aej"/>
+            <View android:id="@+id/aej" android:background="@drawable/e3e" android:layout_width="5dp" android:layout_height="100dp" android:layout_centerVertical="true" android:layout_marginStart="7dp" android:layout_marginEnd="3dp"/>
+            <com.bytedance.android.livesdk.chatroom.p325ui.DoubleColorBallLoadingLayout android:id="@+id/a6s" android:layout_width="match_parent" android:layout_height="match_parent"/>
+        </RelativeLayout>
+    </com.bytedance.android.livesdk.drawerfeed.LiveDrawerLayout>
+</FrameLayout>

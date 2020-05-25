@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:background="@color/aso" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:padding="10dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="20sp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="属性生效范围用DMT区分"/>
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10dp">
+            <CheckBox android:textSize="16dp" android:id="@+id/f06" android:layout_width="0dp" android:layout_height="wrap_content" android:text="setTitle(DMT)" android:layout_weight="1"/>
+            <CheckBox android:textSize="16dp" android:id="@+id/bld" android:layout_width="0dp" android:layout_height="wrap_content" android:text="setMessage(DMT)" android:layout_weight="1"/>
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10dp">
+            <CheckBox android:textSize="16dp" android:id="@+id/e79" android:layout_width="0dp" android:layout_height="wrap_content" android:text="setEnableCloseDarkMode(MT)" android:layout_weight="1"/>
+            <CheckBox android:textSize="16dp" android:id="@+id/e78" android:layout_width="0dp" android:layout_height="wrap_content" android:text="setEnableClose(DMT)" android:layout_weight="1"/>
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10dp">
+            <CheckBox android:textSize="16dp" android:id="@+id/eue" android:layout_width="0dp" android:layout_height="wrap_content" android:text="setSecondMessage(DMT)" android:layout_weight="1"/>
+            <CheckBox android:textSize="16dp" android:id="@+id/euf" android:layout_width="0dp" android:layout_height="wrap_content" android:text="setSecondMessage(Click|MT)" android:layout_weight="1"/>
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10dp">
+            <CheckBox android:textSize="16dp" android:id="@+id/eug" android:layout_width="0dp" android:layout_height="wrap_content" android:text="setSecondMessageLeftIcon(MT)" android:layout_weight="1"/>
+            <CheckBox android:textSize="16dp" android:id="@+id/euh" android:layout_width="0dp" android:layout_height="wrap_content" android:text="setSecondMessageRightIcon(MT)" android:layout_weight="1"/>
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10dp">
+            <CheckBox android:textSize="16dp" android:id="@+id/eqj" android:layout_width="0dp" android:layout_height="wrap_content" android:text="setPositiveButton(DMT)" android:layout_weight="1"/>
+            <CheckBox android:textSize="16dp" android:id="@+id/emr" android:layout_width="0dp" android:layout_height="wrap_content" android:text="setNegativeButton(DMT)" android:layout_weight="1"/>
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10dp">
+            <CheckBox android:textSize="16dp" android:id="@+id/emv" android:layout_width="0dp" android:layout_height="wrap_content" android:text="setNeutralButton(MT)" android:layout_weight="1"/>
+            <CheckBox android:textSize="16dp" android:id="@+id/doj" android:layout_width="0dp" android:layout_height="wrap_content" android:text="setButtonLayoutVertical(MT)" android:layout_weight="1"/>
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10dp">
+            <CheckBox android:textSize="16dp" android:id="@+id/f0j" android:layout_width="0dp" android:layout_height="wrap_content" android:text="setTopBackgroundColor(MT)" android:layout_weight="1"/>
+            <CheckBox android:textSize="16dp" android:id="@+id/eql" android:layout_width="0dp" android:layout_height="wrap_content" android:text="setPositiveHighlight(MT)" android:layout_weight="1"/>
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10dp">
+            <CheckBox android:textSize="16dp" android:id="@+id/aqa" android:layout_width="0dp" android:layout_height="wrap_content" android:text="setIcon(DMT)" android:layout_weight="1"/>
+            <CheckBox android:textSize="16dp" android:id="@+id/e4e" android:layout_width="0dp" android:layout_height="wrap_content" android:text="setCustomImageView(D|MT)" android:layout_weight="1"/>
+        </LinearLayout>
+        <View android:background="@color/aus" android:layout_width="match_parent" android:layout_height="0.5dp" android:layout_marginTop="10dp"/>
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10dp">
+            <Button android:id="@+id/e4p" android:layout_width="0dp" android:layout_height="wrap_content" android:text="Default Dialog" android:layout_weight="1" android:textAllCaps="false"/>
+            <Button android:id="@+id/e5h" android:layout_width="0dp" android:layout_height="wrap_content" android:text="Dmt Dialog" android:layout_weight="1" android:textAllCaps="false"/>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

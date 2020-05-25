@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:background="@color/a0_" android:layout_width="match_parent" android:layout_height="match_parent">
+    <View android:background="@color/a0s" android:paddingBottom="8dp" android:layout_width="match_parent" android:layout_height="1px"/>
+    <LinearLayout android:orientation="horizontal" android:id="@+id/b8s" android:background="?attr/a1f" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="4dp">
+        <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16dp" android:layout_marginTop="16dp" android:layout_marginBottom="16dp" android:layout_marginStart="16dp">
+            <com.bytedance.ies.dmt.p664ui.widget.DmtTextView android:id="@+id/ddj" android:text="@string/d0l" style="@style/wf"/>
+            <com.bytedance.ies.dmt.p664ui.widget.DmtTextView android:id="@+id/ddk" android:text="@string/d0o" style="@style/we"/>
+        </LinearLayout>
+        <FrameLayout android:layout_width="match_parent" android:layout_height="match_parent">
+            <ImageView android:id="@+id/bx7" style="@style/wd"/>
+        </FrameLayout>
+    </LinearLayout>
+    <View android:background="@color/a0s" android:layout_width="match_parent" android:layout_height="1px" android:layout_marginLeft="16dp" android:layout_marginRight="16dp"/>
+    <LinearLayout android:orientation="horizontal" android:id="@+id/b8r" android:background="?attr/a1f" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16dp" android:layout_marginTop="16dp" android:layout_marginBottom="16dp" android:layout_marginStart="16dp">
+            <com.bytedance.ies.dmt.p664ui.widget.DmtTextView android:text="@string/b6n" style="@style/wf"/>
+            <com.bytedance.ies.dmt.p664ui.widget.DmtTextView android:text="@string/b6q" style="@style/we"/>
+        </LinearLayout>
+        <FrameLayout android:layout_width="match_parent" android:layout_height="match_parent">
+            <ImageView android:id="@+id/bx6" style="@style/wd"/>
+        </FrameLayout>
+    </LinearLayout>
+    <View android:background="@color/a0s" android:layout_width="match_parent" android:layout_height="1px" android:layout_marginLeft="16dp" android:layout_marginRight="16dp"/>
+    <LinearLayout android:orientation="horizontal" android:id="@+id/b8t" android:background="?attr/a1f" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16dp" android:layout_marginTop="16dp" android:layout_marginBottom="16dp" android:layout_marginStart="16dp">
+            <com.bytedance.ies.dmt.p664ui.widget.DmtTextView android:text="@string/cxo" style="@style/wf"/>
+            <com.bytedance.ies.dmt.p664ui.widget.DmtTextView android:text="@string/cxq" style="@style/we"/>
+        </LinearLayout>
+        <FrameLayout android:layout_width="match_parent" android:layout_height="match_parent">
+            <ImageView android:id="@+id/bx8" style="@style/wd"/>
+        </FrameLayout>
+    </LinearLayout>
+    <View android:background="@color/a0s" android:layout_width="match_parent" android:layout_height="1px" android:layout_marginLeft="16dp" android:layout_marginRight="16dp"/>
+</LinearLayout>

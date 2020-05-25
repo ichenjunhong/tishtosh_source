@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.bytedance.android.live.core.widget.HSImageView android:id="@+id/bd6" android:layout_width="match_parent" android:layout_height="match_parent" android:foreground="@color/afm" android:scaleType="centerCrop" app:placeholderImage="@drawable/c3n" app:placeholderImageScaleType="6"/>
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent">
+        <include android:id="@+id/title" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="48dp" layout="@layout/ahl"/>
+        <include android:id="@+id/aub" android:layout_width="match_parent" android:layout_height="64dp" android:layout_marginTop="8dp" android:layout_below="@+id/title" layout="@layout/aq8"/>
+        <com.bytedance.android.livesdk.chatroom.end.TopFansLayout android:orientation="horizontal" android:id="@+id/d3p" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="16dp" android:layout_marginTop="8dp" android:layout_marginRight="16dp" android:layout_below="@+id/aub"/>
+        <include android:id="@+id/c_9" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" layout="@layout/aq9"/>
+    </RelativeLayout>
+    <ImageView android:layout_gravity="top|right|center_vertical|center_horizontal|center|end" android:id="@+id/iw" android:padding="4dp" android:layout_width="32dp" android:layout_height="32dp" android:layout_marginTop="10dp" android:layout_marginRight="4dp" android:src="@drawable/c3p" android:layout_marginEnd="4dp"/>
+    <FrameLayout android:id="@+id/iq" android:visibility="gone" android:layout_width="match_parent" android:layout_height="36dp" android:layout_marginTop="10dp">
+        <ImageView android:layout_gravity="center_vertical" android:id="@+id/b_v" android:layout_width="24dp" android:layout_height="24dp" android:layout_marginLeft="8dp" android:src="@drawable/c2_"/>
+        <LinearLayout android:layout_gravity="right|center_vertical|center_horizontal|center|end" android:orientation="horizontal" android:id="@+id/bmz" android:background="@drawable/bi_" android:layout_width="72.5dp" android:layout_height="36dp">
+            <TextView android:textSize="14sp" android:textColor="@color/ab9" android:gravity="center_vertical" android:layout_gravity="center" android:id="@+id/bn0" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="11.5dp" android:text="@string/ewg" android:includeFontPadding="false" android:lineSpacingExtra="0sp" android:layout_marginStart="11.5dp"/>
+            <ImageView android:layout_gravity="center_vertical" android:id="@+id/bn1" android:visibility="visible" android:layout_width="24dp" android:layout_height="24dp" android:layout_marginLeft="1dp" android:layout_marginRight="4dp" android:src="@drawable/c1p" android:scaleType="fitXY" android:layout_marginStart="1dp" android:layout_marginEnd="4dp"/>
+        </LinearLayout>
+        <FrameLayout android:layout_gravity="right|center_vertical|center_horizontal|center|end" android:orientation="horizontal" android:id="@+id/ejb" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+    </FrameLayout>
+</FrameLayout>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:paddingLeft="16dp" android:paddingTop="16dp" android:paddingRight="16dp" android:layout_width="match_parent" android:layout_height="match_parent" android:paddingStart="16dp" android:paddingEnd="16dp">
+    <LinearLayout android:orientation="vertical" android:id="@+id/dvu" android:visibility="gone" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+        <com.bytedance.android.live.core.widget.CustomFontTextView android:textSize="24sp" android:textStyle="bold" android:textColor="@color/a_z" android:gravity="center_horizontal" android:id="@+id/dqd" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <TextView android:textSize="12sp" android:textColor="@color/aa7" android:gravity="center_horizontal" android:id="@+id/dqe" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="4dp" android:text="@string/epe"/>
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@+id/dvt" android:visibility="gone" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+        <com.bytedance.android.live.core.widget.CustomFontTextView android:textSize="24sp" android:textStyle="bold" android:textColor="@color/a_z" android:gravity="center_horizontal" android:id="@+id/dpq" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <TextView android:textSize="12sp" android:textColor="@color/aa7" android:gravity="center_horizontal" android:id="@+id/dps" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="4dp" android:text="@string/epd"/>
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+        <com.bytedance.android.live.core.widget.CustomFontTextView android:textSize="24sp" android:textStyle="bold" android:textColor="@color/a_z" android:gravity="center_horizontal" android:id="@+id/aij" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <TextView android:textSize="12sp" android:textColor="@color/aa7" android:gravity="center_horizontal" android:id="@+id/ain" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="4dp" android:text="@string/eot"/>
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@+id/air" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+        <com.bytedance.android.live.core.widget.CustomFontTextView android:textSize="24sp" android:textStyle="bold" android:textColor="@color/a_z" android:gravity="center_horizontal" android:id="@+id/aio" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <com.bytedance.android.live.core.widget.FitTextView android:textSize="12sp" android:textColor="@color/aa7" android:gravity="center_horizontal" android:id="@+id/ais" android:layout_width="match_parent" android:layout_height="14dp" android:layout_marginTop="4dp" android:text="@string/eou"/>
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@+id/d04" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+        <com.bytedance.android.live.core.widget.CustomFontTextView android:textSize="24sp" android:textStyle="bold" android:textColor="@color/a_z" android:gravity="center_horizontal" android:id="@+id/d01" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <TextView android:textSize="12sp" android:textColor="@color/aa7" android:gravity="center_horizontal" android:id="@+id/d09" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="4dp" android:text="@string/epa"/>
+    </LinearLayout>
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@+id/a5i" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+        <com.bytedance.android.live.core.widget.CustomFontTextView android:textSize="24sp" android:textStyle="bold" android:textColor="@color/alf" android:gravity="center" android:id="@+id/a5f" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <TextView android:textSize="12sp" android:textColor="@color/aa7" android:gravity="center" android:id="@+id/cl6" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="4dp"/>
+    </LinearLayout>
+</LinearLayout>

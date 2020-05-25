@@ -1,0 +1,883 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="a">
+        <item>不显示地理位置</item>
+    </array>
+    <array name="ay">
+        <item>@string/fvb</item>
+    </array>
+    <array name="b">
+        <item>@string/c6</item>
+        <item>@string/c7</item>
+        <item>@string/wf</item>
+    </array>
+    <array name="c">
+        <item>@string/c3x</item>
+        <item>@string/b2e</item>
+    </array>
+    <array name="az">
+        <item>@string/c6</item>
+        <item>@string/c7</item>
+        <item>@string/wf</item>
+    </array>
+    <array name="b0">
+        <item>Afrikaans</item>
+        <item>Bahasa Indonesia</item>
+        <item>Bahasa Malaysia</item>
+        <item>Basa Jawa</item>
+        <item>Cebuano</item>
+        <item>Čeština</item>
+        <item>Deutsch</item>
+        <item>English</item>
+        <item>Español</item>
+        <item>Filipino</item>
+        <item>Français</item>
+        <item>IsiZulu</item>
+        <item>Italiano</item>
+        <item>Magyar</item>
+        <item>Nederlands</item>
+        <item>Polski</item>
+        <item>Português (Brasil)</item>
+        <item>Română</item>
+        <item>Sesotho sa Leboa</item>
+        <item>Svenska</item>
+        <item>Tiếng Việt</item>
+        <item>Türkçe</item>
+        <item>Ελληνικά</item>
+        <item>Русский</item>
+        <item>Українська</item>
+        <item>لغة عربية</item>
+        <item>मराठी</item>
+        <item>हिन्दी</item>
+        <item>বাংলা</item>
+        <item>ਪੰਜਾਬੀ</item>
+        <item>ગુજરાતી</item>
+        <item>ଓଡ଼ିଆ</item>
+        <item>தமிழ்</item>
+        <item>తెలుగు</item>
+        <item>ಕನ್ನಡ</item>
+        <item>മലയാളം</item>
+        <item>ภาษาไทย</item>
+        <item>မြန်မာဘာသာ</item>
+        <item>ភាសាខ្មែរ</item>
+        <item>한국어</item>
+        <item>日本語</item>
+        <item>繁體中文</item>
+        <item>العربية</item>
+    </array>
+    <array name="b1">
+        <item>/api/ad/v2/ack/splash/</item>
+        <item>/service/1/update_token/</item>
+        <item>/service/1/z_app_stats/</item>
+        <item>/service/2/device_register/</item>
+        <item>/service/2/log_settings/</item>
+        <item>/aweme/v1/aweme/detail/</item>
+        <item>/cloudpush/update_sender/</item>
+        <item>/api/plugin/config/v1/</item>
+        <item>/ies/network/aweme/</item>
+        <item>/cloudpush/callback/android_red_badge/</item>
+        <item>/aweme/v1/check/in/</item>
+        <item>/aweme/v1/user/</item>
+        <item>/2/user/info/</item>
+        <item>/api/ad/splash/aweme/v14/</item>
+        <item>/api/apps/device/blacklist</item>
+        <item>/api/plugin/config/v1</item>
+        <item>/aweme/v1/abtest/param/</item>
+        <item>/aweme/v1/aweme/stats/</item>
+        <item>/aweme/v1/commerce/settings</item>
+        <item>/aweme/v1/feed/</item>
+        <item>/aweme/v1/im/reboot/misc/</item>
+        <item>/aweme/v1/im/resources/sticker/list/</item>
+        <item>/aweme/v1/im/unreaditems</item>
+        <item>/aweme/v1/notice/count/</item>
+        <item>/aweme/v1/poi/samecity/active/</item>
+        <item>/aweme/v1/room/recommended/avatars/</item>
+        <item>/aweme/v1/settings/</item>
+        <item>/aweme/v1/spotlight/relation/</item>
+        <item>/aweme/v1/story/</item>
+        <item>/aweme/v1/user/settings/</item>
+        <item>/aweme/v2/game/entry/</item>
+        <item>/aweme/v2/platform/share/settings/</item>
+        <item>/check_version/v6/</item>
+        <item>/common</item>
+        <item>/config</item>
+        <item>/gecko/server/package</item>
+        <item>/get_domains/v4/</item>
+        <item>/location/sulite</item>
+        <item>/log/collect</item>
+        <item>/monitor/appmonitor/v2/settings</item>
+        <item>/passport/token/beat/</item>
+        <item>/service/2/app_alert/</item>
+        <item>/service/2/app_log/</item>
+        <item>/service/settings/v2/</item>
+        <item>/v.s</item>
+        <item>/webcast/assets/effects/</item>
+        <item>/webcast/gift/list/</item>
+        <item>/webcast/qos/node_sort/</item>
+        <item>/webcast/setting/</item>
+        <item>/webcast/setting/i18n/package/</item>
+        <item>/webcast/tab/</item>
+        <item>/weasel/wukong/</item>
+        <item>/location/sulite/</item>
+        <item>/aweme/v1/im/cloud/token/</item>
+        <item>/service/1/app_notice_status/</item>
+        <item>/aweme/v1/upload/contacts/</item>
+        <item>/et_api/logview/verify</item>
+        <item>/v2/s</item>
+        <item>bytecdn</item>
+        <item>:10304</item>
+        <item>/v/</item>
+        <item>/push/get_service_addrs/</item>
+        <item>/aweme/v1/aweme/post</item>
+        <item>/service/2/app_notify/</item>
+        <item>/service/2/device_register/</item>
+        <item>update_sender</item>
+        <item>/passport/mobile/send_code/v1/</item>
+        <item>/passport/mobile/login/</item>
+        <item>/passport/mobile/sms_login/</item>
+        <item>/aweme/v1/follow/feed</item>
+        <item>/passport/open/check_login/</item>
+        <item>api/v1/be/user</item>
+        <item>/cloudpush/local_push/v1/report_launch/</item>
+        <item>/aweme/v1/sticker/detail/</item>
+        <item>/oauth/auth_info/</item>
+        <item>/oauth/auth_info/</item>
+        <item>/ucenter/idmpn/lscfg</item>
+        <item>/service/2/app_alert_check/</item>
+        <item>/weasel/v1/info/</item>
+    </array>
+    <array name="f">
+        <item>@string/a02</item>
+        <item>@string/a03</item>
+        <item>@string/a04</item>
+        <item>@string/a05</item>
+        <item>@string/a06</item>
+    </array>
+    <array name="g">
+        <item>拍照</item>
+        <item>选取照片</item>
+        <item>从图库选择</item>
+        <item>查看大图</item>
+        <item>取消</item>
+    </array>
+    <array name="b2">
+        <item>account_and_safety</item>
+        <item>common_protocol</item>
+        <item>underage_protection</item>
+        <item>feedback_and_help</item>
+        <item>helper_center</item>
+        <item>safety_center</item>
+        <item>terms_of_use</item>
+        <item>community_guidelines</item>
+        <item>privacy_policy</item>
+        <item>copyright_policy</item>
+        <item>open_debug_test</item>
+        <item>clear_cache</item>
+        <item>logout</item>
+        <item>data_saver</item>
+    </array>
+    <array name="h">
+        <item>Online sound library</item>
+        <item>My Sound</item>
+    </array>
+    <array name="i">
+        <item>@string/fvg</item>
+        <item>@string/wf</item>
+    </array>
+    <array name="b3">
+        <item>Primary</item>
+        <item>Primary2</item>
+        <item>Secondary</item>
+        <item>Secondary2</item>
+        <item>Link</item>
+        <item>Link2</item>
+        <item>Link3</item>
+        <item>Positive</item>
+        <item>Negative</item>
+        <item>ToastDefault</item>
+        <item>ToastNegative</item>
+        <item>TextPrimary</item>
+        <item>TextSecondary</item>
+        <item>TextTertiary</item>
+        <item>TextTertiary2</item>
+        <item>TextQuaternary</item>
+        <item>TextQuaternary2</item>
+        <item>TextReverse</item>
+        <item>TextReverse2</item>
+        <item>TextReverse3</item>
+        <item>TextReverse4</item>
+        <item>ConstTextInverse</item>
+        <item>ConstTextInverse2</item>
+        <item>ConstTextInverse3</item>
+        <item>ConstTextInverse4</item>
+        <item>ConstTextInverse5</item>
+        <item>BGPrimary</item>
+        <item>BGPrimary2</item>
+        <item>BGSecondary2</item>
+        <item>BGSecondary</item>
+        <item>BGTertiary</item>
+        <item>BGTertiary2</item>
+        <item>BGQuaternary</item>
+        <item>BGInput</item>
+        <item>BGInput2</item>
+        <item>BGPlaceholderDefault</item>
+        <item>BGPlaceholderOpaque</item>
+        <item>BGView</item>
+        <item>BGView2</item>
+        <item>BGCreation</item>
+        <item>BGCreation2</item>
+        <item>ConstBGInverse</item>
+        <item>ConstBGInverse2</item>
+        <item>BGInverse3</item>
+        <item>ConstBGContainer</item>
+        <item>ConstBGContainer2</item>
+        <item>ConstBGContainer3</item>
+        <item>BGReverse</item>
+        <item>BGReverse2</item>
+        <item>BGInputReverse</item>
+        <item>SDPrimary</item>
+        <item>SDSecondary</item>
+        <item>SDTertiary</item>
+        <item>ShadowPrimary</item>
+        <item>ShadowSecondary</item>
+        <item>ShadowInverse</item>
+        <item>LineInput</item>
+        <item>LinePrimary</item>
+        <item>LinePrimary2</item>
+        <item>LineSecondary</item>
+        <item>LineSecondary2</item>
+        <item>LineTertiary</item>
+        <item>LineReverse</item>
+        <item>LineReverse2</item>
+        <item>LineReverse3</item>
+        <item>LineInverse</item>
+        <item>ConstLineInverse</item>
+        <item>ConstLineInverse2</item>
+        <item>TagGreenText</item>
+        <item>TagGreenBG</item>
+        <item>TagPurpleText</item>
+        <item>TagPurpleBG</item>
+        <item>TagBrownText</item>
+        <item>TagBrownBG</item>
+    </array>
+    <array name="k">
+        <item>@string/a71</item>
+        <item>@string/a78</item>
+        <item>@string/a6u</item>
+    </array>
+    <array name="m">
+        <item>Delete</item>
+        <item>Cancel</item>
+    </array>
+    <array name="n">
+        <item>Trending</item>
+        <item>Latest</item>
+        <item>...</item>
+        <item>...</item>
+        <item>...</item>
+    </array>
+    <array name="o">
+        <item>@string/bu5</item>
+        <item>@string/f6v</item>
+        <item>@string/b_j</item>
+        <item>@string/arg</item>
+    </array>
+    <array name="b4">
+        <item>@string/fum</item>
+        <item>@string/fux</item>
+        <item>@string/fv6</item>
+        <item>@string/fv7</item>
+        <item>@string/fv8</item>
+        <item>@string/fv9</item>
+        <item>@string/fv_</item>
+        <item>@string/fva</item>
+        <item>@string/fvb</item>
+        <item>@string/fun</item>
+        <item>@string/fuo</item>
+        <item>@string/fup</item>
+        <item>@string/fuq</item>
+        <item>@string/fur</item>
+        <item>@string/fus</item>
+        <item>@string/fut</item>
+        <item>@string/fuu</item>
+        <item>@string/fuv</item>
+        <item>@string/fuw</item>
+        <item>@string/fuy</item>
+        <item>@string/fuz</item>
+        <item>@string/fv0</item>
+        <item>@string/fv1</item>
+        <item>@string/fv2</item>
+        <item>@string/fv3</item>
+        <item>@string/fv4</item>
+        <item>@string/fv5</item>
+    </array>
+    <array name="p">
+        <item>account_and_safety</item>
+        <item>privacy_manager</item>
+        <item>notification_manager</item>
+        <item>local_livewallpaper</item>
+        <item>common_protocol</item>
+        <item>story_history</item>
+        <item>terms_of_use</item>
+        <item>community_guidelines</item>
+        <item>privacy_policy</item>
+        <item>about_ame</item>
+        <item>feedback_and_help</item>
+        <item>clear_cache</item>
+        <item>logout</item>
+    </array>
+    <array name="q">
+        <item>user_tag</item>
+        <item>teenager_protection_tools</item>
+        <item>vg_setting</item>
+    </array>
+    <array name="r">
+        <item>First 20</item>
+        <item>First 40</item>
+        <item>First 60</item>
+        <item>First 80</item>
+        <item>First 100</item>
+    </array>
+    <array name="s">
+        <item>@color/z3</item>
+        <item>@color/ep</item>
+        <item>@color/lo</item>
+        <item>@color/nq</item>
+        <item>@color/nk</item>
+        <item>@color/a1i</item>
+        <item>@color/sq</item>
+        <item>@color/a5_</item>
+        <item>@color/dn</item>
+        <item>@color/a4u</item>
+        <item>@color/sr</item>
+        <item>@color/zy</item>
+        <item>@color/a7l</item>
+        <item>@color/a4q</item>
+        <item>@color/nv</item>
+        <item>@color/nw</item>
+        <item>@color/b0</item>
+        <item>@color/asn</item>
+        <item>@color/nu</item>
+    </array>
+    <array name="t">
+        <item>@string/gbr</item>
+        <item>@string/wf</item>
+    </array>
+    <array name="u">
+        <item>Afrikaans</item>
+        <item>Bahasa Indonesia</item>
+        <item>Bahasa Malaysia</item>
+        <item>Basa Jawa</item>
+        <item>Cebuano</item>
+        <item>Čeština</item>
+        <item>Deutsch</item>
+        <item>English</item>
+        <item>Español</item>
+        <item>Filipino</item>
+        <item>Français</item>
+        <item>IsiZulu</item>
+        <item>Italiano</item>
+        <item>Magyar</item>
+        <item>Nederlands</item>
+        <item>Polski</item>
+        <item>Português (Brasil)</item>
+        <item>Română</item>
+        <item>Sesotho sa Leboa</item>
+        <item>Svenska</item>
+        <item>Tiếng Việt</item>
+        <item>Türkçe</item>
+        <item>Ελληνικά</item>
+        <item>Русский</item>
+        <item>Українська</item>
+        <item>لغة عربية</item>
+        <item>मराठी</item>
+        <item>हिन्दी</item>
+        <item>বাংলা</item>
+        <item>ਪੰਜਾਬੀ</item>
+        <item>ગુજરાતી</item>
+        <item>ଓଡ଼ିଆ</item>
+        <item>தமிழ்</item>
+        <item>తెలుగు</item>
+        <item>ಕನ್ನಡ</item>
+        <item>മലയാളം</item>
+        <item>ภาษาไทย</item>
+        <item>မြန်မာဘာသာ</item>
+        <item>ភាសាខ្មែរ</item>
+        <item>한국어</item>
+        <item>日本語</item>
+        <item>繁體中文</item>
+        <item>العربية</item>
+    </array>
+    <array name="v">
+        <item>1|[smile]</item>
+        <item>2|[happy]</item>
+        <item>3|[angry]</item>
+        <item>4|[cry]</item>
+        <item>5|[embarrassed]</item>
+        <item>6|[surprised]</item>
+        <item>7|[wronged]</item>
+        <item>8|[shout]</item>
+        <item>9|[flushed]</item>
+        <item>10|[yummy]</item>
+        <item>11|[complacent]</item>
+        <item>12|[drool]</item>
+        <item>13|[scream]</item>
+        <item>14|[weep]</item>
+        <item>15|[speechless]</item>
+        <item>16|[funnyface]</item>
+        <item>17|[laughwithtears]</item>
+        <item>18|[wicked]</item>
+        <item>19|[facewithrollingeyes]</item>
+        <item>20|[sulk]</item>
+        <item>21|[thinking]</item>
+        <item>22|[lovely]</item>
+        <item>23|[greedy]</item>
+        <item>24|[wow]</item>
+        <item>25|[joyful]</item>
+        <item>26|[hehe]</item>
+        <item>27|[slap]</item>
+        <item>28|[tears]</item>
+        <item>29|[stun]</item>
+        <item>30|[cute]</item>
+        <item>31|[blink]</item>
+        <item>32|[disdain]</item>
+        <item>33|[astonish]</item>
+        <item>34|[rage]</item>
+        <item>35|[cool]</item>
+        <item>36|[excited]</item>
+        <item>37|[proud]</item>
+        <item>38|[smileface]</item>
+        <item>39|[evil]</item>
+        <item>40|[angel]</item>
+        <item>41|[laugh]</item>
+        <item>42|[pride]</item>
+        <item>43|[nap]</item>
+        <item>44|[loveface]</item>
+        <item>45|[awkward]</item>
+        <item>46|[shock]</item>
+    </array>
+    <array name="w">
+        <item>Sunday</item>
+        <item>Monday</item>
+        <item>Tuesday</item>
+        <item>Wednesday</item>
+        <item>Thursday</item>
+        <item>Friday</item>
+        <item>Saturday</item>
+    </array>
+    <array name="x">
+        <item>Simplified Chinese</item>
+        <item>Traditional Chinese</item>
+        <item>English</item>
+        <item>Japanese</item>
+        <item>Korean</item>
+        <item>Russian</item>
+        <item>Indonesian</item>
+        <item>Malay</item>
+        <item>Portuguese</item>
+        <item>Thai</item>
+        <item>Vietnamese</item>
+        <item>Hindi</item>
+    </array>
+    <array name="b5">
+        <item>/aweme/v1/feed/</item>
+        <item>/aweme/v1/commit/item/digg/</item>
+        <item>/aweme/v1/commit/follow/user/</item>
+        <item>/aweme/v1/aweme/post/</item>
+        <item>/aweme/v1/aweme/favorite/</item>
+        <item>/aweme/v1/general/search/</item>
+        <item>/aweme/v1/search/item/</item>
+        <item>/aweme/v2/shop/search/vertical/</item>
+        <item>/aweme/v2/follow/feed/</item>
+        <item>/aweme/v1/follow/feed/</item>
+        <item>/aweme/v1/follow/feed/recommend/</item>
+        <item>/aweme/v1/friend/feed/</item>
+    </array>
+    <array name="y">
+        <item>Normal</item>
+        <item>Black/White</item>
+        <item>Arts</item>
+        <item>Vintage</item>
+        <item>Retrolux</item>
+        <item>Saturated</item>
+        <item>Chrome</item>
+    </array>
+    <array name="b6">
+        <item>[赞]</item>
+        <item>[鼓掌]</item>
+        <item>[爱心]</item>
+        <item>[玫瑰]</item>
+        <item>[捂脸]</item>
+        <item>[发呆]</item>
+        <item>[呲牙]</item>
+        <item>[泣不成声]</item>
+        <item>[666]</item>
+        <item>[比心]</item>
+        <item>[微笑]</item>
+        <item>[感谢]</item>
+        <item>[看]</item>
+        <item>[耶]</item>
+        <item>[泪奔]</item>
+        <item>[给力]</item>
+    </array>
+    <array name="z">
+        <item>[赞]</item>
+        <item>[玫瑰]</item>
+        <item>[捂脸]</item>
+        <item>[666]</item>
+        <item>[鼓掌]</item>
+        <item>[呲牙]</item>
+        <item>[微笑]</item>
+        <item>[耶]</item>
+        <item>[爱心]</item>
+        <item>[感谢]</item>
+        <item>[泣不成声]</item>
+        <item>[给力]</item>
+        <item>[看]</item>
+        <item>[比心]</item>
+        <item>[泪奔]</item>
+        <item>[白眼]</item>
+    </array>
+    <array name="a0">
+        <item>Jan</item>
+        <item>Feb</item>
+        <item>Mar</item>
+        <item>Apr</item>
+        <item>May</item>
+        <item>Jun</item>
+        <item>Jul</item>
+        <item>Aug</item>
+        <item>Sep</item>
+        <item>Oct</item>
+        <item>Nov</item>
+        <item>Dec</item>
+    </array>
+    <array name="a1">
+        <item>@string/c8n</item>
+        <item>@string/c8o</item>
+        <item>@string/c8p</item>
+    </array>
+    <array name="a2">
+        <item>account_and_safety</item>
+        <item>common_protocol</item>
+        <item>underage_protection</item>
+        <item>feedback_and_help</item>
+        <item>helper_center</item>
+        <item>safety_center</item>
+        <item>terms_of_use</item>
+        <item>community_guidelines</item>
+        <item>privacy_policy</item>
+        <item>copyright_policy</item>
+        <item>open_debug_test</item>
+        <item>clear_cache</item>
+        <item>logout</item>
+        <item>data_saver</item>
+    </array>
+    <array name="a3">
+        <item>Data-saving first</item>
+        <item>High-resolution first</item>
+    </array>
+    <array name="a4">
+        <item>Everyone</item>
+        <item>Friends only</item>
+    </array>
+    <array name="b7">
+        <item>@string/a02</item>
+        <item>@string/a03</item>
+        <item>@string/a04</item>
+        <item>@string/a05</item>
+        <item>@string/a06</item>
+    </array>
+    <array name="b8">
+        <item>拍照</item>
+        <item>选取照片</item>
+        <item>从图库选择</item>
+        <item>查看大图</item>
+        <item>取消</item>
+    </array>
+    <array name="b9">
+        <item>@string/c8n</item>
+        <item>@string/wf</item>
+    </array>
+    <array name="b_">
+        <item>@string/gbr</item>
+        <item>@string/wf</item>
+    </array>
+    <array name="ba">
+        <item>@string/c8n</item>
+        <item>@string/c8o</item>
+        <item>@string/c8p</item>
+    </array>
+    <array name="a5">
+        <item>@drawable/b22</item>
+    </array>
+    <array name="a6">
+        <item>@drawable/b23</item>
+    </array>
+    <array name="a7">
+        <item>Normal</item>
+        <item>F1</item>
+        <item>F2</item>
+        <item>F3</item>
+        <item>F4</item>
+    </array>
+    <array name="a8">
+        <item>normal</item>
+        <item>rixi</item>
+        <item>nianhua</item>
+        <item>qingchun</item>
+        <item>feifan</item>
+    </array>
+    <array name="a9">
+        <item>@drawable/z5</item>
+        <item>@drawable/z4</item>
+        <item>@drawable/z2</item>
+        <item>@drawable/z3</item>
+        <item>@drawable/z1</item>
+    </array>
+    <array name="a_">
+        <item>/api/ad/v2/ack/splash/</item>
+        <item>/service/1/update_token/</item>
+        <item>/service/1/z_app_stats/</item>
+        <item>/service/2/device_register/</item>
+        <item>/service/2/log_settings/</item>
+        <item>/aweme/v1/aweme/detail/</item>
+        <item>/cloudpush/update_sender/</item>
+        <item>/api/plugin/config/v1/</item>
+        <item>/ies/network/aweme/</item>
+        <item>/cloudpush/callback/android_red_badge/</item>
+        <item>/aweme/v1/check/in/</item>
+        <item>/aweme/v1/user/</item>
+        <item>/2/user/info/</item>
+        <item>/api/ad/splash/aweme/v14/</item>
+        <item>/api/apps/device/blacklist</item>
+        <item>/api/plugin/config/v1</item>
+        <item>/aweme/v1/abtest/param/</item>
+        <item>/aweme/v1/aweme/stats/</item>
+        <item>/aweme/v1/commerce/settings</item>
+        <item>/aweme/v1/feed/</item>
+        <item>/aweme/v1/im/reboot/misc/</item>
+        <item>/aweme/v1/im/resources/sticker/list/</item>
+        <item>/aweme/v1/im/unreaditems</item>
+        <item>/aweme/v1/notice/count/</item>
+        <item>/aweme/v1/poi/samecity/active/</item>
+        <item>/aweme/v1/room/recommended/avatars/</item>
+        <item>/aweme/v1/settings/</item>
+        <item>/aweme/v1/spotlight/relation/</item>
+        <item>/aweme/v1/story/</item>
+        <item>/aweme/v1/user/settings/</item>
+        <item>/aweme/v2/game/entry/</item>
+        <item>/aweme/v2/platform/share/settings/</item>
+        <item>/check_version/v6/</item>
+        <item>/common</item>
+        <item>/config</item>
+        <item>/gecko/server/package</item>
+        <item>/get_domains/v4/</item>
+        <item>/location/sulite</item>
+        <item>/log/collect</item>
+        <item>/monitor/appmonitor/v2/settings</item>
+        <item>/passport/token/beat/</item>
+        <item>/service/2/app_alert/</item>
+        <item>/service/2/app_log/</item>
+        <item>/service/settings/v2/</item>
+        <item>/v.s</item>
+        <item>/webcast/assets/effects/</item>
+        <item>/webcast/gift/list/</item>
+        <item>/webcast/qos/node_sort/</item>
+        <item>/webcast/setting/</item>
+        <item>/webcast/setting/i18n/package/</item>
+        <item>/webcast/tab/</item>
+        <item>/weasel/wukong/</item>
+        <item>/location/sulite/</item>
+        <item>/aweme/v1/im/cloud/token/</item>
+        <item>/service/1/app_notice_status/</item>
+        <item>/aweme/v1/upload/contacts/</item>
+        <item>/et_api/logview/verify</item>
+        <item>/v2/s</item>
+        <item>bytecdn</item>
+        <item>:10304</item>
+        <item>/v/</item>
+        <item>/push/get_service_addrs/</item>
+        <item>/aweme/v1/aweme/post</item>
+        <item>/service/2/app_notify/</item>
+        <item>/service/2/device_register/</item>
+        <item>update_sender</item>
+        <item>/passport/mobile/send_code/v1/</item>
+        <item>/passport/mobile/login/</item>
+        <item>/passport/mobile/sms_login/</item>
+        <item>/aweme/v1/follow/feed</item>
+        <item>/passport/open/check_login/</item>
+        <item>api/v1/be/user</item>
+        <item>/cloudpush/local_push/v1/report_launch/</item>
+        <item>/aweme/v1/sticker/detail/</item>
+        <item>/oauth/auth_info/</item>
+        <item>/oauth/auth_info/</item>
+        <item>/ucenter/idmpn/lscfg</item>
+        <item>/service/2/app_alert_check/</item>
+        <item>/weasel/v1/info/</item>
+    </array>
+    <array name="aa">
+        <item>@string/e26</item>
+        <item>@string/e29</item>
+        <item>@string/e28</item>
+    </array>
+    <array name="ab">
+        <item>@string/e26</item>
+        <item>@string/b5n</item>
+        <item>@string/e28</item>
+    </array>
+    <array name="ac">
+        <item>@string/e26</item>
+        <item>@string/e29</item>
+        <item>@string/e27</item>
+    </array>
+    <array name="ad">
+        <item>@string/e26</item>
+        <item>@string/b5n</item>
+        <item>@string/e27</item>
+    </array>
+    <array name="ae">
+        <item>Select from Library</item>
+        <item>Take a photo</item>
+        <item>Cancel</item>
+    </array>
+    <array name="bb">
+        <item>最简单的互动：念出观众的名字</item>
+        <item>最讨喜的互动：及时感谢观众打赏</item>
+        <item>最吸粉的互动：展示你的才艺</item>
+        <item>最有趣的互动：PK连麦</item>
+    </array>
+    <array name="af">
+        <item>@drawable/c3w</item>
+        <item>@drawable/c3x</item>
+        <item>@drawable/c3u</item>
+        <item>@drawable/c3s</item>
+        <item>@drawable/c3v</item>
+        <item>@drawable/c3y</item>
+        <item>@drawable/c3t</item>
+    </array>
+    <array name="ag">
+        <item>@drawable/bq7</item>
+        <item>@drawable/bq8</item>
+        <item>@drawable/bq9</item>
+    </array>
+    <array name="ah">
+    </array>
+    <array name="ai">
+    </array>
+    <array name="aj">
+        <item>@string/erm</item>
+        <item>@string/erq</item>
+        <item>@string/erd</item>
+        <item>@string/erw</item>
+        <item>@string/ere</item>
+    </array>
+    <array name="ak">
+    </array>
+    <array name="al">
+        <item>Filter_01</item>
+        <item>Filter_02</item>
+        <item>Filter_03</item>
+        <item>Filter_04</item>
+        <item>Filter_05</item>
+    </array>
+    <array name="am">
+        <item>None</item>
+        <item>Flower</item>
+        <item>Sweet</item>
+        <item>Tea</item>
+        <item>Brainy</item>
+        <item>Rosy</item>
+        <item>Breeze</item>
+        <item>Nature</item>
+        <item>Sunlight</item>
+        <item>Baby</item>
+        <item>Nostalgia</item>
+        <item>Bright</item>
+        <item>Cute</item>
+        <item>Peach</item>
+        <item>Sunset</item>
+    </array>
+    <array name="an">
+    </array>
+    <array name="ao">
+        <item>Round</item>
+        <item>Weekly</item>
+        <item>Overall</item>
+        <item>Xigua Ranking</item>
+    </array>
+    <array name="ap">
+        <item>January</item>
+        <item>February</item>
+        <item>March</item>
+        <item>April</item>
+        <item>May</item>
+        <item>June</item>
+        <item>July</item>
+        <item>August</item>
+        <item>September</item>
+        <item>October</item>
+        <item>November</item>
+        <item>December</item>
+    </array>
+    <array name="aq">
+        <item>@drawable/c2k</item>
+        <item>@drawable/c5p</item>
+        <item>@drawable/c5n</item>
+        <item>@drawable/c5o</item>
+        <item>@drawable/c5q</item>
+    </array>
+    <array name="ar">
+        <item>@drawable/c2k</item>
+        <item>@drawable/c5p</item>
+        <item>@drawable/c3k</item>
+        <item>@drawable/c3l</item>
+    </array>
+    <array name="as">
+        <item>None</item>
+        <item>Nature</item>
+        <item>Clear</item>
+        <item>Japanese</item>
+        <item>Touching</item>
+    </array>
+    <array name="at">
+        <item>None</item>
+        <item>Nature</item>
+        <item>Bright</item>
+        <item>First love</item>
+    </array>
+    <array name="au">
+        <item>Report</item>
+        <item>Cancel</item>
+    </array>
+    <array name="av">
+        <item>@drawable/bd9</item>
+        <item>@drawable/bd_</item>
+        <item>@drawable/bda</item>
+        <item>@drawable/bdb</item>
+        <item>@drawable/bdc</item>
+        <item>@drawable/bdd</item>
+        <item>@drawable/bde</item>
+        <item>@drawable/bdf</item>
+        <item>@drawable/bdg</item>
+        <item>@drawable/bdh</item>
+    </array>
+    <array name="aw">
+        <item>AT701</item>
+        <item>F-03H</item>
+        <item>SO-02J</item>
+        <item>SM-G955W</item>
+        <item>Xperiaxe2x84xa2 M4 Aqua Dual</item>
+        <item>F05J</item>
+        <item>F-05J</item>
+    </array>
+    <array name="ax">
+        <item>Monday</item>
+        <item>Tuesday</item>
+        <item>Wednesday</item>
+        <item>Thursday</item>
+        <item>Friday</item>
+        <item>Saturday</item>
+        <item>Sunday</item>
+    </array>
+</resources>

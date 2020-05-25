@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" style="@style/a5y">
+    <include layout="@layout/bge"/>
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="end" android:orientation="horizontal" android:id="@+id/zw" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <ImageView android:layout_gravity="center_vertical" android:id="@+id/css" android:visibility="gone" android:layout_width="16dp" android:layout_height="16dp" android:layout_marginRight="8dp" android:scaleType="fitXY" android:contentDescription="@drawable/d__" android:layout_marginEnd="8dp"/>
+            <LinearLayout android:gravity="end" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <include layout="@layout/bgh"/>
+                <FrameLayout android:id="@+id/ze" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <include layout="@layout/bip"/>
+                </FrameLayout>
+                <include layout="@layout/bgd"/>
+                <include layout="@layout/bgv"/>
+            </LinearLayout>
+            <com.p683ss.android.ugc.aweme.base.p1420ui.AvatarImageView android:id="@+id/i0" style="@style/a60"/>
+        </LinearLayout>
+        <include layout="@layout/bgr"/>
+    </RelativeLayout>
+    <include layout="@layout/bg9"/>
+</LinearLayout>

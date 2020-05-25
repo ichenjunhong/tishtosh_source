@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.p683ss.android.ugc.aweme.themechange.base.AVDmtPanelLinearLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:id="@+id/atr" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="74dp" app:oldPanel="true">
+    <RelativeLayout android:id="@+id/atu" android:visibility="gone" android:layout_width="match_parent" android:layout_height="36dp" android:layout_marginTop="16dp">
+        <FrameLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/cdx" android:background="@drawable/b2l" android:layout_width="match_parent" android:layout_height="36dp" android:layout_marginStart="16dp" android:layout_marginEnd="16dp">
+            <com.p683ss.android.ugc.tools.view.widget.AVAutoRTLImageView android:layout_gravity="left|center_vertical|center_horizontal|center|start" android:id="@+id/b3y" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ad0" android:layout_marginStart="12dp"/>
+            <com.p683ss.android.ugc.tools.view.widget.AVEditText android:textColor="@color/jf" android:textColorHint="#59ffffff" android:gravity="left|center_vertical|center_horizontal|center|start" android:layout_gravity="center_vertical" android:id="@+id/dfb" android:background="@null" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="@string/bb0" android:lines="1" android:inputType="text" android:imeOptions="actionSearch" android:textCursorDrawable="0x7f1304a1" android:textAlignment="viewStart" android:layout_marginStart="36dp" android:layout_marginEnd="30dp" style="@style/a8p"/>
+            <ImageButton android:layout_gravity="right|center_vertical|center_horizontal|center|end" android:id="@+id/nh" android:background="@drawable/acz" android:visibility="gone" android:layout_width="24dp" android:layout_height="24dp" android:layout_margin="6dp"/>
+        </FrameLayout>
+        <com.p683ss.android.ugc.aweme.views.ConstantWidthTextView android:textColor="@color/jf" android:gravity="center" android:id="@+id/dfd" android:layout_width="match_parent" android:layout_height="match_parent" android:maxWidth="100dp" android:text="@string/wf" android:maxLines="1" android:layout_centerVertical="true" android:layout_toEndOf="@+id/cdx" style="@style/a8p"/>
+    </RelativeLayout>
+    <FrameLayout android:orientation="vertical" android:id="@+id/atw" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="16dp">
+        <RelativeLayout android:id="@+id/cj0" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent">
+            <FrameLayout android:id="@+id/ciz" android:layout_width="match_parent" android:layout_height="match_parent"/>
+        </RelativeLayout>
+        <com.p683ss.android.ugc.tools.view.widget.AVStatusView android:id="@+id/csv" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    </FrameLayout>
+    <LinearLayout android:orientation="vertical" android:id="@+id/att" android:layout_width="match_parent" android:layout_height="match_parent">
+        <com.p683ss.android.ugc.aweme.themechange.base.AVDmtTabLayout android:id="@+id/cte" android:layout_width="match_parent" android:layout_height="52dp" android:layout_marginLeft="16dp" android:layout_marginRight="16dp" android:layout_marginStart="16dp" android:layout_marginEnd="16dp" app:oldPanel="true" app:tabBackground="@android:color/transparent" app:tabGravity="0" app:tabIndicatorColor="@color/jf" app:tabIndicatorHeight="2dp" app:tabMaxWidth="9999dp" app:tabMode="0" app:tabPaddingEnd="0dp" app:tabPaddingStart="0dp"/>
+        <View android:id="@+id/bas" android:background="@color/sk" android:layout_width="match_parent" android:layout_height="0.5dp"/>
+        <android.support.p030v4.view.ViewPager android:id="@+id/ds2" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    </LinearLayout>
+</com.p683ss.android.ugc.aweme.themechange.base.AVDmtPanelLinearLayout>

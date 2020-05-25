@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:background="@color/a0_" android:fitsSystemWindows="true" android:layout_width="match_parent" android:layout_height="match_parent">
+    <View android:id="@+id/csm" android:background="@color/a0_" android:layout_width="match_parent" android:layout_height="0dp"/>
+    <com.bytedance.ies.dmt.p664ui.titlebar.TextTitleBar android:id="@+id/d10" android:background="@color/a0_" android:layout_width="match_parent" android:layout_height="@dimen/vn" android:layout_below="@+id/csm" app:endTextSize="15dp" app:titleText="@string/dg9" app:titleTextColor="@color/a1k" app:useBackIcon="true"/>
+    <com.bytedance.ies.dmt.p664ui.common.views.CommonItemView android:id="@+id/e1w" android:layout_width="match_parent" app:desc="@string/dg4" app:hide_right_icon="true" app:left_text="@string/dg_" app:right_text="@string/dfv" style="@style/a8a"/>
+    <com.p683ss.android.ugc.aweme.setting.p2148ui.Divider android:id="@+id/es1" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    <com.bytedance.ies.dmt.p664ui.common.views.CommonItemView android:id="@+id/e1v" android:layout_width="match_parent" app:desc="@string/dg5" app:hide_right_icon="true" app:left_text="@string/dfy" app:right_text="@string/dfv" style="@style/a8a"/>
+    <com.p683ss.android.ugc.aweme.setting.p2148ui.Divider android:id="@+id/f83" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    <com.bytedance.ies.dmt.p664ui.common.views.CommonItemView android:id="@+id/e1u" android:layout_width="match_parent" android:layout_height="wrap_content" app:desc="@string/dg6" app:left_text="@string/dfz"/>
+</LinearLayout>

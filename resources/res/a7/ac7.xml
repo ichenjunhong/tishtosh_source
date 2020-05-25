@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/a0g" android:background="@color/b2k" android:layout_width="match_parent" android:layout_height="match_parent">
+    <FrameLayout android:id="@+id/cxc" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <include layout="@layout/a20"/>
+        <include layout="@layout/a21"/>
+        <include layout="@layout/a7z"/>
+    </FrameLayout>
+    <LinearLayout android:orientation="vertical" android:id="@+id/b75" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <View android:id="@+id/ctg" android:background="@color/b2k" android:layout_width="match_parent" android:layout_height="match_parent" android:soundEffectsEnabled="false" android:importantForAccessibility="no"/>
+    <LinearLayout android:layout_gravity="bottom" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <include layout="@layout/ay1"/>
+        <FrameLayout android:id="@+id/csz" android:visibility="invisible" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    </LinearLayout>
+</android.support.design.widget.CoordinatorLayout>

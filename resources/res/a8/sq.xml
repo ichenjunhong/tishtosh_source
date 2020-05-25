@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:id="@+id/bw7" android:background="@drawable/xg" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="40dp" android:layout_marginRight="40dp" android:minWidth="200dp" android:layout_marginStart="40dp" android:layout_marginEnd="40dp">
+    <LinearLayout android:orientation="vertical" android:id="@+id/d2d" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="left|center_vertical|center_horizontal|center" android:orientation="horizontal" android:id="@+id/d1j" android:paddingLeft="24dp" android:paddingTop="22dp" android:paddingRight="24dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="24dp" android:paddingEnd="24dp">
+            <ImageView android:id="@+id/aqa" android:layout_width="32dp" android:layout_height="32dp" android:layout_marginRight="8dp" android:src="@null" android:scaleType="fitCenter" android:layout_marginEnd="8dp"/>
+            <TextView android:textSize="17sp" android:textColor="@color/a6b" android:ellipsize="end" android:id="@+id/eb" android:layout_width="match_parent" android:layout_height="wrap_content" android:singleLine="true" android:includeFontPadding="false"/>
+        </LinearLayout>
+    </LinearLayout>
+    <FrameLayout android:id="@+id/zi" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="@dimen/bv" android:layout_weight="1">
+        <View android:layout_gravity="top" android:id="@+id/chs" android:visibility="gone" android:layout_width="match_parent" android:layout_height="1dp"/>
+        <ScrollView android:id="@+id/cht" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <TextView android:textSize="15sp" android:textColor="@color/a6c" android:id="@+id/bld" android:paddingLeft="24dp" android:paddingTop="18dp" android:paddingRight="24dp" android:paddingBottom="20dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="24dp" android:paddingEnd="24dp"/>
+            </LinearLayout>
+        </ScrollView>
+        <View android:layout_gravity="bottom" android:id="@+id/chr" android:visibility="gone" android:layout_width="match_parent" android:layout_height="1dp"/>
+    </FrameLayout>
+    <FrameLayout android:id="@+id/a2v" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="@dimen/bv" android:layout_weight="1">
+        <FrameLayout android:id="@+id/a2u" android:paddingLeft="24dp" android:paddingRight="24dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="24dp" android:paddingEnd="24dp"/>
+    </FrameLayout>
+    <LinearLayout android:gravity="bottom" android:orientation="horizontal" android:id="@+id/pw" android:paddingLeft="24dp" android:paddingTop="10dp" android:paddingBottom="8dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="24dp">
+        <Button android:id="@+id/pt" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/x0"/>
+        <View android:visibility="invisible" android:layout_width="0dp" android:layout_height="0dp" android:layout_weight="1"/>
+        <Button android:id="@+id/ps" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/x0"/>
+        <Button android:id="@+id/pr" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/x0"/>
+    </LinearLayout>
+</LinearLayout>

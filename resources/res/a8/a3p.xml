@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/c7i" android:background="@drawable/b8k" android:layout_width="316dp" android:layout_height="wrap_content">
+    <ImageView android:id="@+id/qw" android:layout_width="match_parent" android:layout_height="250dp" android:layout_marginTop="50dp" android:src="@drawable/pk"/>
+    <LinearLayout android:orientation="vertical" android:id="@+id/aj0" android:paddingLeft="8dp" android:paddingRight="8dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="8dp" android:paddingEnd="8dp">
+        <com.p683ss.android.ugc.aweme.base.p1420ui.RemoteImageView android:layout_gravity="center_horizontal" android:id="@+id/c7h" android:layout_width="168dp" android:layout_height="168dp" android:layout_marginTop="24dp" app:placeholderImage="@drawable/b26"/>
+        <com.bytedance.ies.dmt.p664ui.widget.DmtTextView android:textColor="@color/ji" android:ellipsize="end" android:layout_gravity="center_horizontal" android:id="@+id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12dp" android:maxLines="1" style="@style/ut"/>
+        <com.bytedance.ies.dmt.p664ui.widget.DmtTextView android:textColor="@color/jj" android:ellipsize="end" android:layout_gravity="center_horizontal" android:id="@+id/a4e" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:maxLines="1" style="@style/un"/>
+        <com.bytedance.ies.dmt.p664ui.widget.DmtTextView android:textColor="@color/jk" android:ellipsize="end" android:layout_gravity="center_horizontal" android:id="@+id/c6n" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="56dp" android:maxLines="2" style="@style/ul"/>
+        <ImageView android:layout_gravity="center_horizontal" android:id="@+id/bjd" android:layout_width="wrap_content" android:layout_height="36dp" android:layout_marginTop="20dp" android:layout_marginBottom="20dp" android:src="@drawable/b29"/>
+    </LinearLayout>
+</FrameLayout>

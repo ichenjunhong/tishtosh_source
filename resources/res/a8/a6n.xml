@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/cfk" android:background="@drawable/dhq" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:layout_gravity="bottom" android:orientation="vertical" android:id="@+id/ce0" android:background="@null" android:layout_width="match_parent" android:layout_height="500dp">
+        <LinearLayout android:layout_gravity="center_horizontal" android:id="@+id/bfd" android:layout_width="match_parent" android:layout_height="75dp" android:layout_marginLeft="15dp" android:layout_marginTop="180dp" android:layout_marginRight="15dp" android:layout_marginStart="15dp" android:layout_marginEnd="15dp">
+            <com.p683ss.android.ugc.aweme.views.mention.MentionEditText android:textSize="27sp" android:textColor="@color/a1k" android:textColorHint="@color/a1t" android:layout_gravity="bottom" android:id="@+id/abt" android:background="@color/arz" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="@string/bb1" android:maxLines="2" android:textCursorDrawable="@drawable/dhs"/>
+        </LinearLayout>
+        <View android:layout_gravity="center_horizontal" android:id="@+id/dbe" android:background="@color/a1t" android:layout_width="match_parent" android:layout_height="1dp" android:layout_marginLeft="15dp" android:layout_marginTop="10dp" android:layout_marginRight="15dp" android:layout_marginStart="15dp" android:layout_marginEnd="15dp"/>
+        <LinearLayout android:layout_width="match_parent" android:layout_height="35dp" android:layout_marginTop="6dp">
+            <com.p683ss.android.ugc.aweme.base.p1420ui.TagView android:id="@+id/cxo" android:layout_width="wrap_content" android:layout_marginLeft="15dp" android:layout_marginStart="15dp" app:iconBackground="@drawable/dho" app:text="@string/fev" style="@style/a7_"/>
+            <com.p683ss.android.ugc.aweme.base.p1420ui.TagView android:id="@+id/cxp" android:layout_marginLeft="8dp" android:layout_marginStart="8dp" app:iconBackground="@drawable/dhp" app:text="@string/fei" style="@style/a7_"/>
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

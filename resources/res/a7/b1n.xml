@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:background="@color/c6" android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout android:id="@+id/e4a" android:layout_width="match_parent" android:layout_height="44dp">
+        <com.bytedance.ies.dmt.p664ui.widget.DmtTextView android:textStyle="bold" android:textColor="@color/jg" android:gravity="center" android:layout_gravity="center" android:id="@+id/e4_" android:layout_width="match_parent" android:layout_height="match_parent" android:text="@string/g1v" app:fontType="7" style="@style/uu"/>
+        <ImageView android:layout_gravity="center" android:id="@+id/e46" android:paddingLeft="16dp" android:paddingRight="16dp" android:layout_width="wrap_content" android:layout_height="match_parent" android:src="@drawable/adw" android:contentDescription="@string/af"/>
+    </RelativeLayout>
+    <com.p683ss.android.ugc.aweme.shortvideo.sticker.widget.tablayout.TabLayout android:id="@+id/e49" android:layout_width="match_parent" android:layout_height="44dp" android:layout_below="@+id/e4a" app:tabGravity="0" app:tabIndicatorColor="@color/axs" app:tabIndicatorHeight="2dp" app:tabMode="1" app:tabPaddingEnd="0dp" app:tabPaddingStart="0dp" app:tabSelectedTextColor="@color/a7w" app:tabTextAppearance="@style/ur" app:tabTextColor="@color/a80"/>
+    <android.support.p030v4.view.ViewPager android:id="@+id/e4b" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_above="@+id/e43" android:layout_below="@+id/e49"/>
+    <View android:id="@+id/e43" android:layout_width="match_parent" android:layout_height="62dp" android:layout_alignParentBottom="true"/>
+</RelativeLayout>

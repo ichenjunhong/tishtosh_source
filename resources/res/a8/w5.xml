@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:padding="16dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <ScrollView android:id="@+id/cht" android:paddingBottom="30dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:id="@+id/ze" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    </ScrollView>
+    <TextView android:id="@+id/bud" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="30dp" android:text="@string/f19" android:layout_alignBottom="@+id/cht" android:layout_alignParentRight="true" android:layout_marginEnd="30dp" android:layout_alignParentEnd="true"/>
+    <TextView android:id="@+id/q7" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="50dp" android:text="@string/f16" android:layout_toLeftOf="@+id/bud" android:layout_alignBottom="@+id/cht" android:layout_marginEnd="50dp" android:layout_toStartOf="@+id/bud"/>
+</RelativeLayout>

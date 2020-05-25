@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:background="@color/a0_" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.p683ss.android.ugc.aweme.commercialize.loft.LoftNestedRefreshLayout android:id="@+id/biu" android:background="@color/a0_" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_centerVertical="true">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <View android:id="@+id/aka" android:layout_width="match_parent" android:layout_height="0dp"/>
+            <LinearLayout android:id="@+id/d3j" android:background="@color/a0_" android:layout_width="match_parent" android:layout_height="@dimen/vn">
+                <FrameLayout android:id="@+id/b_x" android:layout_width="wrap_content" android:layout_height="match_parent">
+                    <com.p683ss.android.ugc.aweme.views.AutoRTLImageView android:layout_gravity="center_vertical" android:id="@+id/in" android:padding="10dp" android:visibility="visible" android:layout_width="44dp" android:layout_height="44dp" android:layout_marginLeft="6dp" android:src="@drawable/c_p" android:layout_marginStart="6dp"/>
+                    <com.p683ss.android.ugc.aweme.discover.p1659ui.SearchScanView android:id="@+id/cjr" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_centerVertical="true" android:layout_marginEnd="2dp"/>
+                </FrameLayout>
+                <include android:layout_gravity="center_vertical" android:id="@+id/cd9" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:layout_alignParentLeft="true" android:layout_centerVertical="true" android:layout_alignParentStart="true" layout="@layout/btg"/>
+                <FrameLayout android:id="@+id/ccg" android:layout_width="wrap_content" android:layout_height="match_parent">
+                    <com.bytedance.ies.dmt.p664ui.widget.AutoRTLImageView android:layout_gravity="center" android:id="@+id/io" android:paddingLeft="4dp" android:paddingRight="16dp" android:visibility="gone" android:layout_width="44dp" android:layout_height="match_parent" android:scaleType="centerInside" android:layout_alignParentRight="true" android:paddingStart="4dp" android:paddingEnd="16dp" android:layout_alignParentEnd="true" app:srcCompat="@drawable/cv4"/>
+                    <com.p683ss.android.ugc.aweme.discover.p1659ui.SearchScanView android:id="@+id/cjs" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_centerVertical="true" android:layout_marginEnd="2dp"/>
+                </FrameLayout>
+                <com.bytedance.ies.dmt.p664ui.widget.DmtTextView android:textColor="@color/a3c" android:gravity="center" android:layout_gravity="center_vertical" android:id="@+id/dfk" android:paddingLeft="16dp" android:paddingRight="16dp" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="match_parent" android:minWidth="64dp" android:text="@string/da_" android:layout_alignParentRight="true" android:layout_alignParentEnd="true" style="@style/ur"/>
+            </LinearLayout>
+        </LinearLayout>
+        <FrameLayout android:layout_width="match_parent" android:layout_height="match_parent">
+            <FrameLayout android:id="@+id/ajf" android:background="@color/a0_" android:layout_width="match_parent" android:layout_height="match_parent"/>
+            <com.p683ss.android.ugc.aweme.discover.p1659ui.SearchIntermediateView android:id="@+id/cjd" android:layout_width="match_parent" android:layout_height="match_parent"/>
+        </FrameLayout>
+    </com.p683ss.android.ugc.aweme.commercialize.loft.LoftNestedRefreshLayout>
+</RelativeLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="32dp" android:layout_height="47dp">
+    <CheckedTextView android:id="@+id/yf" android:layout_width="32dp" android:layout_height="32dp" android:checkMark="@drawable/e2n" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0"/>
+    <TextView android:textSize="9dp" android:textColor="@color/aso" android:gravity="center" android:id="@+id/d8a" android:background="@drawable/bvc" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="12dp" android:includeFontPadding="false" app:layout_constraintEnd_toEndOf="@+id/yf" app:layout_constraintRight_toRightOf="@+id/yf" app:layout_constraintTop_toTopOf="@+id/yf"/>
+    <TextView android:textSize="10dp" android:textColor="@color/aso" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="1dp" android:text="@string/esl" app:layout_constraintEnd_toEndOf="@+id/yf" app:layout_constraintStart_toStartOf="@+id/yf" app:layout_constraintTop_toBottomOf="@+id/yf"/>
+</android.support.constraint.ConstraintLayout>

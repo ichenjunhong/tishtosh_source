@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/cfc" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.p683ss.android.ugc.aweme.photo.PhotoView android:id="@+id/bxm" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="fitCenter" android:transitionName="photo"/>
+    <LinearLayout android:id="@+id/a2b" android:background="@drawable/sf" android:layout_width="match_parent" android:layout_height="84dp"/>
+    <LinearLayout android:layout_gravity="bottom" android:background="@drawable/se" android:layout_width="match_parent" android:layout_height="334dp"/>
+    <RelativeLayout android:id="@+id/d1b" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="28dp">
+        <ImageView android:layout_gravity="top" android:id="@+id/ij" android:layout_width="24dp" android:layout_height="24dp" android:layout_marginLeft="16dp" android:src="@drawable/a1p" android:layout_marginStart="16dp"/>
+    </RelativeLayout>
+    <FrameLayout android:layout_gravity="bottom" android:id="@+id/b74" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="20dp">
+        <com.bytedance.ies.dmt.p664ui.widget.DmtTextView android:textColor="@color/a4f" android:gravity="center" android:layout_gravity="bottom|right|center_vertical|center_horizontal|center|end" android:id="@+id/bqp" android:background="@drawable/pg" android:layout_width="69dp" android:layout_height="32dp" android:layout_marginRight="16dp" android:layout_marginBottom="11.5dp" android:text="@string/cgm" android:layout_marginEnd="16dp" style="@style/ur"/>
+        <com.bytedance.ies.dmt.p664ui.widget.DmtTextView android:textColor="@color/a4f" android:gravity="center" android:layout_gravity="bottom" android:id="@+id/af1" android:layout_width="44dp" android:layout_height="wrap_content" android:layout_marginLeft="16dp" android:text="@string/b2m" android:drawableTop="@drawable/ak7" android:drawablePadding="@dimen/m9" android:layout_marginStart="16dp" style="@style/uh"/>
+    </FrameLayout>
+    <include layout="@layout/il"/>
+</FrameLayout>

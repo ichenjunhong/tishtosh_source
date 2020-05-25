@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:id="@+id/a4q" android:layout_width="match_parent" android:layout_height="match_parent" app:layout_behavior="com.ss.android.ugc.aweme.base.opensourcemodified.android.support.design.widget.ViewPagerBottomSheetBehavior">
+        <android.support.p030v4.widget.Space android:id="@+id/cqc" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <FrameLayout android:background="@drawable/u5" android:layout_width="match_parent" android:layout_height="44dp">
+            <com.p683ss.android.ugc.aweme.views.AutoRTLTextView android:textSize="15sp" android:textColor="@color/a2k" android:gravity="center" android:layout_gravity="left|center_vertical|center_horizontal|center|start" android:id="@+id/d70" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_marginLeft="30dp" android:text="@string/wf" android:layout_marginStart="30dp"/>
+            <com.bytedance.ies.dmt.p664ui.widget.DmtTextView android:textColor="@color/py" android:gravity="center" android:layout_gravity="center" android:id="@+id/dhb" android:layout_width="match_parent" android:layout_height="wrap_content" app:fontType="2" style="@style/uu"/>
+            <ImageView android:layout_gravity="center_vertical" android:id="@+id/ik" android:layout_width="24dp" android:layout_height="24dp" android:layout_marginLeft="16dp" android:src="@drawable/ag2" android:scaleType="centerInside"/>
+            <com.p683ss.android.ugc.aweme.views.AutoRTLTextView android:textColor="@color/jl" android:gravity="right|center_vertical|center_horizontal|center" android:layout_gravity="right" android:id="@+id/dbj" android:padding="10dp" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_marginRight="6dp" android:text="@string/cel" android:layout_alignParentRight="true" android:layout_marginEnd="6dp" android:layout_alignParentEnd="true" style="@style/ur"/>
+        </FrameLayout>
+        <FrameLayout android:id="@+id/ajf" android:background="@color/as0" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    </LinearLayout>
+</android.support.design.widget.CoordinatorLayout>

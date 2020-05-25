@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:background="@color/aso" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+        <ViewStub android:layout_gravity="top" android:id="@+id/eyo" android:layout_width="match_parent" android:layout_height="48dp"/>
+        <RelativeLayout android:id="@+id/rb" android:background="@drawable/g6" android:visibility="gone" android:layout_width="match_parent" android:layout_height="@dimen/c9" android:layout_marginLeft="16dp" android:layout_marginTop="4dp" android:layout_marginRight="16dp" android:layout_marginBottom="4dp">
+            <ImageView android:id="@+id/cj9" android:layout_width="24dp" android:layout_height="24dp" android:layout_marginLeft="4dp" android:src="@drawable/ci" android:layout_centerVertical="true" android:layout_alignParentStart="true"/>
+            <com.bytedance.ies.dmt.p664ui.widget.DmtTextView android:textSize="15sp" android:textColor="@color/aok" android:id="@+id/f5c" android:background="@null" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4dp" android:layout_toRightOf="@+id/cj9" android:layout_centerVertical="true"/>
+        </RelativeLayout>
+        <com.bytedance.ies.dmt.p664ui.widget.DmtLoadingLayout android:id="@+id/ekj" android:layout_width="match_parent" android:layout_height="match_parent"/>
+        <com.p683ss.android.ugc.aweme.views.DoubleBallSwipeRefreshLayout android:id="@+id/eko" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginLeft="16dp" android:layout_marginRight="16dp">
+            <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <android.support.p043v7.widget.RecyclerView android:orientation="vertical" android:id="@+id/caf" android:clipToPadding="true" android:layout_width="match_parent" android:layout_height="match_parent"/>
+            </LinearLayout>
+        </com.p683ss.android.ugc.aweme.views.DoubleBallSwipeRefreshLayout>
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@+id/b7k" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent">
+        <TextView android:textSize="17sp" android:textStyle="bold" android:textColor="@color/aoi" android:id="@+id/f5d" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/brc"/>
+        <TextView android:textSize="14sp" android:textColor="@color/aok" android:id="@+id/f5e" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4dp" android:text="@string/fwq"/>
+    </LinearLayout>
+</FrameLayout>

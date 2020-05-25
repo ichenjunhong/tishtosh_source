@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="155dp" android:layout_marginLeft="16dp" android:layout_marginRight="16dp" android:layout_marginStart="16dp" android:layout_marginEnd="16dp">
+        <View android:background="@color/p" android:layout_width="match_parent" android:layout_height="1px"/>
+        <com.bytedance.ies.dmt.p664ui.widget.DmtTextView android:textStyle="bold" android:textColor="@color/iu" android:layout_gravity="center_horizontal" android:id="@+id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="32dp" android:text="@string/eb" style="@style/uu"/>
+        <com.bytedance.ies.dmt.p664ui.widget.DmtTextView android:textColor="@color/jm" android:layout_gravity="center_horizontal" android:id="@+id/a4c" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4dp" android:text="@string/h_a" style="@style/un"/>
+        <com.bytedance.ies.dmt.p664ui.widget.DmtTextView android:textStyle="bold" android:textColor="@color/iu" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@+id/dxj" android:background="@drawable/dmm" android:layout_width="160dp" android:layout_height="28dp" android:layout_marginTop="20dp" android:text="@string/h__" style="@style/up"/>
+    </LinearLayout>
+</FrameLayout>

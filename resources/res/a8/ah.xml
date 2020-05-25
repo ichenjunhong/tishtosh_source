@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent" android:layout_height="match_parent">
+    <SurfaceView android:id="@+id/cm7" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <View android:id="@+id/csm" android:background="@android:color/transparent" android:layout_width="match_parent" android:layout_height="0dp"/>
+    <View android:background="@drawable/m4" android:layout_width="match_parent" android:layout_height="126dp"/>
+    <FrameLayout android:layout_width="match_parent" android:layout_height="@dimen/n8" android:layout_below="@+id/csm">
+        <com.p683ss.android.ugc.aweme.views.AutoRTLImageView android:layout_gravity="left|center_vertical|center_horizontal|center|start" android:id="@+id/ik" android:padding="12dp" android:layout_width="44dp" android:layout_height="44dp" android:layout_marginLeft="3dp" android:src="@drawable/avc" android:layout_marginStart="3dp"/>
+        <com.bytedance.ies.dmt.p664ui.widget.DmtTextView android:textColor="@color/v7" android:gravity="center" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/cwd" style="@style/uu"/>
+        <ImageView android:layout_gravity="right|center_vertical|center_horizontal|center|end" android:id="@+id/b2h" android:padding="12dp" android:layout_width="46dp" android:layout_height="44dp" android:src="@drawable/auu"/>
+    </FrameLayout>
+    <com.p683ss.android.ugc.aweme.shortvideo.p2242ui.PressFadeTextView android:textSize="15sp" android:textColor="@color/w2" android:gravity="center" android:id="@+id/dfr" android:background="@drawable/cte" android:layout_width="match_parent" android:layout_height="44dp" android:layout_marginLeft="20dp" android:layout_marginRight="20dp" android:layout_marginBottom="20dp" android:text="@string/ddr" android:layout_alignParentBottom="true"/>
+</RelativeLayout>

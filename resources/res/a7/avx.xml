@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:layout_width="375dp" android:layout_height="375dp">
+    <LinearLayout android:orientation="vertical" android:background="@drawable/cnl" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="1">
+        <com.bytedance.lighten.loader.SmartCircleImageView android:layout_gravity="center" android:id="@+id/ejg" android:layout_width="127.5dp" android:layout_height="127.5dp" android:layout_marginTop="24dp" app:placeholderImage="@drawable/di0"/>
+        <com.bytedance.ies.dmt.p664ui.widget.DmtTextView android:textSize="24sp" android:textColor="@color/avn" android:ellipsize="end" android:gravity="center" android:id="@+id/ejh" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="16dp" android:text="@Tony Scott" android:maxLines="1" android:lineSpacingExtra="2dp" android:fontFamily="sans-serif" app:fontType="7"/>
+        <com.bytedance.ies.dmt.p664ui.widget.DmtTextView android:textSize="18sp" android:textColor="@color/avu" android:ellipsize="end" android:gravity="center" android:id="@+id/eji" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="4dp" android:text="@string/hj7" android:maxLines="3" android:maxEms="100" app:fontType="2"/>
+        <com.bytedance.ies.dmt.p664ui.widget.DmtTextView android:textSize="18sp" android:textColor="@color/azx" android:gravity="bottom|center_vertical|center_horizontal|center" android:id="@+id/ejj" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="16dp" android:text="@string/hj8" android:layout_weight="1" app:fontType="2"/>
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:background="@drawable/cnk" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <ImageView android:layout_gravity="center" android:id="@+id/ejf" android:layout_width="104dp" android:layout_height="25dp" android:layout_marginTop="20dp" android:layout_marginBottom="20dp" app:srcCompat="@drawable/dhz"/>
+    </LinearLayout>
+</LinearLayout>

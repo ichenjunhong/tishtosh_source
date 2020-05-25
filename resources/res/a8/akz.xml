@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:gravity="right|center_vertical|center_horizontal|center" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="@dimen/vn" android:layout_marginRight="12dp" android:layout_marginEnd="12dp">
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@+id/c28" android:background="@drawable/dju" android:padding="5dp" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="32dp" android:minWidth="60dp">
+        <ImageView android:id="@+id/c27" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/dkn"/>
+        <com.bytedance.ies.dmt.p664ui.widget.DmtTextView android:textColor="@color/a1k" android:id="@+id/c26" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4dp" android:layout_marginStart="4dp" style="@style/uh"/>
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@+id/c25" android:background="@drawable/dju" android:padding="5dp" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="32dp" android:layout_marginLeft="8dp" android:minWidth="60dp" android:layout_marginStart="8dp">
+        <ImageView android:id="@+id/c24" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/dkl"/>
+        <com.bytedance.ies.dmt.p664ui.widget.DmtTextView android:textColor="@color/a1k" android:id="@+id/c23" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4dp" android:layout_marginStart="4dp" style="@style/uh"/>
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@+id/c2i" android:background="@drawable/dju" android:padding="5dp" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="32dp" android:layout_marginLeft="8dp" android:minWidth="60dp" android:layout_marginStart="8dp">
+        <ImageView android:id="@+id/c2h" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/dla"/>
+        <com.bytedance.ies.dmt.p664ui.widget.DmtTextView android:textColor="@color/a1k" android:id="@+id/c2g" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4dp" android:layout_marginStart="4dp" style="@style/uh"/>
+    </LinearLayout>
+</LinearLayout>

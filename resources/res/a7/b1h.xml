@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_gravity="bottom" android:orientation="vertical" android:id="@+id/au5" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <View android:id="@+id/a6f" android:background="@color/r5" android:layout_width="match_parent" android:layout_height="0.5dp"/>
+    <include android:id="@+id/e6p" layout="@layout/bg3"/>
+    <include android:id="@+id/e6q" layout="@layout/bg4"/>
+    <RadioGroup android:gravity="start" android:orientation="horizontal" android:id="@+id/cc2" android:background="@drawable/d6t" android:visibility="gone" android:layout_width="match_parent" android:layout_height="40dp">
+        <com.bytedance.ies.dmt.p664ui.widget.DmtRadioButton android:textColor="@drawable/dbp" android:gravity="center" android:id="@+id/c91" android:layout_width="0dp" android:layout_height="match_parent" android:checked="true" android:button="@null" android:text="@string/bjj" android:layout_weight="1" app:fontType="2" style="@style/ur"/>
+        <View android:background="@color/ao1" android:layout_width="0.5dp" android:layout_height="match_parent" android:layout_marginTop="12dp" android:layout_marginBottom="12dp"/>
+        <com.bytedance.ies.dmt.p664ui.widget.DmtRadioButton android:textColor="@drawable/dbp" android:gravity="center" android:id="@+id/c92" android:layout_width="0dp" android:layout_height="match_parent" android:checked="false" android:button="@null" android:text="@string/bjk" android:layout_weight="1" app:fontType="1" style="@style/ur"/>
+    </RadioGroup>
+    <com.bytedance.p702im.sugar.input.SoftInputResizeFuncLayoutView android:id="@+id/bw1" android:background="@color/ano" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+</LinearLayout>

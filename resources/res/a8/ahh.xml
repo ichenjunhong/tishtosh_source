@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent" android:layout_height="match_parent" android:fillViewport="true">
+    <android.support.design.widget.AppBarLayout android:theme="@style/a2" android:id="@+id/u" android:background="@color/a2j" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" app:layout_scrollFlags="d">
+            <android.support.p043v7.widget.RecyclerView android:id="@+id/cg_" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+            <View android:background="@color/dw" android:layout_width="match_parent" android:layout_height="0.5dp" android:layout_marginLeft="16dp" android:layout_marginRight="16dp" android:layout_marginStart="16dp" android:layout_marginEnd="16dp"/>
+            <LinearLayout android:orientation="vertical" android:id="@+id/b87" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+            <include layout="@layout/b2k"/>
+            <FrameLayout android:id="@+id/d64" android:background="@drawable/cjg" android:paddingTop="8dp" android:paddingBottom="8dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <include layout="@layout/b2j"/>
+            </FrameLayout>
+            <View android:background="@color/dw" android:layout_width="match_parent" android:layout_height="0.5dp" android:layout_marginLeft="16dp" android:layout_marginRight="16dp" android:layout_marginStart="16dp" android:layout_marginEnd="16dp"/>
+        </LinearLayout>
+    </android.support.design.widget.AppBarLayout>
+    <FrameLayout android:id="@+id/bql" android:background="@color/a2j" android:layout_width="match_parent" android:layout_height="match_parent" app:layout_behavior="@string/iv"/>
+    <com.p683ss.android.ugc.aweme.notification.view.NoticeView android:layout_gravity="bottom" android:id="@+id/brv" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="8dp" app:titleText="@string/cm1"/>
+    <com.p683ss.android.ugc.aweme.discover.p1659ui.NoticeView android:layout_gravity="bottom" android:id="@+id/e_z" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="8dp" app:iconImage="@drawable/ckv" app:titleText="@string/br1"/>
+    <com.bytedance.ies.dmt.p664ui.widget.DmtStatusView android:id="@+id/csv" android:background="@color/a0_" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent"/>
+</android.support.design.widget.CoordinatorLayout>

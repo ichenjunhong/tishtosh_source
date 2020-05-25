@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.p683ss.android.ugc.aweme.tools.mvtemplate.view.MvRatioFrameLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/cfg" android:background="@color/a43" android:layout_width="0dp" android:layout_height="match_parent">
+    <com.p683ss.android.ugc.playerkit.videoview.KeepSurfaceTextureView android:id="@+id/dqi" android:layout_width="match_parent" android:layout_height="match_parent" android:layerType="hardware"/>
+    <com.p683ss.android.ugc.aweme.base.p1420ui.AnimatedImageView android:id="@+id/b1m" android:layout_width="match_parent" android:layout_height="match_parent" app:roundedCornerRadius="0dp"/>
+    <com.bytedance.ies.dmt.p664ui.widget.DmtLoadingLayout android:layout_gravity="center" android:id="@+id/bhy" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+    <FrameLayout android:id="@+id/bhj" android:background="#80000000" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent">
+        <com.p683ss.android.ugc.aweme.base.widget.CircularProgressView android:layout_gravity="center" android:id="@+id/b25" android:layout_width="48dp" android:layout_height="48dp"/>
+        <com.bytedance.ies.dmt.p664ui.widget.DmtTextView android:textColor="@color/as0" android:gravity="center" android:layout_gravity="center" android:id="@+id/c62" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="0%" style="@style/uh"/>
+    </FrameLayout>
+</com.p683ss.android.ugc.aweme.tools.mvtemplate.view.MvRatioFrameLayout>

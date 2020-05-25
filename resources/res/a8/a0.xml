@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/cfc" android:layout_width="match_parent" android:layout_height="match_parent" android:keepScreenOn="true">
+    <com.p683ss.android.ugc.aweme.common.widget.DragView android:id="@+id/a4x" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <com.p683ss.android.ugc.aweme.common.widget.DiggLayout android:id="@+id/a5q" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <FrameLayout android:id="@+id/auf" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <LinearLayout android:gravity="center" android:layout_gravity="center" android:id="@+id/bl" android:visibility="gone" android:layout_width="match_parent" android:layout_height="44dp" android:layout_marginLeft="12dp" android:layout_marginRight="12dp" android:layout_marginBottom="16dp" android:layout_alignParentLeft="true" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" android:layout_alignParentStart="true" android:layout_alignParentEnd="true">
+        <com.bytedance.ies.dmt.p664ui.widget.DmtTextView android:textColor="@color/as0" android:id="@+id/bhm" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20dp" android:text="@string/b1l" android:layout_marginStart="10dp" style="@style/un"/>
+        <com.bytedance.ies.dmt.p664ui.widget.DmtTextView android:textColor="@color/as0" android:id="@+id/bho" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5dp" android:layout_marginStart="5dp" style="@style/uh"/>
+        <com.p683ss.android.ugc.aweme.views.AutoRTLImageView android:layout_gravity="center" android:id="@+id/a7z" android:paddingTop="1dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/deq"/>
+    </LinearLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/b8g" android:paddingTop="6dp" android:paddingBottom="6dp" android:visibility="gone" android:layout_width="152dp" android:layout_height="60dp" android:layout_marginLeft="12dp" android:layout_above="@+id/bl" android:layout_alignParentLeft="true" android:layout_marginStart="12dp" android:layout_alignParentStart="true">
+        <ImageView android:id="@+id/bo7" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="1dp" android:src="@drawable/a5k" android:alpha="0.9" android:layout_marginEnd="1dp"/>
+        <com.bytedance.ies.dmt.p664ui.widget.DmtTextView android:textStyle="bold" android:textColor="@color/je" android:id="@+id/boc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/cmc" android:shadowColor="@color/a4p" android:shadowDx="0" android:shadowDy="2" android:shadowRadius="2" app:fontType="2" style="@style/un"/>
+        <FrameLayout android:id="@+id/b8h" android:paddingTop="5dp" android:paddingBottom="5dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4.5dp" android:layout_marginStart="4.5dp">
+            <com.p683ss.android.ugc.aweme.feed.widget.MarqueeView android:id="@+id/bot" android:layout_width="match_parent" android:layout_height="wrap_content" app:speed="25dp" app:txt_color="@color/jf" app:txt_shadow="@color/n5" app:txt_size="14sp"/>
+        </FrameLayout>
+    </LinearLayout>
+    <FrameLayout android:id="@+id/b8z" android:layout_width="60dp" android:layout_height="60dp" android:layout_above="@+id/bl" android:layout_alignParentRight="true" android:layout_alignParentEnd="true">
+        <ImageView android:layout_gravity="center" android:id="@+id/b37" android:padding="16dp" android:visibility="gone" android:layout_width="60dp" android:layout_height="60dp" android:src="@drawable/a4o"/>
+        <ImageView android:layout_gravity="center" android:id="@+id/b2x" android:padding="16dp" android:visibility="gone" android:layout_width="60dp" android:layout_height="60dp" android:src="@drawable/a4n"/>
+        <ImageView android:layout_gravity="center" android:id="@+id/b25" android:padding="16dp" android:visibility="gone" android:layout_width="60dp" android:layout_height="60dp" android:src="@drawable/a4l"/>
+    </FrameLayout>
+</RelativeLayout>

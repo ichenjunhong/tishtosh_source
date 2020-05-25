@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<splits xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt">
+    <module name="">
+        <language>
+            <entry key="af" split="config.af"/>
+            <entry key="ar" split="config.ar"/>
+            <entry key="bg" split="config.bg"/>
+            <entry key="bh" split="config.bh"/>
+            <entry key="bn" split="config.bn"/>
+            <entry key="ca" split="config.ca"/>
+            <entry key="ceb" split="config.ceb"/>
+            <entry key="cs" split="config.cs"/>
+            <entry key="da" split="config.da"/>
+            <entry key="de" split="config.de"/>
+            <entry key="el" split="config.el"/>
+            <entry key="en" split="config.en"/>
+            <entry key="es" split="config.es"/>
+            <entry key="fa" split="config.fa"/>
+            <entry key="fi" split="config.fi"/>
+            <entry key="fil" split="config.fil"/>
+            <entry key="fr" split="config.fr"/>
+            <entry key="gu" split="config.gu"/>
+            <entry key="he" split="config.he"/>
+            <entry key="hi" split="config.hi"/>
+            <entry key="hr" split="config.hr"/>
+            <entry key="hu" split="config.hu"/>
+            <entry key="id" split="config.id"/>
+            <entry key="in" split="config.in"/>
+            <entry key="it" split="config.it"/>
+            <entry key="iw" split="config.iw"/>
+            <entry key="ja" split="config.ja"/>
+            <entry key="jv" split="config.jv"/>
+            <entry key="km" split="config.km"/>
+            <entry key="kn" split="config.kn"/>
+            <entry key="ko" split="config.ko"/>
+            <entry key="ml" split="config.ml"/>
+            <entry key="mr" split="config.mr"/>
+            <entry key="ms" split="config.ms"/>
+            <entry key="my" split="config.my"/>
+            <entry key="nb" split="config.nb"/>
+            <entry key="nl" split="config.nl"/>
+            <entry key="or" split="config.or"/>
+            <entry key="pa" split="config.pa"/>
+            <entry key="pl" split="config.pl"/>
+            <entry key="pt" split="config.pt"/>
+            <entry key="ro" split="config.ro"/>
+            <entry key="ru" split="config.ru"/>
+            <entry key="sk" split="config.sk"/>
+            <entry key="sr" split="config.sr"/>
+            <entry key="sv" split="config.sv"/>
+            <entry key="sw" split="config.sw"/>
+            <entry key="ta" split="config.ta"/>
+            <entry key="te" split="config.te"/>
+            <entry key="th" split="config.th"/>
+            <entry key="tl" split="config.tl"/>
+            <entry key="tr" split="config.tr"/>
+            <entry key="uk" split="config.uk"/>
+            <entry key="ur" split="config.ur"/>
+            <entry key="vi" split="config.vi"/>
+            <entry key="zh" split="config.zh"/>
+            <entry key="zu" split="config.zu"/>
+        </language>
+    </module>
+    <module name="df_miniapp">
+        <language>
+            <entry key="en" split="df_miniapp.config.en"/>
+        </language>
+    </module>
+    <module name="df_miniapp_so">
+        <language>
+            <entry key="en" split="df_miniapp_so.config.en"/>
+        </language>
+    </module>
+</splits>

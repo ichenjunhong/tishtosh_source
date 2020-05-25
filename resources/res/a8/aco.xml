@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:id="@+id/cfc" android:background="@color/au2" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <View android:background="@color/au2" android:layout_width="wrap_content" android:layout_height="44dp"/>
+    <LinearLayout android:orientation="vertical" android:id="@+id/ao4" android:paddingTop="24dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginStart="32dp" android:layout_marginEnd="32dp">
+        <com.bytedance.ies.dmt.p664ui.widget.DmtTextView android:textSize="24sp" android:textColor="@color/avn" android:gravity="center_horizontal" android:layout_width="match_parent" android:layout_height="match_parent" android:text="@string/h_7" app:fontType="2"/>
+        <com.bytedance.ies.dmt.p664ui.widget.DmtTextView android:textSize="15dp" android:textColor="@color/avv" android:gravity="center_horizontal" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="8dp" android:text="@string/h_5"/>
+    </LinearLayout>
+    <View android:layout_width="wrap_content" android:layout_height="30dp"/>
+</LinearLayout>

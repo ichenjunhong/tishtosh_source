@@ -1,0 +1,16 @@
+package org.apache.http.impl.conn;
+
+import java.util.HashMap;
+import java.util.Map;
+import org.apache.commons.logging.Log;
+import org.apache.commons.logging.LogFactory;
+import org.apache.http.HttpConnection;
+
+public class IdleConnectionHandler {
+    private final Map<HttpConnection, Object> connectionToTimes = new HashMap();
+    private final Log log = LogFactory.getLog(getClass());
+
+    public void removeAll() {
+        this.connectionToTimes.clear();
+    }
+}

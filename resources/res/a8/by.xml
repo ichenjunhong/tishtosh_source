@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:id="@+id/af8" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <RelativeLayout android:id="@+id/b_3" android:layout_width="match_parent" android:layout_height="40dp" android:layout_marginLeft="16dp" android:layout_marginStart="16dp">
+            <com.p683ss.android.ugc.aweme.themechange.base.AVDmtImageView android:id="@+id/arw" android:focusableInTouchMode="true" android:visibility="gone" android:layout_width="20dp" android:layout_height="20dp" android:layout_marginRight="16dp" android:src="@drawable/agc" android:layout_centerVertical="true" android:layout_marginEnd="16dp" app:isSelected="true"/>
+            <com.p683ss.android.ugc.aweme.themechange.base.AVDmtTabLayout android:id="@+id/afm" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_toRightOf="@+id/arw" android:layout_toEndOf="@+id/arw" app:tabBackground="@android:color/transparent" app:tabGravity="0" app:tabIndicatorColor="?attr/z1" app:tabIndicatorHeight="2dp" app:tabMinWidth="30dp" app:tabMode="1" app:tabPaddingEnd="0dp" app:tabPaddingStart="0dp" app:theme="@style/r4"/>
+            <com.p683ss.android.ugc.aweme.themechange.base.AVDmtView android:id="@+id/cx3" android:background="@color/p" android:visibility="gone" android:layout_width="0.5dp" android:layout_height="16dp" android:layout_alignLeft="@+id/afm" android:layout_centerVertical="true" android:layout_alignStart="@+id/afm" app:subView="true"/>
+        </RelativeLayout>
+        <com.p683ss.android.ugc.aweme.themechange.base.AVDmtPanelRecyleView android:id="@+id/afj" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="20dp" android:layout_marginBottom="24dp" app:firstItemMargin="16dp" app:itemMargin="16dp" app:lastItemMargin="16dp"/>
+    </LinearLayout>
+</merge>

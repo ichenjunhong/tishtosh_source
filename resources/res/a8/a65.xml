@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.p683ss.android.ugc.aweme.views.RoundedLinearLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:background="#0fffffff" android:layout_width="@dimen/a0s" android:layout_height="wrap_content" app:rounded_radius="@dimen/li">
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="@dimen/a0r">
+        <com.p683ss.android.ugc.aweme.base.p1420ui.SquareImageView android:id="@+id/awb" android:background="@color/yg" android:layout_width="match_parent" android:layout_height="match_parent"/>
+        <ImageView android:id="@+id/awc" android:visibility="gone" android:layout_width="36dp" android:layout_height="40dp" android:src="@drawable/dgm" android:layout_centerInParent="true"/>
+    </RelativeLayout>
+    <com.bytedance.ies.dmt.p664ui.widget.DmtTextView android:textColor="@color/a17" android:ellipsize="end" android:gravity="start" android:id="@+id/awt" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8dp" android:layout_marginTop="12dp" android:layout_marginRight="8dp" android:maxLines="1" android:textAlignment="viewStart" style="@style/un"/>
+    <LinearLayout android:gravity="center_vertical" android:layout_width="match_parent" android:layout_height="15dp" android:layout_marginLeft="8dp" android:layout_marginTop="5dp" android:layout_marginRight="8dp" android:layout_marginBottom="12dp">
+        <com.bytedance.ies.dmt.p664ui.widget.DmtTextView android:textColor="@color/a80" android:id="@+id/awf" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/ul"/>
+        <com.bytedance.ies.dmt.p664ui.widget.DmtTextView android:textColor="@color/a80" android:gravity="end" android:id="@+id/awa" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8dp" android:layout_weight="1" android:textAlignment="viewEnd" android:layout_marginStart="8dp" style="@style/ul"/>
+    </LinearLayout>
+</com.p683ss.android.ugc.aweme.views.RoundedLinearLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:background="@drawable/ro" android:layout_width="match_parent" android:layout_height="@dimen/n8">
+    <View android:layout_gravity="top" android:id="@+id/jz" android:background="@drawable/h7" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="@dimen/n8"/>
+    <LinearLayout android:layout_gravity="left|center_vertical|center_horizontal|center|start" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="6dp" android:layout_marginStart="6dp">
+        <com.bytedance.ies.dmt.p664ui.widget.AutoRTLImageView android:id="@+id/uj" android:padding="10dp" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ctj"/>
+        <com.bytedance.ies.dmt.p664ui.widget.AutoRTLImageView android:id="@+id/ug" android:padding="10dp" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ctm"/>
+    </LinearLayout>
+    <com.bytedance.ies.dmt.p664ui.widget.DmtTextView android:textSize="17sp" android:textStyle="bold" android:textColor="@color/kb" android:ellipsize="end" android:layout_gravity="center" android:id="@+id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:lines="1" android:maxEms="9"/>
+    <LinearLayout android:layout_gravity="right|center_vertical|center_horizontal|center|end" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="6dp" android:layout_marginEnd="6dp">
+        <com.bytedance.ies.dmt.p664ui.widget.AutoRTLImageView android:id="@+id/p5" android:padding="10dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/cts"/>
+        <com.bytedance.ies.dmt.p664ui.widget.AutoRTLImageView android:id="@+id/cbl" android:padding="10dp" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ctq"/>
+        <com.bytedance.ies.dmt.p664ui.widget.AutoRTLImageView android:id="@+id/ccm" android:padding="10dp" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/cto"/>
+    </LinearLayout>
+</merge>

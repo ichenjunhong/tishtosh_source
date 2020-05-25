@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/c2d" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <View android:id="@+id/c2p" android:background="@drawable/djx" android:visibility="visible" android:layout_width="match_parent" android:layout_height="126dp"/>
+    <View android:id="@+id/c2a" android:layout_width="match_parent" android:layout_height="0dp"/>
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="@dimen/vn" android:layout_below="@+id/c2a">
+        <com.p683ss.android.ugc.aweme.views.AutoRTLImageView android:id="@+id/c22" android:layout_width="44dp" android:layout_height="44dp" android:src="@drawable/dfj" android:layout_centerVertical="true" style="@style/a18"/>
+        <LinearLayout android:orientation="horizontal" android:id="@+id/c2_" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_alignParentEnd="true">
+            <include layout="@layout/bnz"/>
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:fitsSystemWindows="true" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.bytedance.ies.dmt.p664ui.titlebar.TextTitleBar android:id="@+id/bdo" android:background="@color/a2j" android:layout_width="match_parent" android:layout_height="@dimen/n8" app:endTextColor="@color/a1l" app:endTextSize="15dp" app:titleTextColor="@color/a1l" app:titleTextSize="17sp" app:useBackIcon="true"/>
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent">
+        <FrameLayout android:id="@+id/ajf" android:visibility="visible" android:layout_width="match_parent" android:layout_height="match_parent"/>
+        <com.bytedance.ies.dmt.p664ui.widget.DmtLoadingLayout android:id="@+id/a6s" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    </RelativeLayout>
+</LinearLayout>

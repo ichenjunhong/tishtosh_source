@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhihu.matisse.internal.p2254ui.widget.SquareFrameLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:background="?attr/pe" android:layout_width="match_parent" android:layout_height="wrap_content" android:foreground="?attr/a1f">
+    <TextView android:textSize="14sp" android:textColor="?attr/e2" android:gravity="center" android:layout_gravity="center" android:id="@+id/aos" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/c53" android:drawableTop="@drawable/aa_" android:drawablePadding="8dp"/>
+</com.zhihu.matisse.internal.p2254ui.widget.SquareFrameLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:background="@color/awt" android:layout_width="match_parent" android:layout_height="@dimen/n8" android:minHeight="@dimen/n8">
+    <LinearLayout android:layout_gravity="left|center_vertical|center_horizontal|center|start" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="6dp" android:layout_marginStart="6dp">
+        <com.bytedance.ies.bullet.p653ui.common.view.AutoRTLImageView android:id="@+id/ay9" android:padding="10dp" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/d3j"/>
+        <com.bytedance.ies.bullet.p653ui.common.view.AutoRTLImageView android:layout_gravity="center_vertical" android:id="@+id/eea" android:padding="10dp" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/d3l"/>
+    </LinearLayout>
+    <TextView android:textSize="17sp" android:textStyle="bold" android:textColor="@color/awv" android:ellipsize="end" android:layout_gravity="center" android:id="@+id/dhb" android:layout_width="wrap_content" android:layout_height="wrap_content" android:lines="1" android:maxEms="9"/>
+    <FrameLayout android:layout_gravity="right|center_vertical|center_horizontal|center|end" android:id="@+id/f0_" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="6dp" android:layout_marginEnd="6dp">
+        <Button android:id="@+id/e0r" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="刷新"/>
+    </FrameLayout>
+</FrameLayout>

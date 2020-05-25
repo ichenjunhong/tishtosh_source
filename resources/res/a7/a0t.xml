@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.bytedance.ies.dmt.p664ui.common.views.CommonItemView xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/a83" android:layout_width="match_parent" android:layout_height="wrap_content" app:left_icon="@drawable/b8h" app:left_text="@string/d_g" app:left_text_color="@color/a17" app:right_ui_mode="1"/>

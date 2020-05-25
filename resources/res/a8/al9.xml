@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:background="@drawable/dxx" android:layout_width="209dp" android:layout_height="wrap_content">
+    <com.bytedance.ies.dmt.p664ui.widget.DmtTextView android:textColor="@color/avn" android:gravity="left|center_vertical|center_horizontal|center|start" android:id="@+id/evm" android:layout_width="197dp" android:layout_height="wrap_content" android:text="@string/gvn" android:layout_marginStart="4dp" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0" style="@style/uo"/>
+    <android.support.p043v7.widget.RecyclerView android:id="@+id/evl" android:layout_width="wrap_content" android:layout_height="18dp" android:layout_marginTop="4dp" app:layout_constraintStart_toStartOf="@+id/evm" app:layout_constraintTop_toBottomOf="@+id/evm"/>
+</android.support.constraint.ConstraintLayout>

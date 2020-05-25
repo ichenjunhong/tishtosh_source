@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="61dp" android:layout_height="wrap_content">
+    <com.p683ss.android.ugc.aweme.base.p1420ui.SmartAvatarBorderView android:id="@+id/dm3" android:visibility="visible" android:layout_width="49dp" android:layout_height="49dp" android:layout_marginLeft="5.5dp" android:layout_marginTop="20dp" android:layout_marginStart="5.5dp"/>
+    <ImageView android:id="@+id/eer" android:visibility="gone" android:layout_width="0dp" android:layout_height="0dp" android:src="@drawable/cwk" android:scaleType="fitXY" android:layout_alignTop="@+id/dm3" android:layout_alignBottom="@+id/dm3" android:layout_alignStart="@+id/dm3" android:layout_alignEnd="@+id/dm3"/>
+    <com.p683ss.android.ugc.aweme.feed.p1736ui.AvatarImageWithLive android:id="@+id/dm9" android:visibility="invisible" android:layout_width="44dp" android:layout_height="44dp" android:layout_marginLeft="8.5dp" android:layout_marginTop="20dp" android:layout_marginStart="8.5dp"/>
+    <com.p683ss.android.ugc.aweme.feed.p1736ui.LiveCircleView android:id="@+id/dm5" android:padding="3dp" android:visibility="gone" android:layout_width="50.5dp" android:layout_height="50.5dp" android:layout_marginLeft="5.5dp" android:layout_marginTop="17dp" android:layout_marginStart="5.5dp" app:live_strokeWidth="1.5dp"/>
+    <com.p683ss.android.ugc.aweme.base.p1420ui.RemoteImageView android:id="@+id/hs" android:visibility="gone" android:layout_width="51dp" android:layout_height="45dp" android:layout_marginLeft="4.5dp" android:layout_marginTop="1.5dp" android:src="@drawable/icon" android:scaleType="fitCenter" android:layout_marginStart="4.5dp"/>
+    <RelativeLayout android:id="@+id/ai3" android:layout_width="60dp" android:layout_height="40dp" android:layout_marginTop="56dp" android:layout_centerHorizontal="true">
+        <com.p683ss.android.ugc.aweme.base.p1420ui.AnimationImageView android:layout_gravity="center" android:id="@+id/ai0" android:layout_width="24dp" android:layout_height="24dp" android:layout_centerHorizontal="true"/>
+    </RelativeLayout>
+</RelativeLayout>

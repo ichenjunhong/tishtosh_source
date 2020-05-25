@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="ia">#90000000</color>
+    <color name="ic">#90000000</color>
+    <color name="id">#de000000</color>
+    <color name="if">@android:color/white</color>
+    <color name="ig">#deffffff</color>
+    <color name="ih">@android:color/black</color>
+    <color name="ii">#deffffff</color>
+</resources>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:background="@drawable/bge" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:orientation="horizontal" android:id="@+id/d17" android:layout_width="match_parent" android:layout_height="42dp" android:layout_alignParentTop="true">
+        <TextView android:textSize="16sp" android:textStyle="bold" android:textColor="@color/ag0" android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_marginLeft="16dp" android:text="@string/etz" android:layout_marginStart="16dp"/>
+        <ImageView android:layout_gravity="center_vertical" android:id="@+id/aou" android:layout_width="16dp" android:layout_height="16dp" android:layout_marginLeft="11dp" android:src="@drawable/c0r" android:scaleType="fitXY" android:layout_marginStart="11dp"/>
+        <View android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1"/>
+        <TextView android:textSize="13sp" android:textStyle="bold" android:textColor="@color/agt" android:gravity="center_vertical" android:id="@+id/c89" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_marginRight="16dp" android:text="@string/etr" android:layout_marginEnd="16dp"/>
+    </LinearLayout>
+    <View android:id="@+id/d1_" android:background="@color/ag4" android:layout_width="match_parent" android:layout_height="0.5dp" android:layout_below="@+id/d17"/>
+    <TextView android:textSize="14sp" android:textStyle="bold" android:textColor="@color/ag0" android:id="@+id/dtu" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16dp" android:layout_marginTop="10.5dp" android:text="@string/eu0" android:layout_below="@+id/d1_" android:layout_marginStart="16dp"/>
+    <TextView android:textSize="12sp" android:textColor="@color/aic" android:id="@+id/dts" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16dp" android:layout_marginTop="3.5dp" android:layout_below="@+id/dtu" android:layout_marginStart="16dp"/>
+    <HorizontalScrollView android:id="@+id/dtr" android:scrollbars="none" android:layout_width="wrap_content" android:layout_height="70dp" android:layout_marginTop="14dp" android:layout_marginBottom="24dp" android:layout_below="@+id/dts">
+        <LinearLayout android:orientation="horizontal" android:id="@+id/mq" android:paddingLeft="16dp" android:paddingRight="16dp" android:layout_width="wrap_content" android:layout_height="70dp" android:paddingStart="16dp" android:paddingEnd="16dp">
+            <include android:id="@+id/mg" layout="@layout/arf"/>
+            <include layout="@layout/are"/>
+            <include android:id="@+id/mh" layout="@layout/arf"/>
+            <include layout="@layout/are"/>
+            <include android:id="@+id/mi" layout="@layout/arf"/>
+            <include layout="@layout/are"/>
+            <include android:id="@+id/mj" layout="@layout/arf"/>
+            <include layout="@layout/are"/>
+            <include android:id="@+id/mk" layout="@layout/arf"/>
+            <include layout="@layout/are"/>
+            <include android:id="@+id/ml" layout="@layout/arf"/>
+        </LinearLayout>
+    </HorizontalScrollView>
+    <View android:id="@+id/dtt" android:background="@color/ag4" android:layout_width="match_parent" android:layout_height="0.5dp" android:layout_marginLeft="16dp" android:layout_below="@+id/dtr" android:layout_marginStart="16dp"/>
+    <RelativeLayout android:id="@+id/cmz" android:paddingTop="18dp" android:paddingBottom="18dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="16dp" android:layout_below="@+id/dtt" android:layout_marginStart="16dp">
+        <TextView android:textSize="14sp" android:textStyle="bold" android:textColor="@color/ag0" android:id="@+id/cnu" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ets" android:layout_alignParentTop="true"/>
+        <TextView android:textSize="12sp" android:textColor="@color/aic" android:id="@+id/cn3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3.5dp" android:layout_below="@+id/cnu"/>
+        <TextView android:enabled="false" android:textColor="@color/ahi" android:gravity="center" android:id="@+id/cms" android:background="@drawable/c5d" android:layout_width="60dp" android:layout_height="27dp" android:layout_marginRight="16dp" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:layout_marginEnd="16dp" android:layout_alignParentEnd="true"/>
+    </RelativeLayout>
+    <View android:id="@+id/cn4" android:background="@color/ag4" android:layout_width="match_parent" android:layout_height="0.5dp" android:layout_marginLeft="16dp" android:layout_below="@+id/cmz" android:layout_marginStart="16dp"/>
+    <RelativeLayout android:id="@+id/ai3" android:paddingTop="18dp" android:paddingBottom="18dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="16dp" android:layout_below="@+id/cn4" android:layout_marginStart="16dp">
+        <TextView android:textSize="14sp" android:textStyle="bold" android:textColor="@color/ag0" android:id="@+id/aif" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/etp" android:layout_alignParentTop="true"/>
+        <TextView android:textSize="12sp" android:textColor="@color/aic" android:id="@+id/ai4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3.5dp" android:layout_below="@+id/aif"/>
+        <TextView android:enabled="false" android:textColor="@color/ahi" android:gravity="center" android:id="@+id/ai2" android:background="@drawable/c5d" android:layout_width="60dp" android:layout_height="27dp" android:layout_marginRight="16dp" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:layout_marginEnd="16dp" android:layout_alignParentEnd="true"/>
+    </RelativeLayout>
+    <FrameLayout android:id="@+id/aot" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_alignBottom="@+id/ai3" android:layout_alignParentTop="true">
+        <RelativeLayout android:background="@drawable/bof" android:paddingLeft="24dp" android:paddingTop="8dp" android:paddingRight="10dp" android:paddingBottom="8dp" android:layout_width="200dp" android:layout_height="wrap_content" android:layout_marginLeft="115dp" android:layout_marginTop="20dp" android:paddingStart="24dp" android:paddingEnd="10dp" android:layout_marginStart="115dp">
+            <TextView android:textSize="12sp" android:textColor="@color/t1" android:layout_width="170dp" android:layout_height="wrap_content" android:text="@string/etq"/>
+        </RelativeLayout>
+    </FrameLayout>
+</RelativeLayout>

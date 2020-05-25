@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="42dp" android:layout_height="match_parent" android:layout_marginRight="8dp" android:layout_marginEnd="8dp">
+    <com.p683ss.android.ugc.aweme.shortvideo.widget.ShapedRemoteImageView android:id="@+id/b0h" android:layout_width="40dp" android:layout_height="40dp" android:scaleType="center" android:layout_centerInParent="true" app:placeholderImage="@drawable/cx" app:round_radius="2dp" app:shape_mode="1"/>
+    <ImageView android:id="@+id/b0i" android:visibility="gone" android:layout_width="42dp" android:layout_height="42dp" android:src="@drawable/rs" android:layout_centerInParent="true"/>
+    <com.p683ss.android.ugc.aweme.themechange.base.AVDmtTextView android:textSize="12dp" android:textColor="@color/a60" android:id="@+id/d9m" android:paddingLeft="2dp" android:paddingRight="2dp" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:shadowColor="@color/a44" android:shadowDx="0" android:shadowDy="2" android:shadowRadius="3" android:layout_centerInParent="true" android:paddingStart="2dp" android:paddingEnd="2dp"/>
+</RelativeLayout>

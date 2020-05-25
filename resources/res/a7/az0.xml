@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:clipChildren="false" android:layout_width="match_parent" android:layout_height="match_parent">
+    <FrameLayout android:id="@+id/b_7" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <FrameLayout android:id="@+id/c_v" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <com.p683ss.android.ugc.aweme.shortvideo.p2242ui.VideoRecordGestureLayout android:id="@+id/b7w" android:background="@color/arz" android:visibility="gone" android:saveEnabled="false" android:layout_width="match_parent" android:layout_height="match_parent"/>
+</FrameLayout>

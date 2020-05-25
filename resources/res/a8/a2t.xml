@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent" android:layout_height="match_parent">
+    <FrameLayout android:background="@color/as0" android:layout_width="match_parent" android:layout_height="match_parent">
+        <com.p683ss.android.ugc.aweme.shortvideo.mvtemplate.choosemedia.FastScrollRecyclerView android:id="@+id/amf" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    </FrameLayout>
+    <com.bytedance.ies.dmt.p664ui.widget.DmtTextView android:textColor="@color/a2y" android:layout_gravity="center" android:id="@+id/da5" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/ut"/>
+    <com.p683ss.android.ugc.aweme.shortvideo.mvtemplate.choosemedia.MultiSelectView android:layout_gravity="bottom|left|center_vertical|center_horizontal|center|start" android:id="@+id/elz" android:layout_width="wrap_content" android:layout_height="48dp" android:layout_marginLeft="20dp" android:layout_marginRight="20dp" android:layout_marginBottom="24dp" android:layout_marginStart="20dp" android:layout_marginEnd="20dp" app:cardCornerRadius="24dp" app:cardElevation="4dp" app:content_height="48dp" app:multi_select_color="#fe2c55" app:multi_select_src="@drawable/a_b" app:multi_unselect_color="@color/in" app:multi_unselect_src="@drawable/a_a"/>
+    <com.bytedance.ies.dmt.p664ui.widget.DmtLoadingLayout android:id="@+id/dpg" android:layout_width="match_parent" android:layout_height="match_parent"/>
+</FrameLayout>

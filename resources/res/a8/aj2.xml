@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/byj" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginStart="16dp" android:layout_marginEnd="16dp">
+    <View android:id="@+id/byl" android:background="@color/a8w" android:layout_width="match_parent" android:layout_height="0.5dp" android:layout_marginBottom="4dp"/>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/byt" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="20dp" android:layout_below="@+id/byl">
+        <com.p683ss.android.ugc.aweme.base.p1420ui.CircleImageView android:id="@+id/byi" android:layout_width="18dp" android:layout_height="18dp" app:actualImageScaleType="5"/>
+        <com.bytedance.ies.dmt.p664ui.widget.DmtTextView android:textStyle="bold" android:textColor="@color/aso" android:id="@+id/bys" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="9dp" android:layout_marginStart="9dp" style="@style/uu"/>
+    </LinearLayout>
+    <com.bytedance.ies.dmt.p664ui.widget.DmtTextView android:textColor="@color/k1" android:ellipsize="end" android:id="@+id/byu" android:layout_width="230.5dp" android:layout_height="wrap_content" android:layout_marginTop="16dp" android:maxLines="2" android:layout_below="@+id/byt" style="@style/ur"/>
+    <com.bytedance.ies.dmt.p664ui.widget.DmtTextView android:textColor="@color/jy" android:ellipsize="end" android:id="@+id/bym" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6dp" android:maxLines="1" android:layout_below="@+id/byu" style="@style/un"/>
+    <LinearLayout android:orientation="horizontal" android:id="@+id/byq" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6dp" android:layout_below="@+id/bym">
+        <TextView android:textColor="@color/a3_" android:id="@+id/byr" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/ur"/>
+        <TextView android:textColor="@color/jy" android:id="@+id/byp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4dp" android:text="@string/ajs" android:layout_marginStart="4dp" style="@style/un"/>
+        <TextView android:textColor="@color/jy" android:id="@+id/byo" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/un"/>
+    </LinearLayout>
+    <TextView android:textColor="@color/aso" android:ellipsize="end" android:gravity="center" android:id="@+id/byk" android:background="@drawable/com" android:paddingTop="6dp" android:paddingBottom="6dp" android:layout_width="72.5dp" android:layout_height="wrap_content" android:layout_marginTop="16dp" android:maxLength="6" android:layout_below="@+id/byt" android:layout_alignParentRight="true" android:layout_alignParentEnd="true" style="@style/un"/>
+    <View android:background="@color/dv" android:layout_width="match_parent" android:layout_height="0.5dp" android:layout_marginTop="20dp" android:layout_below="@+id/byq"/>
+</RelativeLayout>

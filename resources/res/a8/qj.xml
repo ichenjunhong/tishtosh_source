@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:background="@color/b2k" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <com.p683ss.android.ugc.aweme.filter.widget.FilterBeautySeekBar android:id="@+id/ckb" android:layout_width="match_parent" android:layout_height="wrap_content" android:maxHeight="3dp" android:max="100" android:progressDrawable="@drawable/d1" android:thumb="@drawable/d2" app:bottomPadding="16dp" app:leftPadding="16dp" app:rateTextColor="@color/np" app:rateTextSize="12sp" app:rightPadding="68dp" app:showDefaultDot="true" app:topPadding="16dp"/>
+    <FrameLayout android:layout_width="match_parent" android:layout_height="210dp">
+        <com.p683ss.android.ugc.aweme.themechange.base.AVDmtPanelLinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <RelativeLayout android:orientation="horizontal" android:id="@+id/b_3" android:layout_width="match_parent" android:layout_height="40dp">
+                <com.p683ss.android.ugc.aweme.themechange.base.AVDmtTabLayout android:id="@+id/afm" android:layout_width="match_parent" android:layout_height="wrap_content" app:secondPanel="true" app:tabGravity="0" app:tabIndicatorColor="?attr/z2" app:tabIndicatorHeight="2dp" app:tabMinWidth="30dp" app:tabMode="0" app:tabPaddingEnd="0dp" app:tabPaddingStart="0dp" app:theme="@style/r4"/>
+                <View android:id="@+id/cx3" android:layout_width="match_parent" android:layout_height="0.5dp" android:layout_alignLeft="@+id/afm" android:layout_alignStart="@+id/afm"/>
+            </RelativeLayout>
+            <RelativeLayout android:id="@+id/af7" android:layout_width="match_parent" android:layout_height="match_parent">
+                <com.p683ss.android.ugc.aweme.themechange.base.AVDmtPanelRecyleView android:id="@+id/afj" android:layout_width="match_parent" android:layout_height="82.5dp" android:layout_marginTop="16dp" app:firstItemMargin="16dp" app:itemMargin="16dp" app:lastItemMargin="16dp"/>
+                <RelativeLayout android:id="@+id/af2" android:layout_width="match_parent" android:layout_height="52dp" android:layout_alignParentBottom="true">
+                    <com.p683ss.android.ugc.aweme.themechange.base.AVDmtImageView android:id="@+id/af4" android:layout_width="65dp" android:layout_height="match_parent" android:scaleType="centerInside" android:tint="@color/a0n" android:layout_alignParentLeft="true" android:layout_alignParentStart="true" app:srcCompat="@drawable/ak1"/>
+                    <com.p683ss.android.ugc.aweme.themechange.base.AVDmtImageView android:id="@+id/af6" android:layout_width="65dp" android:layout_height="match_parent" android:scaleType="centerInside" android:tint="@color/a0n" android:layout_alignParentRight="true" android:layout_alignParentEnd="true" app:srcCompat="@drawable/ak2"/>
+                    <com.p683ss.android.ugc.aweme.themechange.base.AVDmtTextView android:textColor="@color/a1k" android:gravity="center" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="@string/b2m" android:layout_centerInParent="true" app:isChangeTextSize="false" style="@style/a8p"/>
+                </RelativeLayout>
+                <include android:layout_width="match_parent" android:layout_height="0.5dp" android:layout_above="@+id/af2" layout="@layout/a2n"/>
+            </RelativeLayout>
+        </com.p683ss.android.ugc.aweme.themechange.base.AVDmtPanelLinearLayout>
+    </FrameLayout>
+</LinearLayout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.p683ss.android.ugc.aweme.views.BottomSheetNestedLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:id="@+id/b9e" android:layout_width="match_parent" android:layout_height="match_parent">
+    <View android:id="@+id/f7c" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1"/>
+    <RelativeLayout android:layout_gravity="bottom" android:id="@+id/b7b" android:background="@drawable/cnh" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="horizontal" android:id="@+id/b_d" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true">
+            <com.bytedance.ies.dmt.p664ui.widget.DmtTextView android:textStyle="bold" android:textColor="@color/ji" android:gravity="center" android:layout_gravity="center_vertical" android:id="@+id/title" android:layout_width="wrap_content" android:layout_height="40dp" app:fontType="7" style="@style/un"/>
+            <ImageView android:layout_gravity="center_vertical" android:id="@+id/atp" android:layout_width="24dp" android:layout_height="24dp" android:src="0x7f1304ca" android:scaleType="centerInside"/>
+        </LinearLayout>
+        <ImageView android:id="@+id/ij" android:layout_width="40dp" android:layout_height="40dp" android:layout_marginRight="4dp" android:src="@drawable/dfg" android:scaleType="center" android:layout_alignParentRight="true" android:layout_marginEnd="4dp" android:layout_alignParentEnd="true"/>
+        <FrameLayout android:id="@+id/ei2" android:layout_width="match_parent" android:layout_height="@dimen/z0" android:layout_below="@+id/b_d">
+            <android.support.p043v7.widget.RecyclerView android:id="@+id/ca3" android:layout_width="match_parent" android:layout_height="match_parent" android:overScrollMode="never"/>
+            <com.bytedance.ies.dmt.p664ui.widget.DmtStatusView android:id="@+id/csv" android:layout_width="match_parent" android:layout_height="match_parent"/>
+        </FrameLayout>
+    </RelativeLayout>
+</com.p683ss.android.ugc.aweme.views.BottomSheetNestedLayout>

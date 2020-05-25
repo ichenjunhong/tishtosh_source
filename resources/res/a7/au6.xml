@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.p683ss.android.ugc.aweme.profile.p2090ui.ProfileTabView xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:gravity="center_horizontal" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1">
+    <com.bytedance.ies.dmt.p664ui.widget.DmtTextView android:textColor="@color/zj" android:id="@+id/title" android:background="@color/arz" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12dp" android:layout_centerHorizontal="true" style="@style/ur"/>
+    <com.bytedance.ies.dmt.p664ui.widget.DmtTextView android:textColor="@color/zj" android:id="@+id/a4m" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" style="@style/uh"/>
+</com.p683ss.android.ugc.aweme.profile.p2090ui.ProfileTabView>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="horizontal" android:id="@+id/cd9" android:layout_width="match_parent" android:layout_height="@dimen/vn">
+    <FrameLayout android:id="@+id/esv" android:background="@color/a0_" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <FrameLayout android:id="@+id/dyj" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true">
+        <com.p683ss.android.ugc.aweme.views.AutoRTLImageView android:id="@+id/in" android:visibility="gone" android:layout_width="24dp" android:layout_height="24dp" android:src="@drawable/c_p" android:scaleType="center" style="@style/a84"/>
+    </FrameLayout>
+    <com.bytedance.ies.dmt.p664ui.widget.DmtTextView android:textColor="@color/a3c" android:gravity="center" android:layout_gravity="center_vertical" android:id="@+id/dfk" android:paddingLeft="16dp" android:paddingRight="16dp" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="44dp" android:text="@string/da_" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:layout_alignParentEnd="true" style="@style/ur"/>
+    <include android:layout_gravity="center_vertical" android:layout_width="match_parent" android:layout_height="36dp" android:layout_toLeftOf="@+id/dfk" android:layout_toRightOf="@+id/dyj" android:layout_centerInParent="true" android:layout_toStartOf="@+id/dfk" android:layout_toEndOf="@+id/dyj" layout="@layout/btg"/>
+</RelativeLayout>

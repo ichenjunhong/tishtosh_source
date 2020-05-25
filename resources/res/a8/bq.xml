@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:paddingTop="16dp" android:layout_width="match_parent" android:layout_height="159.5dp">
+    <FrameLayout android:id="@+id/d2u" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@+id/bh1" android:layout_width="match_parent" android:layout_height="35dp" android:layout_marginLeft="16dp" android:layout_marginRight="16dp" android:layout_marginBottom="16dp" android:layout_toLeftOf="@+id/b5j" android:layout_marginStart="16dp" android:layout_marginEnd="16dp">
+            <com.p683ss.android.ugc.aweme.themechange.base.AVDmtTextView android:textSize="13dp" android:textColor="@color/bn" android:id="@+id/diz" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/o3" android:maxLines="1" app:avFontType="7" app:oldPanel="true" style="@style/tu"/>
+            <com.p683ss.android.ugc.aweme.tools.music.lrc.LrcView android:textSize="11dp" android:textColor="@color/asw" android:id="@+id/diu" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4dp" android:layout_marginRight="40dp"/>
+        </LinearLayout>
+        <FrameLayout android:id="@+id/d18" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+        <com.p683ss.android.ugc.aweme.themechange.base.AVDmtTabLayout android:id="@+id/cx7" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="29dp" android:layout_marginLeft="6dp" android:layout_marginBottom="14.5dp" android:layout_marginStart="6dp" app:tabBackground="@android:color/transparent" app:tabIndicatorColor="@color/aso" app:tabIndicatorHeight="2dp" app:tabMinWidth="30dp" app:tabMode="1" app:tabPaddingEnd="0dp" app:tabPaddingStart="0dp"/>
+    </FrameLayout>
+    <com.p683ss.android.ugc.aweme.themechange.base.AVDmtImageView android:id="@+id/b5j" android:visibility="invisible" android:layout_width="28dp" android:layout_height="28dp" android:layout_marginTop="4dp" android:layout_marginRight="16dp" android:src="@drawable/a32" android:layout_alignParentRight="true" android:layout_alignParentEnd="true" app:oldPanel="true"/>
+    <RelativeLayout android:id="@+id/c9w" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@+id/d2u">
+        <com.p683ss.android.ugc.aweme.themechange.base.AVDmtPanelRecyleView android:id="@+id/cgf" android:layout_width="match_parent" android:layout_height="wrap_content" app:firstItemMargin="16dp" app:itemMargin="12dp" app:lastItemMargin="16dp"/>
+    </RelativeLayout>
+    <RelativeLayout android:id="@+id/uy" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@+id/d2u">
+        <com.p683ss.android.ugc.aweme.themechange.base.AVDmtPanelRecyleView android:id="@+id/cgd" android:layout_width="match_parent" android:layout_height="wrap_content" app:firstItemMargin="16dp" app:itemMargin="12dp" app:lastItemMargin="16dp"/>
+    </RelativeLayout>
+</RelativeLayout>

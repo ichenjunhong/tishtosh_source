@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:fitsSystemWindows="true" android:layout_width="match_parent" android:layout_height="match_parent">
+    <FrameLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="horizontal" android:id="@+id/d10" android:background="@color/a0_" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <com.p683ss.android.ugc.aweme.imported.AutoRTLTextView android:textSize="16sp" android:textColor="@color/a1o" android:gravity="center" android:id="@+id/ij" android:layout_width="wrap_content" android:layout_height="44dp" android:layout_marginLeft="8dp" android:text="@string/pm" android:drawableLeft="@drawable/f_" android:drawableStart="@drawable/f_" android:layout_marginStart="8dp"/>
+            <android.support.p030v4.widget.Space android:layout_width="0dp" android:layout_height="0dp" android:layout_weight="1"/>
+            <com.bytedance.ies.dmt.p664ui.widget.DmtTextView android:textColor="@color/a1o" android:gravity="center" android:id="@+id/q7" android:paddingLeft="16dp" android:paddingRight="16dp" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="44dp" android:text="@string/wf" style="@style/ur"/>
+        </LinearLayout>
+        <com.bytedance.ies.dmt.p664ui.widget.DmtTextView android:textColor="@color/a1k" android:layout_gravity="center" android:id="@+id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dth" style="@style/uu"/>
+    </FrameLayout>
+    <FrameLayout android:id="@+id/ajf" android:layout_width="match_parent" android:layout_height="match_parent"/>
+</LinearLayout>

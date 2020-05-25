@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:gravity="center" android:orientation="horizontal" android:id="@+id/ad_" android:visibility="gone" android:layout_width="60dp" android:layout_height="60dp">
+    <View android:background="@color/a1k" android:layout_width="16dp" android:layout_height="2dp"/>
+    <View android:background="@drawable/fl" android:layout_width="9dp" android:layout_height="9dp"/>
+    <View android:background="@color/a1k" android:layout_width="9dp" android:layout_height="2dp" android:alpha="0.6"/>
+</LinearLayout>

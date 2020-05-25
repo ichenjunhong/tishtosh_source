@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:fitsSystemWindows="true" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+        <com.p683ss.android.ugc.aweme.common.widget.scrollablelayout.ScrollableLayout android:id="@+id/chv" android:layout_width="match_parent" android:layout_height="match_parent" app:tabs_marginTop="@dimen/vn">
+            <include layout="@layout/blj"/>
+            <com.bytedance.ies.dmt.p664ui.widget.tablayout.DmtTabLayout android:id="@+id/cwz" android:layout_width="match_parent" android:layout_height="45dp" app:tabBackground="@null" app:tabGravity="0" app:tabIndicatorColor="@color/a11" app:tabIndicatorHeight="2dp" app:tabMinWidth="0dp" app:tabMode="1" app:tabPaddingEnd="12dp" app:tabPaddingStart="12dp"/>
+            <com.p683ss.android.ugc.aweme.views.RtlViewPager android:id="@+id/ds2" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        </com.p683ss.android.ugc.aweme.common.widget.scrollablelayout.ScrollableLayout>
+    </LinearLayout>
+    <RelativeLayout android:id="@+id/d1b" android:background="@color/arz" android:layout_width="match_parent" android:layout_height="@dimen/vn">
+        <View android:id="@+id/d16" android:background="@color/a2j" android:layout_width="match_parent" android:layout_height="match_parent" android:alpha="0"/>
+        <com.p683ss.android.ugc.aweme.views.AutoRTLImageView android:id="@+id/ik" android:layout_width="44dp" android:layout_height="44dp" android:src="@drawable/c_p" android:layout_centerVertical="true" style="@style/a18"/>
+        <com.bytedance.ies.dmt.p664ui.widget.DmtTextView android:textColor="@color/a1k" android:ellipsize="end" android:id="@+id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="@dimen/a06" android:maxLines="1" android:layout_centerInParent="true" style="@style/ur"/>
+        <FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toLeftOf="@+id/cmr" android:layout_centerVertical="true" android:layout_toStartOf="@+id/cmr">
+            <include layout="@layout/blq"/>
+        </FrameLayout>
+        <ImageView android:id="@+id/cmr" android:padding="8dp" android:layout_width="40dp" android:layout_height="40dp" android:layout_marginRight="6dp" android:src="@drawable/dik" android:scaleType="fitXY" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:layout_marginEnd="6dp" android:layout_alignParentEnd="true"/>
+    </RelativeLayout>
+    <com.p683ss.android.ugc.aweme.base.p1420ui.RemoteImageView android:id="@+id/evc" android:visibility="gone" android:layout_width="match_parent" android:layout_height="90dp" android:layout_alignParentBottom="true"/>
+    <include android:id="@+id/csh" android:layout_width="match_parent" android:layout_height="match_parent" layout="@layout/blr"/>
+    <com.bytedance.ies.dmt.p664ui.widget.DmtStatusView android:id="@+id/csv" android:background="@color/a0_" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="@dimen/vn"/>
+</RelativeLayout>

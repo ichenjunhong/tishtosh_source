@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:fitsSystemWindows="true" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+        <com.p683ss.android.ugc.aweme.common.widget.scrollablelayout.ScrollableLayout android:id="@+id/chv" android:layout_width="match_parent" android:layout_height="match_parent" app:tabs_marginTop="@dimen/vn">
+            <FrameLayout android:id="@+id/ao4" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+            <com.p683ss.android.ugc.aweme.views.AwemeViewPagerNavigator android:id="@+id/bq5" android:visibility="gone" android:layout_width="match_parent" android:layout_height="0dp"/>
+            <com.p683ss.android.ugc.aweme.sticker.prop.view.NoScrollViewPager android:id="@+id/ds2" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        </com.p683ss.android.ugc.aweme.common.widget.scrollablelayout.ScrollableLayout>
+    </LinearLayout>
+    <RelativeLayout android:id="@+id/d1b" android:background="@color/arz" android:layout_width="match_parent" android:layout_height="@dimen/vn">
+        <View android:id="@+id/d16" android:background="@color/a2j" android:layout_width="match_parent" android:layout_height="match_parent" android:alpha="0"/>
+        <com.p683ss.android.ugc.aweme.views.AutoRTLImageView android:id="@+id/ik" android:layout_width="44dp" android:layout_height="44dp" android:src="@drawable/c_p" android:layout_centerVertical="true" style="@style/a18"/>
+        <com.bytedance.ies.dmt.p664ui.widget.DmtTextView android:textColor="@color/a1k" android:ellipsize="end" android:gravity="center" android:id="@+id/title" android:layout_width="195dp" android:layout_height="wrap_content" android:maxLines="1" android:layout_centerInParent="true" style="@style/ur"/>
+        <FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toLeftOf="@+id/cmr" android:layout_centerVertical="true" android:layout_alignWithParentIfMissing="true" android:layout_toStartOf="@+id/cmr">
+            <com.p683ss.android.ugc.aweme.base.p1420ui.RemoteImageView android:id="@+id/b4k" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="fitXY"/>
+            <com.p683ss.android.ugc.aweme.base.p1420ui.RemoteImageView android:id="@+id/b4l" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="fitXY"/>
+        </FrameLayout>
+        <com.p683ss.android.ugc.aweme.music.p1978ui.CheckableImageView android:id="@+id/e89" android:padding="8dp" android:visibility="gone" android:layout_width="40dp" android:layout_height="40dp" android:src="@drawable/cu4" android:scaleType="fitXY" android:layout_toLeftOf="@+id/cmr" android:layout_centerVertical="true" android:layout_toStartOf="@+id/cmr"/>
+        <ImageView android:id="@+id/cmr" android:padding="8dp" android:visibility="gone" android:layout_width="40dp" android:layout_height="40dp" android:layout_marginRight="6dp" android:src="@drawable/dik" android:scaleType="fitXY" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:layout_marginEnd="6dp" android:layout_alignParentEnd="true"/>
+    </RelativeLayout>
+    <FrameLayout android:id="@+id/eia" android:background="@drawable/cn6" android:layout_width="match_parent" android:layout_height="90dp" android:layout_alignParentBottom="true"/>
+    <RelativeLayout android:id="@+id/eww" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <com.bytedance.ies.dmt.p664ui.widget.DmtStatusView android:id="@+id/csv" android:background="@color/a0_" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="@dimen/vn"/>
+</RelativeLayout>

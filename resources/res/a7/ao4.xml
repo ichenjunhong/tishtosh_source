@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/ajo" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <com.p683ss.android.ugc.aweme.shortvideo.cut.videoedit.MVRecycleView android:id="@+id/ajp" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    <com.p683ss.android.ugc.aweme.shortvideo.cut.videoedit.MVRecycleView android:id="@+id/coq" android:visibility="gone" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    <FrameLayout android:id="@+id/zr" android:visibility="gone" android:layout_width="match_parent" android:layout_height="28dp"/>
+    <com.p683ss.android.ugc.aweme.shortvideo.cut.videoedit.rtlview.RTLLinearLayout android:id="@+id/a2r" android:layout_width="20dp" android:layout_height="wrap_content">
+        <ImageView android:id="@+id/a2q" android:layout_width="wrap_content" android:layout_height="match_parent"/>
+    </com.p683ss.android.ugc.aweme.shortvideo.cut.videoedit.rtlview.RTLLinearLayout>
+</FrameLayout>

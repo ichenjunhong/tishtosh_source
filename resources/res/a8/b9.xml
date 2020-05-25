@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:background="@color/cb" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.p683ss.android.ugc.aweme.views.AutoRTLTextView android:textColor="@color/a15" android:gravity="center" android:id="@+id/d70" android:layout_width="wrap_content" android:layout_height="64dp" android:layout_marginLeft="16dp" android:text="@string/d3n" android:drawableLeft="@drawable/c_p" android:drawablePadding="5dp" android:drawableStart="@drawable/c_p" android:layout_marginStart="16dp" app:fontType="1" style="@style/ut"/>
+    <Space android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1"/>
+    <com.p683ss.android.ugc.aweme.base.p1420ui.RemoteImageView android:layout_gravity="center" android:id="@+id/b0w" android:layout_width="match_parent" android:layout_height="wrap_content" app:actualImageScaleType="6"/>
+    <Space android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1"/>
+    <LinearLayout android:orientation="vertical" android:id="@+id/bgd" android:background="@drawable/sh" android:layout_width="match_parent" android:layout_height="163dp" android:layout_marginTop="16dp">
+        <com.bytedance.ies.dmt.p664ui.widget.DmtTextView android:textSize="13dp" android:textStyle="bold" android:textColor="@color/a15" android:gravity="center" android:id="@+id/dfw" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="24dp" android:layout_marginBottom="27dp" android:text="@string/di8"/>
+        <HorizontalScrollView android:id="@+id/cmz" android:paddingLeft="0dp" android:paddingRight="15dp" android:scrollbars="none" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="match_parent" android:paddingStart="0dp" android:paddingEnd="15dp">
+            <LinearLayout android:orientation="horizontal" android:id="@+id/bgb" android:layout_width="match_parent" android:layout_height="match_parent"/>
+        </HorizontalScrollView>
+    </LinearLayout>
+</LinearLayout>

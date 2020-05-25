@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="40dp">
+    <com.p683ss.android.ugc.aweme.base.p1420ui.RemoteImageView android:id="@+id/ayg" android:layout_width="match_parent" android:layout_height="match_parent" app:actualImageScaleType="6" app:failureImage="@drawable/dmi" app:failureImageScaleType="6" app:placeholderImage="@drawable/dmi" app:placeholderImageScaleType="6" app:roundedCornerRadius="2dp"/>
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="match_parent">
+        <android.support.constraint.ConstraintLayout android:id="@+id/e23" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1">
+            <ImageView android:id="@+id/b4b" android:layout_width="14dp" android:layout_height="14dp" android:layout_marginStart="12dp" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintLeft_toLeftOf="0" app:layout_constraintTop_toTopOf="0"/>
+            <com.bytedance.ies.dmt.p664ui.widget.DmtTextView android:textColor="@color/jg" android:ellipsize="end" android:id="@+id/dg9" android:layout_width="0dp" android:layout_height="wrap_content" android:singleLine="true" android:layout_marginStart="6dp" android:layout_marginEnd="6dp" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintEnd_toStartOf="@+id/efy" app:layout_constraintHorizontal_bias="0" app:layout_constraintStart_toEndOf="@+id/b4b" app:layout_constraintTop_toTopOf="0" style="@style/un"/>
+            <ImageView android:id="@+id/efy" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/dn9" android:alpha="0.5" android:layout_marginEnd="12dp" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintRight_toRightOf="0" app:layout_constraintTop_toTopOf="0"/>
+        </android.support.constraint.ConstraintLayout>
+        <View android:layout_gravity="center_vertical" android:background="@color/j3" android:layout_width="0.5dp" android:layout_height="16dp"/>
+        <android.support.constraint.ConstraintLayout android:id="@+id/e20" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1">
+            <RelativeLayout android:id="@+id/esl" android:layout_width="50dp" android:layout_height="wrap_content" android:layout_marginStart="12dp" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintLeft_toLeftOf="0" app:layout_constraintTop_toTopOf="0">
+                <com.p683ss.android.ugc.aweme.base.p1420ui.AvatarWithBorderView android:id="@+id/b1e" android:layout_width="17dp" android:layout_height="17dp" android:layout_alignParentEnd="true"/>
+                <com.p683ss.android.ugc.aweme.base.p1420ui.AvatarWithBorderView android:id="@+id/b1d" android:layout_width="17dp" android:layout_height="17dp" android:layout_marginEnd="-3dp" android:layout_toStartOf="@+id/b1e"/>
+                <com.p683ss.android.ugc.aweme.base.p1420ui.AvatarWithBorderView android:id="@+id/b1c" android:layout_width="17dp" android:layout_height="17dp" android:layout_marginEnd="-3dp" android:layout_toStartOf="@+id/b1d"/>
+            </RelativeLayout>
+            <com.bytedance.ies.dmt.p664ui.widget.DmtTextView android:textColor="@color/jg" android:ellipsize="end" android:id="@+id/da7" android:layout_width="0dp" android:layout_height="wrap_content" android:singleLine="true" android:layout_marginStart="6dp" android:layout_marginEnd="6dp" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintEnd_toStartOf="@+id/eez" app:layout_constraintHorizontal_bias="0" app:layout_constraintStart_toEndOf="@+id/esl" app:layout_constraintTop_toTopOf="0" style="@style/un"/>
+            <ImageView android:id="@+id/eez" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/dn9" android:alpha="0.5" android:layout_marginEnd="12dp" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintRight_toRightOf="0" app:layout_constraintTop_toTopOf="0"/>
+        </android.support.constraint.ConstraintLayout>
+    </LinearLayout>
+</FrameLayout>

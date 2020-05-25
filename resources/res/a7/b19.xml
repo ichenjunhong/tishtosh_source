@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" style="@style/a86">
+    <com.p683ss.android.ugc.aweme.base.p1420ui.AvatarImageView android:id="@+id/i_" style="@style/a86"/>
+</FrameLayout>

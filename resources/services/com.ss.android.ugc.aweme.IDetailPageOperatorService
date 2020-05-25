@@ -1,0 +1,12 @@
+com.ss.android.ugc.aweme.feed.RecommendFeedDetailPageOperatorServiceImpl:true
+com.ss.android.ugc.aweme.detail.operators.PoiDetailPageOperatorServiceImpl:true
+com.ss.android.ugc.aweme.detail.operators.ProfileDetailPageOperatorServiceImpl:true
+com.ss.android.ugc.aweme.commerce.sdk.service.ShoppingDetailPageOperatorService:true
+com.ss.android.ugc.aweme.poi.nearby.NearbyDetailPageOperatorServiceImpl:true
+com.ss.android.ugc.aweme.familiar.service.FamiliarDetailPageOperatorServiceImpl:true
+com.ss.android.ugc.aweme.detail.operators.SearchDetailPageOperatorServiceImpl:true
+com.ss.android.ugc.aweme.challenge.ChallengeDetailPageOperatorServiceImpl:true
+com.ss.android.ugc.aweme.feed.operator.FollowFeedDetailPageOperatorServiceImpl:true
+com.ss.android.ugc.aweme.music.service.MusicDetailPageOperatorServiceImpl:true
+com.ss.android.ugc.aweme.detail.operators.DetailPageOperatorServiceImpl:true
+com.ss.android.ugc.aweme.follow.oftenwatch.OftenWatchDetailPageOperatorServiceImpl:true

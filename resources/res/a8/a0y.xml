@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:textSize="10sp" android:textColor="#404040" android:gravity="center" android:id="@+id/dbo" android:background="@drawable/biq" android:layout_width="90dp" android:layout_height="24dp" android:text="@string/eky" android:lines="1" android:drawableLeft="@drawable/buy" android:drawableStart="@drawable/buy" android:paddingStart="8dp" android:paddingEnd="8dp"/>

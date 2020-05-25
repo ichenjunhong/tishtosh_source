@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/bw6" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <TextView android:textSize="15dp" android:textColor="#ffffff" android:ellipsize="end" android:gravity="center_vertical" android:id="@+id/f18" android:background="@drawable/cnv" android:paddingLeft="10dp" android:paddingTop="4dp" android:paddingRight="10dp" android:paddingBottom="4dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2dp" android:layout_marginBottom="2dp" android:text="不知道该说啥" android:maxLines="2"/>
+</RelativeLayout>

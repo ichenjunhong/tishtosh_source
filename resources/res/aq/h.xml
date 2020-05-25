@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shortcuts xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <shortcut android:icon="@drawable/zq" android:enabled="true">
+        <intent android:targetPackage="com.ss.android.ugc.trill" android:action="android.intent.action.MAIN" android:targetClass="com.ss.android.ugc.aweme.main.MainActivity"/>
+        <intent android:targetPackage="com.ss.android.ugc.trill" android:action="android.intent.action.VIEW" android:targetClass="com.ss.android.ugc.trill.main.shortcut.ShortcutShootingActivity"/>
+        <categories android:name="android.shortcut.conversation"/>
+    </shortcut>
+    <shortcut android:icon="@drawable/zp" android:enabled="true">
+        <intent android:targetPackage="com.ss.android.ugc.trill" android:action="android.intent.action.VIEW" android:targetClass="com.ss.android.ugc.trill.main.shortcut.ShortcutMessageActivity"/>
+    </shortcut>
+    <shortcut android:icon="@drawable/zr" android:enabled="true">
+        <intent android:targetPackage="com.ss.android.ugc.trill" android:action="android.intent.action.VIEW" android:targetClass="com.ss.android.ugc.trill.main.shortcut.ShortcutTrendingActivity"/>
+    </shortcut>
+</shortcuts>

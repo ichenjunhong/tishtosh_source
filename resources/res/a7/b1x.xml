@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/b_5" android:background="@drawable/d7k" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <com.p683ss.android.ugc.aweme.base.p1420ui.RemoteImageView android:id="@+id/b4n" android:layout_width="72dp" android:layout_height="115dp" app:failureImage="@drawable/d7l" app:failureImageScaleType="0" app:placeholderImage="@drawable/d7l" app:placeholderImageScaleType="0" app:roundedCornerRadius="@dimen/is"/>
+    <ImageView android:layout_gravity="center" android:id="@+id/b4o" android:layout_width="32dp" android:layout_height="32dp" android:src="@drawable/d9p" android:scaleType="fitCenter"/>
+    <LinearLayout android:gravity="center_horizontal" android:layout_gravity="center" android:orientation="vertical" android:id="@+id/b4p" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ImageView android:layout_width="36dp" android:layout_height="36dp" android:src="@drawable/d_n" android:scaleType="fitCenter"/>
+        <com.bytedance.ies.dmt.p664ui.widget.DmtTextView android:textColor="@color/amr" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/boa" style="@style/uh"/>
+    </LinearLayout>
+</FrameLayout>

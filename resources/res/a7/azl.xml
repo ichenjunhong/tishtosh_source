@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.p683ss.android.ugc.aweme.p1807im.sdk.widget.ImTextTitleBar android:id="@+id/d10" android:background="@color/q7" android:layout_width="match_parent" android:layout_height="@dimen/it" app:imLeftText="@string/bfo" app:imRightText="@string/bkg" app:imTitle="@string/bee"/>
+    <android.support.p043v7.widget.RecyclerView android:id="@+id/a_t" android:background="@color/ano" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="1"/>
+    <FrameLayout android:id="@+id/a45" android:background="@color/ano" android:visibility="gone" android:layout_width="match_parent" android:layout_height="49dp">
+        <View android:background="@color/apj" android:layout_width="match_parent" android:layout_height="0.5dp" android:layout_alignParentBottom="true"/>
+        <TextView android:textColor="@color/rn" android:gravity="center" android:id="@+id/a4_" android:layout_width="match_parent" android:layout_height="match_parent" android:text="@string/bgc" style="@style/ut"/>
+    </FrameLayout>
+</LinearLayout>

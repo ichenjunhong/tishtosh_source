@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:background="@color/aso" android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="48dp">
+        <ImageView android:id="@+id/iu" android:layout_width="24dp" android:layout_height="24dp" android:src="@drawable/cf" android:layout_centerVertical="true" android:layout_alignParentStart="true"/>
+        <com.bytedance.ies.dmt.p664ui.widget.DmtTextView android:textSize="17dp" android:textStyle="bold" android:textColor="@color/kg" android:id="@+id/d1e" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true"/>
+    </RelativeLayout>
+    <RelativeLayout android:id="@+id/rb" android:background="@drawable/g6" android:layout_width="match_parent" android:layout_height="@dimen/c9" android:layout_marginTop="4dp" android:layout_marginBottom="4dp">
+        <ImageView android:id="@+id/cj9" android:layout_width="24dp" android:layout_height="24dp" android:layout_marginLeft="4dp" android:src="@drawable/ci" android:layout_centerVertical="true" android:layout_alignParentStart="true"/>
+        <com.bytedance.ies.dmt.p664ui.widget.DmtTextView android:textSize="15dp" android:textColor="@color/aok" android:id="@+id/f5c" android:background="@null" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4dp" android:layout_toRightOf="@+id/cj9" android:layout_centerVertical="true"/>
+    </RelativeLayout>
+    <com.bytedance.ies.dmt.p664ui.widget.DmtLoadingLayout android:id="@+id/bhl" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <android.support.p043v7.widget.RecyclerView android:orientation="vertical" android:id="@+id/cac" android:layout_width="match_parent" android:layout_height="match_parent"/>
+</LinearLayout>

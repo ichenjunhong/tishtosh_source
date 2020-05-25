@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/cll" android:paddingLeft="16dp" android:paddingRight="16dp" android:layout_width="match_parent" android:layout_height="72dp" android:paddingStart="16dp" android:paddingEnd="16dp">
+    <include layout="@layout/bfi"/>
+    <LinearLayout android:orientation="vertical" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_marginLeft="12dp" android:layout_marginRight="6.5dp" android:layout_weight="1" android:layout_marginStart="12dp" android:layout_marginEnd="6.5dp">
+        <com.bytedance.ies.dmt.p664ui.widget.DmtTextView android:textStyle="normal" android:textColor="@color/sf" android:ellipsize="end" android:gravity="center_vertical" android:id="@+id/dhb" android:layout_width="wrap_content" android:layout_height="22dp" android:maxLines="1" app:fontType="7" style="@style/ur"/>
+        <LinearLayout android:orientation="horizontal" android:id="@+id/bf1" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <com.bytedance.ies.dmt.p664ui.widget.DmtTextView android:textStyle="normal" android:textColor="@color/sh" android:ellipsize="end" android:gravity="center_vertical" android:id="@+id/f4o" android:layout_width="0dp" android:layout_height="24dp" android:maxLines="1" android:layout_weight="1" app:fontType="1" style="@style/un"/>
+            <com.bytedance.ies.dmt.p664ui.widget.DmtTextView android:textColor="@color/sh" android:gravity="center_vertical" android:id="@+id/f2r" android:layout_width="wrap_content" android:layout_height="22dp" style="@style/un"/>
+        </LinearLayout>
+    </LinearLayout>
+    <ImageView android:id="@+id/b3p" android:layout_width="20dp" android:layout_height="20dp" android:layout_marginLeft="8dp" android:src="@drawable/d_f" android:layout_marginStart="8dp"/>
+    <com.p683ss.android.ugc.aweme.p1807im.sdk.widget.BadgeTextView android:textColor="@color/q8" android:gravity="center" android:id="@+id/car" android:background="@drawable/d7w" android:paddingLeft="6dp" android:paddingRight="6dp" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="18dp" android:layout_marginLeft="8dp" android:minWidth="18dp" android:layout_marginStart="8dp" style="@style/ul"/>
+</LinearLayout>

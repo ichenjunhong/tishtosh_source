@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="56dp" android:layout_height="56dp">
+    <View android:background="@drawable/dj" android:layout_width="54dp" android:layout_height="54dp" android:layout_marginTop="2dp"/>
+    <ImageView android:layout_gravity="center" android:id="@+id/at2" android:layout_width="52dp" android:layout_height="52dp" android:src="@drawable/rr"/>
+    <com.facebook.drawee.view.SimpleDraweeView android:layout_gravity="center" android:id="@+id/at4" android:layout_width="50dp" android:layout_height="50dp" android:scaleType="fitXY" app:placeholderImage="@drawable/agf"/>
+    <ImageView android:layout_gravity="bottom|right|center_vertical|center_horizontal|center|end" android:id="@+id/at6" android:visibility="visible" android:layout_width="16dp" android:layout_height="16dp" android:layout_margin="4dp" android:src="@drawable/fo" android:scaleType="fitXY"/>
+    <ImageView android:layout_gravity="top|right|center_vertical|center_horizontal|center|end" android:id="@+id/at3" android:visibility="gone" android:layout_width="6dp" android:layout_height="6dp" android:layout_margin="1dp" android:src="@drawable/sy"/>
+</FrameLayout>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:id="@+id/akt" android:layout_width="match_parent" android:layout_height="match_parent">
+    <FrameLayout android:id="@+id/aku" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1">
+        <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:id="@+id/a6z" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <ImageView android:layout_width="100dp" android:layout_height="100dp" android:src="@drawable/bu4"/>
+            <TextView android:textSize="12sp" android:textColor="@color/agp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:text="@string/eby"/>
+        </LinearLayout>
+        <com.bytedance.android.livesdk.gift.effect.doodle.view.DoodleGiftView android:id="@+id/a8r" android:layout_width="match_parent" android:layout_height="match_parent"/>
+        <com.bytedance.android.livesdk.gift.DoodleCanvasView android:id="@+id/akv" android:layout_width="match_parent" android:layout_height="match_parent"/>
+        <TextView android:textSize="14sp" android:textColor="@color/agp" android:layout_gravity="bottom|center_vertical|center_horizontal|center" android:id="@+id/cl7" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="8dp" android:text="@string/ebu"/>
+    </FrameLayout>
+    <View android:id="@+id/apc" android:visibility="gone" android:layout_width="match_parent" android:layout_height="40dp"/>
+    <LinearLayout android:layout_gravity="end" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="48dp">
+        <ImageView android:layout_gravity="center" android:id="@+id/dl_" android:visibility="gone" android:layout_width="32dp" android:layout_height="40dp" android:layout_marginRight="8dp" android:src="@drawable/c68" android:layout_centerVertical="true" android:layout_marginEnd="8dp"/>
+        <ImageView android:layout_gravity="center" android:id="@+id/tu" android:visibility="gone" android:layout_width="32dp" android:layout_height="40dp" android:layout_marginRight="8dp" android:src="@drawable/bu1" android:layout_centerVertical="true" android:layout_marginEnd="8dp"/>
+        <ImageView android:layout_gravity="center" android:id="@+id/ul" android:visibility="visible" android:layout_width="32dp" android:layout_height="40dp" android:layout_marginRight="8dp" android:src="@drawable/bu3" android:layout_marginEnd="8dp"/>
+    </LinearLayout>
+</LinearLayout>

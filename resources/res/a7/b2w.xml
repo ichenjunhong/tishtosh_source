@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:id="@+id/e3b" android:background="@color/o7" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.p683ss.android.ugc.aweme.base.p1420ui.MaxHeightScrollView android:orientation="vertical" android:scrollbars="none" android:layout_width="match_parent" android:layout_height="wrap_content" android:requiresFadingEdge="vertical" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0" app:scrollViewMaxHeight="300dp">
+        <android.support.p043v7.widget.RecyclerView android:id="@+id/ehq" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" app:layout_constrainedHeight="true" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0"/>
+    </com.p683ss.android.ugc.aweme.base.p1420ui.MaxHeightScrollView>
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <Button android:textSize="12sp" android:gravity="center" android:id="@+id/f89" android:background="@color/axt" android:layout_width="0dp" android:layout_height="wrap_content" android:text="一白" android:layout_weight="1"/>
+        <Button android:textSize="12sp" android:gravity="center" android:id="@+id/ete" android:background="@color/axt" android:layout_width="0dp" android:layout_height="wrap_content" android:text="跳转规则" android:layout_weight="1"/>
+        <Button android:textSize="12sp" android:gravity="center" android:id="@+id/e25" android:background="@color/axt" android:layout_width="0dp" android:layout_height="wrap_content" android:text="Clear" android:layout_weight="1"/>
+        <Button android:textSize="12sp" android:gravity="center" android:id="@+id/e2_" android:background="@color/axt" android:layout_width="0dp" android:layout_height="wrap_content" android:text="Close" android:layout_weight="1"/>
+    </LinearLayout>
+    <com.bytedance.ies.dmt.p664ui.widget.DmtTextView android:textSize="12sp" android:textColor="@color/aso" android:id="@+id/e3p" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="落地页一跳：在白名单中的scheme都能跳转（参见一跳白名单）,http/https开头的链接不支持跳转到第三方app(除了gp)\10落地页二跳：scheme都能跳转，http/https开头的链接不支持跳转到第三方app(除了gp)"/>
+</LinearLayout>

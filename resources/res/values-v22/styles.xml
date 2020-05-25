@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="cf">
+    </style>
+    <style name="cm">
+    </style>
+    <style name="dw">
+        <item name="z">?android:attr/actionModeShareDrawable</item>
+        <item name="k6">?android:attr/editTextBackground</item>
+    </style>
+    <style name="dx">
+        <item name="z">?android:attr/actionModeShareDrawable</item>
+        <item name="k6">?android:attr/editTextBackground</item>
+    </style>
+</resources>

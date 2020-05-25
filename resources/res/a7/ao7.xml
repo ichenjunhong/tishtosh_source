@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.p683ss.android.ugc.aweme.shortvideo.widget.TabHost xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_gravity="bottom|center_vertical|center_horizontal|center" android:id="@+id/mc" android:layout_width="match_parent" android:layout_height="49dp">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+        <com.p683ss.android.ugc.aweme.views.EdgeTransparentView android:gravity="center" android:orientation="horizontal" android:id="@+id/ez6" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="0.9" app:edge_position="4" app:edge_width="16dp">
+            <com.p683ss.android.ugc.aweme.shortvideo.widget.ScrollableLinearLayout android:gravity="center" android:orientation="horizontal" android:id="@+id/yw" android:layout_width="match_parent" android:layout_height="match_parent"/>
+        </com.p683ss.android.ugc.aweme.views.EdgeTransparentView>
+        <ImageView android:layout_gravity="center_horizontal" android:id="@+id/c_o" android:layout_width="5dp" android:layout_height="0dp" android:src="@drawable/b9j" android:scaleType="center" android:layout_weight="0.1"/>
+    </LinearLayout>
+</com.p683ss.android.ugc.aweme.shortvideo.widget.TabHost>

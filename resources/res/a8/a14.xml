@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:id="@+id/c_a" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ProgressBar android:id="@+id/c_s" android:visibility="gone" android:layout_width="match_parent" android:layout_height="6dp" android:progressDrawable="@drawable/c2x" style="@style/qf"/>
+    <View android:id="@+id/c_t" android:background="@color/alt" android:layout_width="2dp" android:layout_height="6dp"/>
+    <TextView android:textSize="14sp" android:textColor="@color/alt" android:gravity="center" android:layout_gravity="bottom|center_vertical|center_horizontal|center" android:id="@+id/c_m" android:background="@drawable/bkd" android:layout_width="126dp" android:layout_height="46dp" android:layout_marginBottom="75dp" android:text="@string/er8"/>
+    <FrameLayout android:layout_gravity="bottom" android:background="@color/ai8" android:layout_width="match_parent" android:layout_height="70dp">
+        <TextView android:textSize="20sp" android:textStyle="bold" android:textColor="@color/aa8" android:gravity="center" android:layout_gravity="center" android:id="@+id/c_f" android:background="@drawable/c5k" android:layout_width="48dp" android:layout_height="48dp" android:maxLines="1" android:lines="1"/>
+        <View android:layout_gravity="center" android:id="@+id/c_y" android:background="@drawable/c5j" android:layout_width="40dp" android:layout_height="40dp"/>
+        <LinearLayout android:layout_gravity="left|center_vertical|center_horizontal|center|start" android:orientation="horizontal" android:id="@+id/c_w" android:layout_width="wrap_content" android:layout_height="48dp" android:layout_marginLeft="45dp" android:layout_marginStart="45dp">
+            <TextView android:textSize="14sp" android:textColor="@color/alt" android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="@string/eqy"/>
+            <ImageView android:layout_width="48dp" android:layout_height="48dp" android:src="@drawable/bw5" android:scaleType="fitXY"/>
+        </LinearLayout>
+        <LinearLayout android:layout_gravity="right|center_vertical|center_horizontal|center|end" android:orientation="horizontal" android:id="@+id/c_d" android:layout_width="wrap_content" android:layout_height="48dp" android:layout_marginRight="45dp" android:layout_marginEnd="45dp">
+            <ImageView android:layout_width="48dp" android:layout_height="48dp" android:src="@drawable/bw2" android:scaleType="fitXY"/>
+            <TextView android:textSize="14sp" android:textColor="@color/alt" android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="@string/e45"/>
+        </LinearLayout>
+    </FrameLayout>
+</FrameLayout>

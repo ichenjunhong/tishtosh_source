@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_gravity="bottom|left|center_vertical|center_horizontal|center|start" android:orientation="vertical" android:id="@+id/chd" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_alignParentBottom="true" app:fsPanel="true">
+    <RelativeLayout android:id="@+id/a_5" android:layout_width="match_parent" android:layout_height="52dp">
+        <com.p683ss.android.ugc.aweme.themechange.base.AVDmtTextView android:textColor="@color/mr" android:gravity="center" android:id="@+id/d7g" android:paddingLeft="16dp" android:paddingRight="16dp" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="52dp" android:text="@string/wf" android:layout_centerVertical="true" android:paddingStart="16dp" android:paddingEnd="16dp" app:isChangeTextSize="false" style="@style/a8r"/>
+        <com.p683ss.android.ugc.aweme.themechange.base.AVDmtTextView android:textStyle="bold" android:textColor="@color/mr" android:gravity="center" android:id="@+id/df8" android:paddingLeft="16dp" android:paddingRight="16dp" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="@string/d_1" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:paddingStart="16dp" android:paddingEnd="16dp" android:layout_alignParentEnd="true" app:avFontType="7" app:isChangeTextSize="false" style="@style/a8r"/>
+    </RelativeLayout>
+    <RelativeLayout android:id="@+id/dql" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="50dp" android:layout_marginBottom="250dp" android:layout_centerHorizontal="true">
+        <ImageView android:id="@+id/b37" android:padding="50dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/a1a" android:layout_centerInParent="true"/>
+        <RelativeLayout android:gravity="center" android:id="@+id/cdi" android:background="@drawable/d6" android:paddingLeft="20dp" android:paddingTop="16dp" android:paddingRight="20dp" android:paddingBottom="16dp" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+            <com.p683ss.android.ugc.tools.view.widget.AVTextView android:textSize="13sp" android:textColor="#e6ffffff" android:gravity="center" android:id="@+id/d9t" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" android:lineSpacingExtra="3sp"/>
+        </RelativeLayout>
+    </RelativeLayout>
+    <FrameLayout android:id="@+id/a06" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentLeft="true" android:layout_alignParentBottom="true" android:layout_alignParentStart="true">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="34dp">
+            <com.p683ss.android.ugc.aweme.themechange.base.AVDmtPanelLinearLayout android:gravity="center" android:layout_gravity="bottom" android:orientation="horizontal" android:id="@+id/bh_" android:layout_width="match_parent" android:layout_height="212dp">
+                <com.p683ss.android.ugc.tools.view.widget.AVStatusView android:gravity="center" android:layout_gravity="center" android:id="@+id/bhp" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent"/>
+            </com.p683ss.android.ugc.aweme.themechange.base.AVDmtPanelLinearLayout>
+            <com.p683ss.android.ugc.aweme.themechange.base.AVDmtPanelLinearLayout android:layout_gravity="bottom" android:orientation="vertical" android:id="@+id/ckc" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" app:fsPanel="true" app:secondPanel="true">
+                <com.p683ss.android.ugc.aweme.effect.NoScrollViewPager android:id="@+id/ds2" android:layout_width="match_parent" android:layout_height="160dp"/>
+                <com.p683ss.android.ugc.aweme.themechange.base.AVDmtView android:layout_width="match_parent" android:layout_height="0.5dp" app:subView="true"/>
+                <com.p683ss.android.ugc.aweme.themechange.base.AVDmtTabLayout android:id="@+id/cwz" android:layout_width="match_parent" android:layout_height="52dp" app:tabBackground="@android:color/transparent" app:tabGravity="0" app:tabIndicatorColor="@color/jf" app:tabIndicatorHeight="0dp" app:tabMinWidth="30dp" app:tabMode="0" app:tabPaddingEnd="0dp" app:tabPaddingStart="0dp" app:tabSelectedTextColor="@color/mr" app:tabTextColor="@color/a1a"/>
+            </com.p683ss.android.ugc.aweme.themechange.base.AVDmtPanelLinearLayout>
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:id="@+id/cka" android:layout_width="match_parent" android:layout_height="40dp">
+            <com.p683ss.android.ugc.aweme.effect.VEEffectSeekLayout android:gravity="center" android:id="@+id/a_6" android:layout_width="match_parent" android:layout_height="40dp" app:leftRightMargin="24dp" app:normal_color="?attr/g2"/>
+            <com.p683ss.android.ugc.aweme.shortvideo.cut.videoedit.VideoEditView android:gravity="center" android:id="@+id/dp7" android:visibility="gone" android:layout_width="match_parent" android:layout_height="40dp" app:coverType="1" app:cursorHeight="40dp" app:cursorWidth="4dp" app:frameHeight="28dp" app:frameWidth="28dp" app:leftRightMargin="16dp" app:middleCoverColor="@color/av1" app:middleCoverColorOpacity="0.5" app:pointerType="2" app:showBorder="true" app:slideHorizontalMargin="12dp" app:startEndCoverColor="@android:color/transparent"/>
+        </LinearLayout>
+    </FrameLayout>
+</RelativeLayout>

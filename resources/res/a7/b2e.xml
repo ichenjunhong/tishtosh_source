@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent" android:layout_height="match_parent">
+    <include android:id="@+id/c5y" layout="@layout/bq_"/>
+    <View android:background="@color/a3i" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_below="@+id/c5y"/>
+    <ScrollView android:background="@color/a3i" android:scrollbars="none" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_below="@+id/c5y">
+        <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+            <include android:id="@+id/ed_" layout="@layout/bp8"/>
+            <View android:id="@+id/a6m" android:background="@color/a3i" android:layout_width="match_parent" android:layout_height="32dp" android:layout_below="@+id/ed_"/>
+            <include layout="@layout/bq9"/>
+            <FrameLayout android:id="@+id/ar5" android:layout_width="90dp" android:layout_height="90dp" android:layout_below="@+id/a6m" android:layout_centerHorizontal="true">
+                <com.p683ss.android.ugc.aweme.base.p1420ui.AvatarImageView android:layout_gravity="center" android:id="@+id/ao6" android:layout_width="90dp" android:layout_height="90dp"/>
+                <com.p683ss.android.ugc.aweme.base.p1420ui.RemoteImageView android:layout_width="match_parent" android:layout_height="match_parent" app:placeholderImage="@color/a82" app:placeholderImageScaleType="6" app:roundAsCircle="true"/>
+                <ImageView android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/doe"/>
+            </FrameLayout>
+            <com.bytedance.ies.dmt.p664ui.widget.DmtTextView android:textColor="@color/a17" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16dp" android:text="@string/zm" android:layout_below="@+id/ar5" android:layout_centerHorizontal="true" style="@style/up"/>
+        </RelativeLayout>
+    </ScrollView>
+    <com.bytedance.ies.dmt.p664ui.widget.DmtStatusView android:id="@+id/csv" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0"/>
+</RelativeLayout>

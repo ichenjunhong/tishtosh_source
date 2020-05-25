@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/cfl" android:background="#ffffff" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.bytedance.polaris.widget.SwipeOverlayFrameLayout android:id="@+id/cvu" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_below="@+id/d10">
+        <FrameLayout android:id="@+id/n0" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    </com.bytedance.polaris.widget.SwipeOverlayFrameLayout>
+    <include android:id="@+id/d10" layout="@layout/acn"/>
+    <TextView android:id="@+id/mz" android:layout_marginRight="12dp" style="@style/w1"/>
+    <View android:id="@+id/n1" android:layout_below="@+id/d10" style="@style/w7"/>
+    <View android:id="@+id/bqw" android:layout_below="@+id/d10" style="@style/w3"/>
+</RelativeLayout>

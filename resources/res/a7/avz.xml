@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:background="@color/a0_" android:fitsSystemWindows="true" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.bytedance.ies.dmt.p664ui.titlebar.TextTitleBar android:id="@+id/d10" android:background="@color/a0_" android:layout_width="match_parent" android:layout_height="@dimen/vn" app:endTextColor="@color/a17" app:endTextSize="15dp" app:titleText="@string/h1k" app:titleTextColor="@color/a17" app:useBackIcon="true"/>
+    <com.p683ss.android.ugc.aweme.common.widget.scrollablelayout.ScrollableLayout android:id="@+id/chv" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_below="@+id/d10">
+        <com.bytedance.ies.dmt.p664ui.widget.DmtTextView android:textColor="#ffffff" android:gravity="center" android:id="@+id/f5_" android:paddingTop="10dp" android:paddingBottom="10dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/h1m" android:alpha="0.34" style="@style/un"/>
+        <FrameLayout android:id="@+id/ajf" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    </com.p683ss.android.ugc.aweme.common.widget.scrollablelayout.ScrollableLayout>
+    <com.bytedance.ies.dmt.p664ui.widget.DmtStatusView android:id="@+id/e5j" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_below="@+id/d10"/>
+</RelativeLayout>

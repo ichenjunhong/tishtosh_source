@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_gravity="start" android:orientation="horizontal" android:id="@+id/ejt" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_marginLeft="12dp" android:layout_marginTop="5dp" android:layout_marginStart="12dp">
+    <ImageView android:id="@+id/e5g" android:visibility="gone" android:layout_width="16dp" android:layout_height="16dp" android:src="@drawable/d90"/>
+    <android.support.p043v7.widget.RecyclerView android:orientation="horizontal" android:id="@+id/etl" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+</LinearLayout>

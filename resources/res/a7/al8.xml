@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="horizontal" android:background="@drawable/bjh" android:padding="2dp" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <ImageView android:id="@+id/b1k" android:layout_width="36dp" android:layout_height="36dp" android:src="@drawable/bvi"/>
+    <LinearLayout android:orientation="horizontal" android:id="@+id/za" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <com.bytedance.android.livesdk.floatwindow.ControlButton android:layout_gravity="center_vertical" android:id="@+id/ou" android:layout_width="30dp" android:layout_height="wrap_content" android:layout_marginLeft="10dp"/>
+        <com.bytedance.android.livesdk.floatwindow.ControlButton android:layout_gravity="center_vertical" android:id="@+id/oi" android:layout_width="30dp" android:layout_height="wrap_content" android:layout_marginLeft="13dp"/>
+        <com.bytedance.android.livesdk.floatwindow.ControlButton android:layout_gravity="center_vertical" android:id="@+id/oh" android:layout_width="30dp" android:layout_height="wrap_content" android:layout_marginLeft="13dp"/>
+        <com.bytedance.android.livesdk.floatwindow.ControlButton android:layout_gravity="center_vertical" android:id="@+id/p0" android:layout_width="30dp" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:layout_marginRight="22dp"/>
+    </LinearLayout>
+</LinearLayout>

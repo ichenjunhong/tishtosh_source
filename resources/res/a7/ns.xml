@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/b72" android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout android:id="@+id/b9e" android:background="@color/c3" android:layout_width="match_parent" android:layout_height="match_parent" android:keepScreenOn="true">
+        <View android:id="@+id/csm" android:layout_width="match_parent" android:layout_height="0dp"/>
+        <com.p683ss.android.ugc.aweme.base.opensourcemodified.android.support.p1419v4.widget.SwipeRefreshLayout android:id="@+id/caw" android:paddingBottom="@dimen/a05" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_below="@+id/csm">
+            <RelativeLayout android:descendantFocusability="blocksDescendants" android:layout_width="match_parent" android:layout_height="match_parent">
+                <com.p683ss.android.ugc.aweme.common.widget.NestedScrollingRecyclerView android:id="@+id/bc2" android:layout_width="match_parent" android:layout_height="match_parent"/>
+            </RelativeLayout>
+        </com.p683ss.android.ugc.aweme.base.opensourcemodified.android.support.p1419v4.widget.SwipeRefreshLayout>
+        <com.bytedance.ies.dmt.p664ui.widget.DmtTextView android:textSize="14sp" android:textColor="@color/jf" android:gravity="center" android:id="@+id/aig" android:background="@color/jc" android:visibility="gone" android:layout_width="match_parent" android:layout_height="34dp" android:layout_below="@+id/csm"/>
+        <com.bytedance.ies.dmt.p664ui.widget.DmtStatusView android:id="@+id/csk" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent"/>
+        <android.support.design.widget.CoordinatorLayout android:id="@+id/cq0" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="47dp" android:layout_alignParentBottom="true"/>
+        <com.p683ss.android.ugc.aweme.discover.p1659ui.NoticeView android:id="@+id/aib" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="44dp" android:layout_alignParentBottom="true" app:iconImage="@drawable/aff" app:titleText="@string/si"/>
+        <com.p683ss.android.ugc.aweme.following.p1770ui.view.VcdBottomFloatHintView android:id="@+id/eiu" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true"/>
+    </RelativeLayout>
+</FrameLayout>

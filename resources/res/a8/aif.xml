@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:clipChildren="false" android:layout_width="wrap_content" android:layout_height="96dp">
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <com.p683ss.android.ugc.aweme.views.CircleDraweeView android:id="@+id/ct2" android:layout_width="52dp" android:layout_height="52dp"/>
+        <com.p683ss.android.ugc.aweme.themechange.base.AVDmtTextView android:gravity="center" android:id="@+id/ey8" android:layout_width="52dp" android:layout_height="wrap_content" android:layout_marginTop="6dp"/>
+    </LinearLayout>
+    <com.p683ss.android.ugc.aweme.themechange.base.AVDmtImageView android:layout_gravity="end" android:id="@+id/b0b" android:visibility="gone" android:layout_width="16dp" android:layout_height="16dp" android:layout_marginLeft="3dp" android:layout_marginTop="37dp" android:src="@drawable/ec" android:scaleType="fitXY" android:layout_marginStart="3dp" app:isChangeColor="true" app:oldPanel="true"/>
+</FrameLayout>

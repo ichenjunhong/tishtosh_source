@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:gravity="center_vertical" android:orientation="horizontal" android:background="@color/a0_" android:layout_width="match_parent" android:layout_height="48dp">
+    <ImageView android:layout_width="24dp" android:layout_height="24dp" android:layout_marginLeft="16dp" android:src="@drawable/dua" android:layout_marginStart="16dp"/>
+    <com.bytedance.ies.dmt.p664ui.widget.DmtTextView android:textColor="@color/a15" android:ellipsize="end" android:id="@+id/d8j" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_marginLeft="4dp" android:layout_marginRight="4dp" android:maxLines="1" android:layout_weight="1" android:textDirection="locale" android:textAlignment="viewStart" android:layout_marginStart="4dp" android:layout_marginEnd="4dp" style="@style/ur"/>
+    <com.p683ss.android.ugc.aweme.base.p1420ui.SmartAvatarImageView android:id="@+id/ay2" android:visibility="gone" android:layout_width="36dp" android:layout_height="36dp"/>
+    <ImageView android:id="@+id/azu" android:layout_width="36dp" android:layout_height="36dp" android:layout_marginLeft="10dp" android:layout_marginRight="10dp" android:src="@drawable/du8" android:scaleType="centerInside" android:layout_marginStart="10dp" android:layout_marginEnd="10dp"/>
+</LinearLayout>

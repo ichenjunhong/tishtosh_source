@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:gravity="center_vertical" android:layout_width="match_parent" android:layout_height="56dp">
+    <RelativeLayout android:id="@+id/c8e" android:layout_width="48dp" android:layout_height="wrap_content" android:layout_centerVertical="true">
+        <ImageView android:id="@+id/c8c" android:layout_width="24dp" android:layout_height="24dp" android:layout_centerInParent="true"/>
+    </RelativeLayout>
+    <FrameLayout android:id="@+id/aj5" android:layout_width="48dp" android:layout_height="48dp" android:layout_marginLeft="40dp" android:layout_centerVertical="true" android:layout_marginStart="40dp">
+        <ImageView android:layout_gravity="center" android:id="@+id/dm3" android:layout_width="33dp" android:layout_height="33dp" android:scaleType="fitXY"/>
+    </FrameLayout>
+    <RelativeLayout android:gravity="left" android:id="@+id/dn2" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_toLeftOf="@+id/d02" android:layout_toRightOf="@+id/aj5">
+        <TextView android:textSize="15sp" android:textColor="@color/ad4" android:ellipsize="end" android:id="@+id/dn1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:layout_centerVertical="true"/>
+        <RelativeLayout android:id="@+id/adw" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4dp" android:layout_toRightOf="@+id/dn1" android:layout_centerVertical="true">
+            <com.bytedance.android.live.core.widget.HSImageView android:id="@+id/bdh" android:visibility="visible" android:layout_width="60dp" android:layout_height="17dp" android:layout_marginTop="0dp" android:layout_alignParentTop="true" app:actualImageScaleType="1"/>
+            <com.bytedance.android.live.core.widget.CustomFontTextView android:textSize="9dp" android:textColor="@color/alt" android:gravity="center" android:id="@+id/ady" android:paddingLeft="8dp" android:layout_width="wrap_content" android:layout_height="17dp" android:maxLines="1" android:lines="1" android:layout_centerInParent="true" android:paddingStart="8dp"/>
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <ImageView android:id="@+id/mn" android:layout_width="60dp" android:layout_height="60dp" android:src="0x7f131292"/>
+    <com.airbnb.lottie.LottieAnimationView android:id="@+id/e02" android:visibility="gone" android:layout_width="60dp" android:layout_height="60dp" app:lottie_autoPlay="false" app:lottie_fileName="ttlive_lucky_box_ready.json" app:lottie_imageAssetsFolder="luckybox" app:lottie_loop="true"/>
+    <com.airbnb.lottie.LottieAnimationView android:id="@+id/f02" android:visibility="gone" android:layout_width="60dp" android:layout_height="60dp" android:layout_marginTop="10dp" app:lottie_autoPlay="false" app:lottie_fileName="ttlive_ctd_motion.json" app:lottie_imageAssetsFolder="timer" app:lottie_loop="false"/>
+    <TextView android:textSize="9sp" android:textColor="#ffffff" android:layout_gravity="center_horizontal" android:id="@+id/e3t" android:background="@drawable/e0d" android:paddingLeft="5dp" android:paddingRight="5dp" android:paddingBottom="1dp" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="34dp" android:text="1:12"/>
+</FrameLayout>

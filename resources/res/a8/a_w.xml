@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:background="@color/as0" android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout android:paddingLeft="8dp" android:paddingTop="10dp" android:paddingRight="8dp" android:paddingBottom="10dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <com.bytedance.ies.dmt.p664ui.widget.DmtTextView android:textSize="16sp" android:textColor="@color/jj" android:id="@+id/d7e" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/vj"/>
+        <com.bytedance.ies.dmt.p664ui.widget.DmtTextView android:textSize="17sp" android:textColor="@color/jj" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/w6" android:layout_centerInParent="true"/>
+        <com.bytedance.ies.dmt.p664ui.widget.DmtTextView android:textSize="16sp" android:textColor="@color/a3c" android:id="@+id/dgx" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/vr" android:layout_alignParentEnd="true"/>
+    </RelativeLayout>
+    <FrameLayout android:layout_width="match_parent" android:layout_height="match_parent">
+        <android.support.p043v7.widget.RecyclerView android:id="@+id/cg6" android:layout_width="match_parent" android:layout_height="match_parent"/>
+        <com.bytedance.ies.dmt.p664ui.widget.DmtTextView android:textColor="@color/a2y" android:layout_gravity="center" android:id="@+id/dct" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/ur"/>
+    </FrameLayout>
+</LinearLayout>

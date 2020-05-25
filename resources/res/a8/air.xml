@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.p683ss.android.ugc.aweme.common.widget.PullUpLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/c70" android:layout_width="match_parent" android:layout_height="wrap_content" android:layoutDirection="locale">
+    <LinearLayout android:orientation="vertical" android:id="@+id/cdu" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:id="@+id/bei" android:background="@color/in" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <RelativeLayout android:id="@+id/et2" android:paddingLeft="14dp" android:paddingTop="14dp" android:paddingBottom="12dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="14dp">
+                <com.p683ss.android.ugc.aweme.base.p1420ui.RemoteImageView android:id="@+id/b1n" android:background="@color/a1o" android:layout_width="48dp" android:layout_height="62dp" android:layout_margin="1.5dp" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" android:layout_alignParentStart="true" app:roundedCornerRadius="2dp"/>
+                <ImageView android:id="@+id/efk" android:background="@drawable/dx5" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="14dp" android:src="@drawable/dxv" android:layout_alignLeft="@+id/b1n" android:layout_alignRight="@+id/b1n" android:layout_alignBottom="@+id/b1n" android:alpha="0.9" android:layout_alignStart="@+id/b1n" android:layout_alignEnd="@+id/b1n"/>
+                <RelativeLayout android:orientation="vertical" android:id="@+id/et1" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_toRightOf="@+id/b1n" android:layout_toEndOf="@+id/b1n">
+                    <com.bytedance.ies.dmt.p664ui.widget.DmtTextView android:textColor="@color/ji" android:id="@+id/d97" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16dp" android:text="@string/cvn" android:layout_marginStart="16dp" style="@style/un"/>
+                    <ViewStub android:id="@+id/cnj" android:layout="@layout/buv" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="4dp" android:layout_marginTop="4dp" android:layout_below="@+id/d97" android:layout_marginStart="4dp"/>
+                    <ImageView android:layout_gravity="center_horizontal" android:layout_width="21dp" android:layout_height="3dp" android:layout_marginBottom="5dp" android:src="@drawable/dxw" android:layout_below="@+id/cnj" android:layout_centerHorizontal="true"/>
+                </RelativeLayout>
+                <TextView android:textSize="15sp" android:textColor="@color/a2j" android:id="@+id/f42" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12dp" android:text="@string/h7a" android:layout_toRightOf="@+id/b1n" android:layout_centerVertical="true" android:layout_marginStart="12dp" android:layout_toEndOf="@+id/b1n"/>
+            </RelativeLayout>
+            <View android:id="@+id/bax" android:background="@color/j5" android:visibility="gone" android:layout_width="match_parent" android:layout_height="0.5dp" android:layout_marginLeft="16dp" android:layout_marginRight="16dp"/>
+            <LinearLayout android:orientation="horizontal" android:id="@+id/bey" android:paddingLeft="3dp" android:paddingRight="3dp" android:visibility="gone" android:layout_width="match_parent" android:layout_height="40dp" android:layout_marginLeft="16dp" android:layout_marginRight="16dp">
+                <com.p683ss.android.ugc.aweme.base.p1420ui.RemoteImageView android:layout_gravity="center_vertical" android:id="@+id/aze" android:background="@color/a1o" android:layout_width="23dp" android:layout_height="23dp" android:layout_marginRight="8.5dp" android:layout_marginEnd="8.5dp"/>
+                <TextView android:textColor="@color/a7x" android:layout_gravity="center_vertical" android:id="@+id/d8b" android:layout_width="0dp" android:layout_height="wrap_content" android:maxLines="1" android:layout_weight="1" style="@style/un"/>
+                <ImageView android:layout_gravity="center_vertical" android:layout_width="20dp" android:layout_height="20dp" android:src="@drawable/deo" android:scaleType="fitXY"/>
+            </LinearLayout>
+        </LinearLayout>
+        <include layout="@layout/bum"/>
+    </LinearLayout>
+</com.p683ss.android.ugc.aweme.common.widget.PullUpLayout>

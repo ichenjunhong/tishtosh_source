@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:id="@+id/ejy" android:layout_width="match_parent" android:layout_height="match_parent">
+    <Space android:layout_width="0dp" android:layout_height="0dp" android:layout_weight="1"/>
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="20dp" android:textStyle="bold" android:textColor="#ffffff" android:ellipsize="end" android:id="@+id/ed9" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_marginLeft="16dp" android:text="选择兴趣" android:singleLine="true" android:layout_weight="2" android:layout_marginStart="16dp"/>
+        <Space android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1"/>
+    </LinearLayout>
+    <Space android:layout_width="0dp" android:layout_height="4dp"/>
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="15dp" android:textColor="#bfffffff" android:ellipsize="end" android:id="@+id/ed7" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_marginLeft="16dp" android:text="你可以选择一个或多个兴趣" android:singleLine="true" android:layout_weight="2" android:layout_marginStart="16dp"/>
+        <Space android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1"/>
+    </LinearLayout>
+    <Space android:layout_width="0dp" android:layout_height="8dp"/>
+    <com.p683ss.android.ugc.aweme.feed.interest.view.InterestTagLayout android:id="@+id/ed8" android:clipChildren="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8dp" android:layout_marginStart="8dp"/>
+    <Space android:layout_width="0dp" android:layout_height="12dp"/>
+    <LinearLayout android:orientation="vertical" android:id="@+id/eao" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="16dp" android:layout_marginRight="16dp" android:layout_marginBottom="-54dp">
+        <View android:background="#33ffffff" android:layout_width="match_parent" android:layout_height="0.5dp"/>
+        <Space android:layout_width="0dp" android:layout_height="16.5dp"/>
+        <TextView android:textSize="15dp" android:textStyle="bold" android:textColor="#ffffff" android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="选好了"/>
+        <Space android:layout_width="0dp" android:layout_height="16dp"/>
+    </LinearLayout>
+</LinearLayout>

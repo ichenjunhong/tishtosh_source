@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent" android:layout_height="match_parent">
+    <View android:id="@+id/e6g" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_above="@+id/e6d" android:soundEffectsEnabled="false" android:importantForAccessibility="no"/>
+    <RelativeLayout android:layout_gravity="bottom" android:id="@+id/e6d" android:clickable="true" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <RelativeLayout android:id="@+id/e6h" android:paddingTop="5dp" android:paddingRight="16dp" android:paddingBottom="16dp" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:paddingEnd="16dp" android:layout_alignParentEnd="true">
+            <RelativeLayout android:background="@drawable/cc6" android:layout_width="wrap_content" android:layout_height="28dp">
+                <ImageView android:id="@+id/e6i" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="6dp" android:scaleType="fitXY" android:layout_centerVertical="true" android:layout_marginStart="6dp"/>
+                <com.bytedance.ies.dmt.p664ui.widget.DmtTextView android:textStyle="bold" android:textColor="@color/zp" android:id="@+id/e6j" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4dp" android:layout_marginRight="8dp" android:layout_toRightOf="@+id/e6i" android:layout_centerVertical="true" android:layout_marginStart="4dp" android:layout_marginEnd="8dp" android:layout_toEndOf="@+id/e6i" app:fontType="7" style="@style/un"/>
+            </RelativeLayout>
+        </RelativeLayout>
+        <com.p683ss.android.ugc.aweme.themechange.base.AVDmtPanelRelativeLayout android:id="@+id/e6c" android:layout_width="match_parent" android:layout_height="150dp" android:layout_below="@+id/e6h" app:oldPanel="true">
+            <com.p683ss.android.ugc.aweme.themechange.base.AVDmtTextView android:gravity="center" android:id="@+id/e6k" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="16dp" android:layout_marginRight="16dp" android:minHeight="50dp" android:text="@string/g_x" android:maxLines="2" android:lineSpacingExtra="3sp" app:avFontType="7" app:oldPanel="true" style="@style/ur"/>
+            <com.p683ss.android.ugc.aweme.themechange.base.AVDmtPanelRecyleView android:orientation="horizontal" android:id="@+id/e6f" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="24dp" android:layout_below="@+id/e6k" app:firstItemMargin="18dp" app:itemMargin="15dp"/>
+            <com.bytedance.ies.dmt.p664ui.widget.DmtStatusView android:gravity="center" android:layout_gravity="center" android:id="@+id/e6e" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_below="@+id/e6k"/>
+        </com.p683ss.android.ugc.aweme.themechange.base.AVDmtPanelRelativeLayout>
+    </RelativeLayout>
+</android.support.design.widget.CoordinatorLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/b_7" android:background="@color/dj" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.p683ss.android.ugc.aweme.shortvideo.widget.VEVideoPublishPreviewSurfaceView android:id="@+id/c4a" android:visibility="invisible" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <ImageView android:layout_gravity="center" android:id="@+id/dpy" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <View android:layout_gravity="bottom" android:id="@+id/ewe" android:background="@color/a8w" android:layout_width="match_parent" android:layout_height="40dp"/>
+    <com.p683ss.android.ugc.aweme.shortvideo.edit.infosticker.interact.vote.VotingStickerView android:id="@+id/c4f" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+    <View android:id="@+id/dr8" android:background="@color/dj" android:visibility="invisible" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+</FrameLayout>

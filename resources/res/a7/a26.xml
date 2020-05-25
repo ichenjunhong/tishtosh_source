@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/cfl" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_alignParentBottom="true">
+    <com.p683ss.android.ugc.aweme.shortvideo.edit.infosticker.InfoStickerEditView android:id="@+id/au0" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="50dp" android:layout_marginBottom="250dp">
+        <ImageView android:id="@+id/b37" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/a1a" android:layout_centerInParent="true"/>
+    </RelativeLayout>
+    <include android:layout_gravity="bottom" android:layout_width="match_parent" android:layout_height="wrap_content" layout="@layout/a4a"/>
+    <include android:layout_gravity="bottom" android:layout_width="match_parent" android:layout_height="wrap_content" layout="@layout/bk3"/>
+</FrameLayout>

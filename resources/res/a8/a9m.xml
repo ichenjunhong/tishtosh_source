@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:id="@+id/c_7" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="6dp">
+    <View android:background="@color/vk" android:layout_width="match_parent" android:layout_height="1px" android:layout_marginLeft="16dp" android:layout_marginRight="16dp" android:layout_centerVertical="true" android:layout_marginStart="16dp" android:layout_marginEnd="16dp"/>
+    <com.bytedance.ies.dmt.p664ui.widget.DmtTextView android:textColor="@color/a1t" android:ellipsize="end" android:id="@+id/c_4" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="15dp" android:layout_marginTop="20dp" android:layout_marginRight="15dp" android:layout_marginBottom="4dp" android:text="@string/f5c" android:maxLines="2" android:layout_marginStart="15dp" android:layout_marginEnd="15dp" style="@style/a6x"/>
+</LinearLayout>

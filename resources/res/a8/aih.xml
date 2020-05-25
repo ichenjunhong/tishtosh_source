@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:id="@+id/bf_" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <com.bytedance.ies.dmt.p664ui.widget.DmtTextView android:textStyle="bold" android:textColor="@color/iv" android:id="@+id/d9i" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16dp" android:layout_marginTop="19dp" android:layout_marginBottom="12dp" android:text="@string/b32" android:drawableLeft="@drawable/dut" android:drawablePadding="5dp" android:drawableStart="@drawable/dut" android:layout_marginStart="16dp" style="@style/un"/>
+    <RelativeLayout android:id="@+id/j7" android:background="@color/c8" android:layout_width="match_parent" android:layout_height="@dimen/a12">
+        <com.p683ss.android.ugc.aweme.discover.widget.BannerViewPager android:id="@+id/ds2" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_alignParentTop="true"/>
+        <View android:id="@+id/csm" android:layout_width="match_parent" android:layout_height="0dp"/>
+        <com.p683ss.android.ugc.aweme.discover.widget.IndicatorView android:id="@+id/a71" android:paddingBottom="4dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" app:indicatorSize="5dp" app:indicatorSpace="5dp" app:indicatorUnselectedAlpha="0.34"/>
+    </RelativeLayout>
+</LinearLayout>

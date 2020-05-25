@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/a4z" android:background="@color/arz" android:layout_width="match_parent" android:layout_height="match_parent">
+    <FrameLayout android:id="@+id/e9v" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <FrameLayout android:id="@+id/ajf" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <ImageView android:layout_gravity="top|left|center_vertical|center_horizontal|center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/df1"/>
+    <ImageView android:layout_gravity="top|right|center_vertical|center_horizontal|center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/df2"/>
+    <FrameLayout android:id="@+id/am3" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <FrameLayout android:id="@+id/cp" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <com.p683ss.android.ugc.aweme.commercialize.views.AdHalfWebPageMaskLayer android:id="@+id/d4" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <com.p683ss.android.ugc.aweme.commercialize.views.AdHalfWebPageContainer android:layout_gravity="bottom|center_vertical|center_horizontal|center" android:id="@+id/d3" android:layout_width="270dp" android:layout_height="295dp" android:layout_marginBottom="-300dp"/>
+    <FrameLayout android:id="@+id/e9j" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <FrameLayout android:id="@+id/f0w" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+</FrameLayout>

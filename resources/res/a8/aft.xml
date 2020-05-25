@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:background="@color/c3" android:fitsSystemWindows="true" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.bytedance.ies.dmt.p664ui.titlebar.NormalTitleBar android:id="@+id/d10" android:layout_width="match_parent" android:layout_height="@dimen/vn" app:endDrawable="@drawable/cyb" app:lineVisible="8" app:titleText="@string/eb" app:titleTextColor="@color/a1k" app:useBackIcon="true"/>
+    <android.support.design.widget.CoordinatorLayout android:layout_width="match_parent" android:layout_height="match_parent">
+        <android.support.design.widget.AppBarLayout android:id="@+id/fr" android:layout_width="match_parent" android:layout_height="wrap_content" app:elevation="0dp">
+            <LinearLayout android:gravity="center_vertical" android:id="@+id/b9i" android:paddingLeft="16dp" android:paddingTop="4dp" android:paddingRight="16dp" android:layout_width="match_parent" android:layout_height="48dp" app:layout_scrollFlags="1">
+                <FrameLayout android:id="@+id/ah7" android:background="@drawable/cxx" android:layout_width="0dp" android:layout_height="36dp" android:layout_weight="1">
+                    <ImageView android:layout_gravity="left|center_vertical|center_horizontal|center|start" android:id="@+id/b3y" android:layout_width="24dp" android:layout_height="24dp" android:layout_marginLeft="4dp" android:src="@drawable/cy4" android:layout_marginStart="4dp"/>
+                    <com.bytedance.ies.dmt.p664ui.widget.DmtEditText android:textColor="@color/po" android:textColorHint="@color/a81" android:layout_gravity="left|center_vertical|center_horizontal|center|start" android:id="@+id/ac_" android:background="@null" android:paddingLeft="32.5dp" android:paddingRight="32.5dp" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="match_parent" android:layout_height="36dp" android:hint="@string/db4" android:cursorVisible="false" android:singleLine="true" android:inputType="textNoSuggestions" android:imeOptions="actionSearch" android:textCursorDrawable="@drawable/cy1" android:textDirection="ltr" android:textAlignment="viewStart" android:paddingStart="32.5dp" android:paddingEnd="32.5dp" style="@style/ur"/>
+                    <ImageButton android:layout_gravity="right|center_vertical|center_horizontal|center|end" android:id="@+id/nh" android:background="@drawable/cy5" android:visibility="gone" android:layout_width="24dp" android:layout_height="24dp" android:layout_marginRight="4dp" android:layout_marginEnd="4dp"/>
+                </FrameLayout>
+                <com.bytedance.ies.dmt.p664ui.widget.DmtTextView android:textColor="@color/ja" android:gravity="center" android:id="@+id/dfe" android:paddingLeft="16dp" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="@string/da_" android:paddingStart="16dp" style="@style/uu"/>
+            </LinearLayout>
+        </android.support.design.widget.AppBarLayout>
+        <FrameLayout android:layout_width="match_parent" android:layout_height="match_parent" app:layout_behavior="@string/iv">
+            <android.support.p030v4.widget.SwipeRefreshLayout android:id="@+id/c9z" android:layout_width="match_parent" android:layout_height="match_parent">
+                <RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent">
+                    <android.support.p043v7.widget.RecyclerView android:id="@+id/c_1" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+                    <com.bytedance.ies.dmt.p664ui.widget.DmtStatusView android:layout_gravity="center" android:id="@+id/csv" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_below="@+id/c_1"/>
+                </RelativeLayout>
+            </android.support.p030v4.widget.SwipeRefreshLayout>
+            <com.bytedance.ies.dmt.p664ui.widget.DmtTextView android:textColor="@color/ja" android:ellipsize="end" android:gravity="center_vertical" android:id="@+id/dfi" android:paddingLeft="20dp" android:paddingRight="16dp" android:visibility="gone" android:layout_width="match_parent" android:layout_height="52dp" android:maxLines="1" android:drawableLeft="@drawable/cy4" android:drawablePadding="4dp" android:drawableStart="@drawable/cy4" android:paddingStart="20dp" android:paddingEnd="16dp" style="@style/ur"/>
+        </FrameLayout>
+    </android.support.design.widget.CoordinatorLayout>
+</LinearLayout>

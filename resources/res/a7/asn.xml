@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.p683ss.android.ugc.tools.view.widget.AVTextView android:textColor="@color/a17" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@+id/dhb" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="32dp" app:avFontType="7" style="@style/a8r"/>
+    <com.p683ss.android.ugc.tools.view.widget.AVTextView android:textColor="@color/a1a" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@+id/d98" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="12dp" style="@style/a8o"/>
+</merge>

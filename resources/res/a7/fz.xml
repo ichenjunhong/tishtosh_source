@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:gravity="center" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.p683ss.android.ugc.tools.view.widget.AVTextView android:textColor="@color/b25" android:gravity="center_horizontal" android:id="@+id/aba" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/f5o" android:lineSpacingExtra="3sp" style="@style/a8o"/>
+    <com.p683ss.android.ugc.tools.view.widget.AVButton android:textColor="@color/iu" android:layout_gravity="center_horizontal" android:id="@+id/ab_" android:background="@drawable/dya" android:layout_width="match_parent" android:layout_height="44dp" android:layout_marginLeft="72dp" android:layout_marginTop="16dp" android:layout_marginRight="72dp" android:text="@string/f5u" android:layout_below="@+id/aba" style="@style/a8p"/>
+</RelativeLayout>

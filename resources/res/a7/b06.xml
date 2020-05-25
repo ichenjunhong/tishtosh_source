@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.p683ss.android.ugc.aweme.feed.widget.FeedSwipeRefreshLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/caw" android:layout_width="match_parent" android:layout_height="match_parent" android:keepScreenOn="true">
+    <com.p683ss.android.ugc.aweme.feed.widget.LoadMoreFrameLayout android:id="@+id/bhz" android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+            <View android:id="@+id/d3i" android:background="@color/ip" android:layout_width="match_parent" android:layout_height="0dp"/>
+            <com.p683ss.android.ugc.aweme.common.widget.VerticalViewPager android:layout_gravity="top" android:id="@+id/ds2" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1"/>
+            <View android:id="@+id/ma" android:background="@color/ip" android:layout_width="match_parent" android:layout_height="0dp"/>
+        </LinearLayout>
+        <ViewStub android:id="@+id/dxn" android:layout="@layout/b5m" android:inflatedId="@+id/dxm" android:layout_width="match_parent" android:layout_height="match_parent"/>
+        <include layout="@layout/b5s"/>
+        <com.p683ss.android.ugc.aweme.common.widget.DiggLayout android:id="@+id/a5q" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_centerInParent="true"/>
+    </com.p683ss.android.ugc.aweme.feed.widget.LoadMoreFrameLayout>
+</com.p683ss.android.ugc.aweme.feed.widget.FeedSwipeRefreshLayout>

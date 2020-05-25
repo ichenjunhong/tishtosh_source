@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <android.support.constraint.ConstraintLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <com.p683ss.android.ugc.aweme.themechange.base.AVDmtImageTextView android:id="@+id/avp" android:layout_width="wrap_content" android:layout_height="wrap_content" app:isCircle="false" app:isShowBorder="true" app:isShowDownloadIcon="false" app:isShowText="true" app:itemImgHeight="72dp" app:itemImgWidth="72dp" app:roundRadius="1dp"/>
+        <com.facebook.drawee.view.SimpleDraweeView android:id="@+id/b5o" android:visibility="gone" android:layout_width="26dp" android:layout_height="26dp" app:failureImage="@drawable/bd6" app:layout_constraintStart_toStartOf="@+id/b5i" app:layout_constraintTop_toTopOf="@+id/b5i" app:placeholderImage="@drawable/bd6" app:roundAsCircle="false"/>
+    </android.support.constraint.ConstraintLayout>
+</LinearLayout>

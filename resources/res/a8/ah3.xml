@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <ImageView android:id="@+id/g_" android:layout_width="36dp" android:layout_height="8dp" android:layout_marginLeft="12dp" android:src="@drawable/cyv" android:scaleType="fitXY" android:layout_marginStart="12dp"/>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="@drawable/cyt" android:paddingTop="8dp" android:paddingBottom="8dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@+id/g_">
+        <FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <com.p683ss.android.ugc.aweme.base.p1420ui.CircleImageView android:layout_gravity="center_vertical" android:id="@+id/eej" android:layout_width="24dp" android:layout_height="24dp" android:layout_marginLeft="40dp" android:layout_marginStart="40dp"/>
+            <View android:id="@+id/eel" android:background="@drawable/cyu" android:layout_width="26dp" android:layout_height="26dp" android:layout_marginLeft="25dp" android:layout_marginStart="25dp"/>
+            <com.p683ss.android.ugc.aweme.base.p1420ui.CircleImageView android:layout_gravity="center_vertical" android:id="@+id/eei" android:layout_width="24dp" android:layout_height="24dp" android:layout_marginLeft="26dp" android:layout_marginStart="26dp"/>
+            <View android:id="@+id/eek" android:background="@drawable/cyu" android:layout_width="26dp" android:layout_height="26dp" android:layout_marginLeft="11dp" android:layout_marginStart="11dp"/>
+            <com.p683ss.android.ugc.aweme.base.p1420ui.CircleImageView android:layout_gravity="center_vertical" android:id="@+id/eeh" android:layout_width="24dp" android:layout_height="24dp" android:layout_marginLeft="12dp" android:layout_marginStart="12dp"/>
+        </FrameLayout>
+        <com.bytedance.ies.dmt.p664ui.widget.DmtTextView android:textSize="13dp" android:textColor="@color/aso" android:id="@+id/f4c" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8dp" android:layout_marginRight="8dp" android:text="shared videos" android:layout_marginStart="8dp" android:layout_marginEnd="8dp"/>
+    </LinearLayout>
+</RelativeLayout>

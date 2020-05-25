@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+        <com.p683ss.android.ugc.aweme.p1807im.sdk.widget.ImTextTitleBar android:id="@+id/d10" android:layout_width="match_parent" android:layout_height="@dimen/it" app:imLeftText="@string/bfo" app:imRightColor="@color/a1l" app:imRightText="@string/bn1" app:imTitle="@string/bn3"/>
+        <include layout="@layout/rl"/>
+        <FrameLayout android:layout_width="match_parent" android:layout_height="match_parent">
+            <android.support.p043v7.widget.RecyclerView android:id="@+id/ca2" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_toLeftOf="@+id/ati"/>
+            <com.p683ss.android.ugc.aweme.p1807im.sdk.relations.IndexView android:layout_gravity="right|center_vertical|center_horizontal|center" android:id="@+id/ati" android:layout_width="16dp" android:layout_height="wrap_content" android:layout_marginRight="4dp" android:layout_marginEnd="4dp"/>
+        </FrameLayout>
+    </LinearLayout>
+    <com.bytedance.ies.dmt.p664ui.widget.DmtStatusView android:id="@+id/csv" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="100dp"/>
+    <TextView android:textSize="24sp" android:textColor="@color/aso" android:layout_gravity="right|center_vertical|center_horizontal|center" android:id="@+id/atg" android:background="@drawable/azv" android:paddingLeft="12dp" android:paddingTop="4dp" android:paddingRight="18dp" android:paddingBottom="4dp" android:visibility="gone" android:layout_width="52dp" android:layout_height="42dp" android:layout_marginRight="40dp" android:text="W"/>
+</FrameLayout>

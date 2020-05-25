@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.bytedance.android.livesdk.gift.effect.doodle.view.CustomConstraintLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent" android:layout_height="match_parent">
+    <View android:id="@+id/e5w" android:background="@drawable/dzi" android:layout_width="match_parent" android:layout_height="0dp" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintTop_toTopOf="@+id/e5v"/>
+    <com.bytedance.android.live.core.widget.HSImageView android:id="@+id/ezh" android:visibility="gone" android:layout_width="284dp" android:layout_height="284dp" app:actualImageScaleType="0" app:layout_constraintBottom_toTopOf="@+id/e5v" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0"/>
+    <FrameLayout android:id="@+id/e5x" android:layout_width="0dp" android:layout_height="0dp" app:layout_constraintBottom_toTopOf="@+id/e5v" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0">
+        <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:id="@+id/a6z" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <ImageView android:layout_width="100dp" android:layout_height="100dp" android:src="@drawable/bu4"/>
+            <TextView android:textSize="12sp" android:textColor="@color/agp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:text="@string/hox"/>
+        </LinearLayout>
+        <com.bytedance.android.livesdk.gift.effect.doodle.view.DoodleGiftView android:id="@+id/a8r" android:layout_width="match_parent" android:layout_height="match_parent"/>
+        <com.bytedance.android.livesdk.gift.DoodleCanvasView android:id="@+id/e5t" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    </FrameLayout>
+    <RelativeLayout android:id="@+id/ezj" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="8dp" app:layout_constraintBottom_toTopOf="@+id/e5v" app:layout_constraintStart_toStartOf="0">
+        <ImageView android:id="@+id/ezg" android:background="@drawable/dzn" android:visibility="gone" android:layout_width="38dp" android:layout_height="58dp" android:layout_marginLeft="8dp" android:src="@drawable/e28" android:scaleType="fitCenter" android:layout_marginStart="8dp"/>
+        <com.bytedance.android.live.core.widget.HSImageView android:id="@+id/en9" android:layout_width="58dp" android:layout_height="58dp" android:layout_marginLeft="8dp" android:layout_marginStart="8dp" app:placeholderImage="@drawable/e2_"/>
+        <android.support.p043v7.widget.RecyclerView android:id="@+id/ezk" android:fadingEdgeLength="24dp" android:layout_width="match_parent" android:layout_height="58dp" android:layout_toRightOf="@+id/en9" android:requiresFadingEdge="horizontal" android:layout_toEndOf="@+id/en9"/>
+    </RelativeLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@+id/e5v" android:paddingTop="12dp" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_marginBottom="13dp" app:layout_constraintBottom_toTopOf="@+id/e_q" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toStartOf="0">
+        <TextView android:textSize="12sp" android:textColor="@color/b3b" android:id="@+id/f04" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16dp" android:text="@string/ebx" android:layout_marginStart="16dp"/>
+        <View android:layout_width="0dp" android:layout_height="0dp" android:layout_weight="1"/>
+        <ImageView android:id="@+id/e5y" android:layout_width="24dp" android:layout_height="24dp" android:layout_marginRight="16dp" android:src="@drawable/e3d" android:layout_marginEnd="16dp"/>
+        <ImageView android:id="@+id/e5u" android:layout_width="24dp" android:layout_height="24dp" android:layout_marginRight="16dp" android:src="@drawable/e3b" android:layout_marginEnd="16dp"/>
+        <ImageView android:id="@+id/e2c" android:layout_width="24dp" android:layout_height="24dp" android:layout_marginRight="22dp" android:src="@drawable/e3c" android:layout_marginEnd="22dp"/>
+    </LinearLayout>
+    <View android:id="@+id/a6p" android:background="#000000" android:visibility="gone" android:layout_width="match_parent" android:layout_height="0.5dp" app:layout_constraintBottom_toTopOf="@+id/e_q" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toStartOf="0"/>
+    <android.support.p043v7.widget.RecyclerView android:id="@+id/e_q" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/a1c" android:layout_marginBottom="@dimen/a1b" android:layout_marginStart="@dimen/a1c" app:layout_constraintBottom_toTopOf="@+id/dzx" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toStartOf="0"/>
+    <RelativeLayout android:gravity="center_vertical" android:id="@+id/dzx" android:layout_width="0dp" android:layout_height="wrap_content" app:layout_constraintBottom_toTopOf="@+id/lq" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toStartOf="0">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/a5i" android:layout_width="wrap_content" android:layout_height="32dp" android:layout_marginLeft="8dp" android:layout_centerVertical="true" android:layout_marginStart="8dp">
+            <ImageView android:layout_width="14dp" android:layout_height="14dp" android:layout_marginLeft="8dp" android:src="@drawable/bsx" android:layout_marginStart="8dp"/>
+            <TextView android:textSize="14sp" android:textColor="@color/b3_" android:gravity="center" android:id="@+id/e5_" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4dp" android:layout_marginStart="4dp"/>
+            <TextView android:textSize="14sp" android:textColor="@color/b3d" android:gravity="center" android:id="@+id/era" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8dp" android:text="@string/ebt" android:layout_marginStart="8dp"/>
+            <ImageView android:id="@+id/er_" android:layout_width="20dp" android:layout_height="20dp" android:src="@drawable/e29"/>
+        </LinearLayout>
+        <View android:id="@+id/e57" android:background="@drawable/dyy" android:visibility="gone" android:layout_width="match_parent" android:layout_height="32dp" android:layout_marginLeft="7dp" android:layout_alignTop="@+id/a5i" android:layout_alignRight="@+id/a5i" android:layout_alignParentLeft="true" android:layout_marginStart="7dp" android:layout_alignEnd="@+id/a5i" android:layout_alignParentStart="true"/>
+        <com.bytedance.android.livesdk.chatroom.p325ui.RtlViewPagerShower android:gravity="center" android:id="@+id/enw" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true"/>
+        <Button android:textSize="14sp" android:textColor="@color/b2y" android:gravity="center" android:id="@+id/e_w" android:background="@drawable/dzk" android:layout_width="64dp" android:layout_height="32dp" android:layout_marginRight="16dp" android:text="@string/f0w" android:layout_alignParentRight="true" android:layout_marginEnd="16dp" android:layout_alignParentEnd="true"/>
+    </RelativeLayout>
+    <View android:id="@+id/lq" android:layout_width="match_parent" android:layout_height="48dp" app:layout_constraintBottom_toBottomOf="0"/>
+</com.bytedance.android.livesdk.gift.effect.doodle.view.CustomConstraintLayout>

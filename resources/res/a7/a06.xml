@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.p683ss.android.ugc.aweme.common.keyboard.MeasureLinearLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_gravity="bottom" android:orientation="vertical" android:id="@+id/cnh" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:layout_gravity="bottom" android:orientation="vertical" android:id="@+id/cng" android:background="@drawable/jl" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <FrameLayout android:id="@+id/cnl" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <LinearLayout android:orientation="vertical" android:id="@+id/cnf" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <com.bytedance.ies.dmt.p664ui.widget.DmtTextView android:textStyle="bold" android:textColor="@color/ji" android:gravity="center" android:id="@+id/cnk" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="12dp" app:fontType="7" style="@style/un"/>
+            <com.p683ss.android.ugc.aweme.sharer.p2173ui.bar.ShareChannelBar android:id="@+id/cni" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+            <View android:id="@+id/cn_" android:background="@color/j4" android:layout_width="match_parent" android:layout_height="1px" android:layout_marginLeft="18dp" android:layout_marginRight="18dp"/>
+        </LinearLayout>
+        <FrameLayout android:id="@+id/evn" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <FrameLayout android:id="@+id/cnb" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="vertical" android:id="@+id/evj" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <com.bytedance.ies.dmt.p664ui.widget.DmtTextView android:textStyle="bold" android:textColor="@color/ji" android:gravity="center" android:id="@+id/eve" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="12dp" app:fontType="7" style="@style/un"/>
+                <com.p683ss.android.ugc.aweme.sharer.p2173ui.bar.ShareActionBar android:id="@+id/cna" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+            </LinearLayout>
+        </FrameLayout>
+        <View android:id="@+id/cne" android:background="@color/j4" android:layout_width="match_parent" android:layout_height="1px"/>
+        <FrameLayout android:id="@+id/cnd" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <com.bytedance.ies.dmt.p664ui.widget.DmtTextView android:textColor="@color/a4a" android:gravity="center" android:id="@+id/cnc" android:background="@drawable/bb6" android:layout_width="match_parent" android:layout_height="52dp" android:text="@string/wf" style="@style/ur"/>
+        </FrameLayout>
+    </LinearLayout>
+</com.p683ss.android.ugc.aweme.common.keyboard.MeasureLinearLayout>

@@ -1,0 +1,110 @@
+package com.p683ss.android.ugc.network.observer.p2490a;
+
+import com.bytedance.netecho.Netecho;
+import com.bytedance.netecho.result.TcpDetectResult;
+import com.p683ss.android.ugc.network.observer.C50088b;
+import com.p683ss.android.ugc.network.observer.bean.C50092a;
+import com.p683ss.android.ugc.network.observer.bean.C50093b;
+import java.util.HashMap;
+import java.util.Map.Entry;
+import java.util.concurrent.ConcurrentHashMap;
+import java.util.concurrent.CountDownLatch;
+import java.util.concurrent.TimeUnit;
+import p2628d.p2639f.p2641b.C52711k;
+import p2628d.p2639f.p2641b.C52722v.C52723a;
+import p2628d.p2639f.p2641b.C52722v.C52727e;
+
+/* renamed from: com.ss.android.ugc.network.observer.a.c */
+public final class C50086c implements C50083a {
+
+    /* renamed from: a */
+    public final long f125452a;
+
+    /* renamed from: b */
+    private final HashMap<String, C50093b> f125453b;
+
+    /* renamed from: c */
+    private final HashMap<String, HashMap<String, Object>> f125454c;
+
+    /* renamed from: com.ss.android.ugc.network.observer.a.c$a */
+    static final class C50087a implements Runnable {
+
+        /* renamed from: a */
+        final /* synthetic */ Entry f125455a;
+
+        /* renamed from: b */
+        final /* synthetic */ C50086c f125456b;
+
+        /* renamed from: c */
+        final /* synthetic */ C52727e f125457c;
+
+        /* renamed from: d */
+        final /* synthetic */ C52723a f125458d;
+
+        /* renamed from: e */
+        final /* synthetic */ C52727e f125459e;
+
+        C50087a(Entry entry, C50086c cVar, C52727e eVar, C52723a aVar, C52727e eVar2) {
+            this.f125455a = entry;
+            this.f125456b = cVar;
+            this.f125457c = eVar;
+            this.f125458d = aVar;
+            this.f125459e = eVar2;
+        }
+
+        public final void run() {
+            try {
+                TcpDetectResult detectTcp = Netecho.INSTANCE.detectTcp(((C50093b) this.f125455a.getValue()).f125467a, ((C50093b) this.f125455a.getValue()).f125468b, this.f125456b.f125452a);
+                ((ConcurrentHashMap) this.f125457c.element).put(this.f125455a.getKey(), detectTcp);
+                if (detectTcp.getSuccess()) {
+                    this.f125458d.element = true;
+                }
+            } catch (Throwable th) {
+                ((CountDownLatch) this.f125459e.element).countDown();
+                throw th;
+            }
+            ((CountDownLatch) this.f125459e.element).countDown();
+        }
+    }
+
+    /* renamed from: a */
+    public final C50092a mo97851a() {
+        C50088b bVar;
+        C52727e eVar = new C52727e();
+        eVar.element = new CountDownLatch(this.f125453b.size());
+        C52723a aVar = new C52723a();
+        aVar.element = false;
+        C52727e eVar2 = new C52727e();
+        eVar2.element = new ConcurrentHashMap();
+        for (Entry aVar2 : this.f125453b.entrySet()) {
+            C50087a aVar3 = new C50087a(aVar2, this, eVar2, aVar, eVar);
+            new Thread(aVar3).start();
+        }
+        try {
+            ((CountDownLatch) eVar.element).await(this.f125452a + 1000, TimeUnit.MILLISECONDS);
+        } catch (Exception unused) {
+        }
+        boolean z = aVar.element;
+        for (Entry entry : ((ConcurrentHashMap) eVar2.element).entrySet()) {
+            HashMap hashMap = (HashMap) this.f125454c.get(entry.getKey());
+            if (hashMap != null) {
+                hashMap.put("tcp_result", entry.getValue());
+            }
+        }
+        boolean z2 = !z;
+        if (z) {
+            bVar = C50088b.NETWORK_GOOD;
+        } else {
+            bVar = C50088b.NO_NETWORK;
+        }
+        return new C50092a(z2, bVar);
+    }
+
+    public C50086c(HashMap<String, C50093b> hashMap, HashMap<String, HashMap<String, Object>> hashMap2, long j) {
+        C52711k.m112240b(hashMap, "dnsMap");
+        C52711k.m112240b(hashMap2, "resultMap");
+        this.f125453b = hashMap;
+        this.f125454c = hashMap2;
+        this.f125452a = j;
+    }
+}

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:orientation="horizontal" android:background="@color/pq" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <View android:background="@color/ast" android:layout_width="match_parent" android:layout_height="1px"/>
+        <com.p683ss.android.ugc.aweme.base.p1420ui.RemoteImageView android:id="@+id/ef2" android:layout_width="28dp" android:layout_height="28dp" android:layout_marginLeft="17dp" android:layout_alignTop="@+id/f5l" android:layout_alignBottom="@+id/f5l" app:failureImage="@drawable/e45" app:placeholderImage="@drawable/e45"/>
+        <com.bytedance.ies.dmt.p664ui.widget.DmtTextView android:textColor="#e6ffffff" android:id="@+id/f5l" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8dp" android:layout_marginTop="14dp" android:layout_marginRight="6dp" android:layout_marginBottom="14dp" android:layout_toLeftOf="@+id/az9" android:layout_toRightOf="@+id/ef2" style="@style/un"/>
+        <ImageView android:id="@+id/az9" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="6dp" android:src="@drawable/e46" android:layout_alignTop="@+id/f5l" android:layout_alignBottom="@+id/f5l" android:layout_alignParentRight="true" android:layout_alignParentEnd="true"/>
+    </RelativeLayout>
+</merge>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.bytedance.android.live.core.widget.HSImageView android:id="@+id/bd6" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="centerCrop" app:placeholderImage="@drawable/c3n" app:placeholderImageScaleType="6"/>
+    <ImageView android:layout_width="match_parent" android:layout_height="match_parent" android:src="@color/afm"/>
+    <FrameLayout android:id="@+id/d8" android:layout_width="match_parent" android:layout_height="match_parent">
+        <ScrollView android:scrollbars="none" android:layout_width="match_parent" android:layout_height="match_parent">
+            <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+                <include android:id="@+id/title" android:layout_width="match_parent" android:layout_height="wrap_content" layout="@layout/aiq"/>
+                <include android:id="@+id/a0a" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="16dp" android:layout_marginTop="16dp" android:layout_marginRight="16dp" android:layout_below="@+id/title" layout="@layout/aio"/>
+                <include android:id="@+id/dmf" android:visibility="gone" android:layout_width="match_parent" android:layout_height="56dp" android:layout_marginLeft="16dp" android:layout_marginTop="2dp" android:layout_marginRight="16dp" android:layout_below="@+id/a0a" layout="@layout/ars"/>
+                <include android:id="@+id/b7g" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="16dp" android:layout_marginTop="8dp" android:layout_marginRight="16dp" android:layout_below="@+id/dmf" layout="@layout/anf"/>
+                <include android:id="@+id/aog" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="100dp" layout="@layout/any"/>
+                <LinearLayout android:orientation="vertical" android:id="@+id/chu" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_below="@+id/b7g">
+                    <include android:id="@+id/a0b" android:layout_width="match_parent" android:layout_height="wrap_content" layout="@layout/aip"/>
+                    <include android:id="@+id/dor" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" layout="@layout/air"/>
+                    <include android:id="@+id/c_9" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" layout="@layout/aq9"/>
+                </LinearLayout>
+                <include android:id="@+id/aeq" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_below="@+id/chu" layout="@layout/aq7"/>
+            </RelativeLayout>
+        </ScrollView>
+        <ImageView android:layout_gravity="top|right|center_vertical|center_horizontal|center|end" android:id="@+id/iw" android:padding="4dp" android:layout_width="32dp" android:layout_height="32dp" android:layout_marginTop="10dp" android:layout_marginRight="4dp" android:src="@drawable/c3p" android:layout_marginEnd="4dp"/>
+    </FrameLayout>
+</FrameLayout>

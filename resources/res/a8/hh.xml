@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <FrameLayout android:layout_gravity="center" android:id="@+id/b__" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <com.facebook.drawee.view.SimpleDraweeView android:gravity="center" android:layout_gravity="center" android:id="@+id/cww" android:visibility="gone" android:layout_width="20dp" android:layout_height="20dp" android:scaleType="fitCenter"/>
+        <com.p683ss.android.ugc.aweme.themechange.base.AVDmtTextView android:gravity="center" android:layout_gravity="center" android:id="@+id/cwx" android:layout_width="wrap_content" android:layout_height="wrap_content" app:isChangeTextSize="false" style="@style/a8p"/>
+    </FrameLayout>
+    <View android:layout_gravity="top|right|center_vertical|center_horizontal|center" android:id="@+id/cwv" android:visibility="gone" android:layout_width="5dp" android:layout_height="5dp" android:layout_marginLeft="2dp" android:layout_marginStart="2dp"/>
+</LinearLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.bytedance.android.livesdk.chatroom.widget.LiveMessageRecyclerView android:id="@+id/blk" android:fadingEdgeLength="24dp" android:layout_width="match_parent" android:layout_height="match_parent" android:requiresFadingEdge="vertical"/>
+    <LinearLayout android:orientation="horizontal" android:id="@+id/bli" android:background="@drawable/bl9" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="24dp" android:layout_alignParentBottom="true">
+        <com.bytedance.android.live.core.widget.LiveTextView android:textSize="13sp" android:textColor="@color/aim" android:layout_gravity="center_vertical" android:id="@+id/blj" android:paddingRight="6dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="6dp" android:text="@string/e4v" android:paddingEnd="6dp" android:layout_marginStart="6dp"/>
+    </LinearLayout>
+</RelativeLayout>

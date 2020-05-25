@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:background="@color/a0_" android:fitsSystemWindows="true" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.bytedance.ies.dmt.p664ui.titlebar.ButtonTitleBar android:id="@+id/d10" android:layout_width="match_parent" android:layout_height="@dimen/vn" app:endButtonVisible="8" app:titleTextColor="@color/a7w" app:useBackIcon="true"/>
+    <com.bytedance.ies.dmt.p664ui.common.views.CommonItemView android:id="@+id/xj" android:layout_width="match_parent" android:layout_height="wrap_content" app:left_icon="@drawable/b8g" app:left_text="@string/hc" app:left_text_color="@color/a17" app:right_ui_mode="1"/>
+    <com.bytedance.ies.dmt.p664ui.common.views.CommonItemView android:id="@+id/c9a" android:layout_width="match_parent" android:layout_height="wrap_content" app:left_icon="@drawable/b8i" app:left_text="@string/hj" app:left_text_color="@color/a17" app:right_ui_mode="1"/>
+    <com.bytedance.ies.dmt.p664ui.common.views.CommonItemView android:id="@+id/ep" android:layout_width="match_parent" android:layout_height="wrap_content" app:left_icon="@drawable/b8f" app:left_text="@string/hg" app:left_text_color="@color/a17" app:right_ui_mode="1"/>
+</LinearLayout>

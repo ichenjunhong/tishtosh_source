@@ -1,0 +1,133 @@
+package org.eclipse.mat.collect;
+
+import java.util.Arrays;
+
+public final class ArrayInt {
+    int[] elements;
+    int size;
+
+    public final void clear() {
+        this.size = 0;
+    }
+
+    public final int size() {
+        return this.size;
+    }
+
+    public ArrayInt() {
+        this(10);
+    }
+
+    public final boolean isEmpty() {
+        if (this.size == 0) {
+            return true;
+        }
+        return false;
+    }
+
+    public final IteratorInt iterator() {
+        return new IteratorInt() {
+            int index;
+
+            public boolean hasNext() {
+                if (this.index < ArrayInt.this.size) {
+                    return true;
+                }
+                return false;
+            }
+
+            public int next() {
+                int[] iArr = ArrayInt.this.elements;
+                int i = this.index;
+                this.index = i + 1;
+                return iArr[i];
+            }
+        };
+    }
+
+    public final long lastElement() {
+        return (long) this.elements[this.size - 1];
+    }
+
+    public final void sort() {
+        Arrays.sort(this.elements, 0, this.size);
+    }
+
+    public final int[] toArray() {
+        int[] iArr = new int[this.size];
+        System.arraycopy(this.elements, 0, iArr, 0, this.size);
+        return iArr;
+    }
+
+    public final long firstElement() {
+        if (this.size != 0) {
+            return (long) this.elements[0];
+        }
+        throw new ArrayIndexOutOfBoundsException();
+    }
+
+    public ArrayInt(int i) {
+        this.elements = new int[i];
+    }
+
+    public ArrayInt(ArrayInt arrayInt) {
+        this(arrayInt.size);
+        System.arraycopy(arrayInt.elements, 0, this.elements, 0, arrayInt.size);
+        this.size = arrayInt.size;
+    }
+
+    private void ensureCapacity(int i) {
+        int length = this.elements.length;
+        if (i > length) {
+            int[] iArr = this.elements;
+            int i2 = ((length * 3) / 2) + 1;
+            if (i2 >= i) {
+                i = i2;
+            }
+            this.elements = new int[i];
+            System.arraycopy(iArr, 0, this.elements, 0, this.size);
+        }
+    }
+
+    public final void add(int i) {
+        ensureCapacity(this.size + 1);
+        int[] iArr = this.elements;
+        int i2 = this.size;
+        this.size = i2 + 1;
+        iArr[i2] = i;
+    }
+
+    public final void addAll(ArrayInt arrayInt) {
+        ensureCapacity(this.size + arrayInt.size);
+        System.arraycopy(arrayInt.elements, 0, this.elements, this.size, arrayInt.size);
+        this.size += arrayInt.size;
+    }
+
+    public final int get(int i) {
+        if (i >= 0 && i < this.size) {
+            return this.elements[i];
+        }
+        throw new ArrayIndexOutOfBoundsException(i);
+    }
+
+    public ArrayInt(int[] iArr) {
+        this(iArr.length);
+        System.arraycopy(iArr, 0, this.elements, 0, iArr.length);
+        this.size = iArr.length;
+    }
+
+    public final void addAll(int[] iArr) {
+        ensureCapacity(this.size + iArr.length);
+        System.arraycopy(iArr, 0, this.elements, this.size, iArr.length);
+        this.size += iArr.length;
+    }
+
+    public final int set(int i, int i2) {
+        if (i < 0 || i >= this.size) {
+            throw new ArrayIndexOutOfBoundsException(i);
+        }
+        int i3 = this.elements[i];
+        this.elements[i] = i2;
+        return i3;
+    }
+}

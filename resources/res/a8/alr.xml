@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/drr" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.p683ss.android.ugc.aweme.base.p1420ui.RemoteImageView android:id="@+id/cd1" android:background="0x7f130b78" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="centerCrop" android:alpha="0.7"/>
+    <FrameLayout android:id="@+id/ah9" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <include layout="@layout/bko"/>
+    <View android:layout_gravity="bottom" android:id="@+id/amc" android:background="@drawable/crx" android:layout_width="match_parent" android:layout_height="282dp"/>
+    <com.p683ss.android.ugc.aweme.feed.p1736ui.LongPressLayout android:id="@+id/bji" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <FrameLayout android:id="@+id/e8y" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginBottom="@dimen/mu">
+        <LinearLayout android:gravity="start" android:layout_gravity="bottom" android:orientation="vertical" android:id="@+id/ek0" android:padding="12dp" android:visibility="gone" android:clipChildren="false" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <include android:id="@+id/ej8" android:layout_width="61dp" android:layout_height="wrap_content" android:layout_marginLeft="-8dp" layout="@layout/b__"/>
+            <com.bytedance.ies.dmt.p664ui.widget.DmtTextView android:textStyle="bold" android:textColor="@color/aso" android:ellipsize="end" android:gravity="center" android:id="@+id/f31" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:maxWidth="212dp" android:maxLines="1" app:fontType="2" style="@style/uu"/>
+            <com.bytedance.ies.dmt.p664ui.widget.DmtTextView android:textColor="@color/aso" android:ellipsize="end" android:gravity="center_vertical" android:id="@+id/f35" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:layout_marginEnd="87dp" style="@style/uu"/>
+            <FrameLayout android:layout_gravity="start" android:id="@+id/e98" android:layout_width="250dp" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:layout_marginStart="-8dp"/>
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@+id/ek3" android:background="@drawable/cn4" android:focusable="true" android:clickable="true" android:layout_width="match_parent" android:layout_height="45dp" android:layout_marginTop="16dp">
+                <com.airbnb.lottie.LottieAnimationView android:id="@+id/ehu" android:layout_width="16dp" android:layout_height="16dp" app:lottie_autoPlay="true" app:lottie_fileName="feed_live_volume_icon_lottie_s1.json" app:lottie_loop="true"/>
+                <com.bytedance.ies.dmt.p664ui.widget.DmtTextView android:textStyle="bold" android:textColor="@color/aso" android:id="@+id/f33" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/gz6" android:layout_marginStart="8dp" app:fontType="2" style="@style/uu"/>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:gravity="start" android:layout_gravity="bottom" android:orientation="vertical" android:id="@+id/bf2" android:padding="12dp" android:clipChildren="false" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <LinearLayout android:gravity="center_vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="16dp" android:layout_marginBottom="12dp">
+                <View android:background="@color/j2" android:layout_width="0dp" android:layout_height="1dp" android:layout_weight="1" android:layout_marginEnd="24dp"/>
+                <com.airbnb.lottie.LottieAnimationView android:id="@+id/eht" android:layout_width="16dp" android:layout_height="16dp" app:lottie_autoPlay="true" app:lottie_fileName="feed_live_volume_icon_lottie.json" app:lottie_loop="true"/>
+                <com.bytedance.ies.dmt.p664ui.widget.DmtTextView android:textStyle="bold" android:textColor="@color/aso" android:id="@+id/f32" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/gz7" android:layout_marginStart="8dp" app:fontType="2" style="@style/uu"/>
+                <View android:background="@color/j2" android:layout_width="0dp" android:layout_height="1dp" android:layout_weight="1" android:layout_marginStart="24dp"/>
+            </LinearLayout>
+            <com.bytedance.ies.dmt.p664ui.widget.DmtTextView android:textStyle="bold" android:textColor="@color/aso" android:gravity="center" android:id="@+id/f2x" android:background="@drawable/cm7" android:layout_width="wrap_content" android:layout_height="20dp" android:text="@string/gz5" android:paddingStart="5dp" android:paddingEnd="5dp" app:fontType="2" style="@style/ul"/>
+            <com.bytedance.ies.dmt.p664ui.widget.DmtTextView android:textStyle="bold" android:textColor="@color/aso" android:ellipsize="end" android:gravity="center" android:id="@+id/f2z" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:layout_marginBottom="2dp" android:maxWidth="212dp" android:maxLines="1" app:fontType="2" style="@style/uu"/>
+            <com.bytedance.ies.dmt.p664ui.widget.DmtTextView android:textColor="@color/aso" android:ellipsize="end" android:gravity="center_vertical" android:id="@+id/f34" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3dp" android:layout_marginEnd="87dp" style="@style/ur"/>
+            <FrameLayout android:layout_gravity="start" android:id="@+id/e97" android:layout_width="250dp" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:layout_marginStart="-8dp"/>
+        </LinearLayout>
+        <FrameLayout android:layout_gravity="bottom|right|center_vertical|center_horizontal|center|end" android:id="@+id/e8w" android:layout_width="100dp" android:layout_height="250dp"/>
+    </FrameLayout>
+    <FrameLayout android:id="@+id/e99" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@+id/ek1" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <com.p683ss.android.ugc.aweme.base.p1420ui.SmartAvatarBorderView android:id="@+id/ejc" android:visibility="visible" android:layout_width="98dp" android:layout_height="98dp"/>
+            <com.bytedance.ies.dmt.p664ui.widget.DmtTextView android:textStyle="bold" android:textColor="@color/aso" android:ellipsize="end" android:gravity="center" android:id="@+id/f30" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16dp" android:maxWidth="212dp" android:maxLines="1" app:fontType="2" style="@style/uu"/>
+            <com.bytedance.ies.dmt.p664ui.widget.DmtTextView android:textStyle="bold" android:textColor="@color/ay_" android:id="@+id/f2w" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12dp" android:text="@string/gz2" app:fontType="2" style="@style/uv"/>
+        </LinearLayout>
+        <LinearLayout android:gravity="center_horizontal" android:layout_gravity="bottom" android:orientation="vertical" android:id="@+id/ek2" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="50dp">
+            <com.bytedance.ies.dmt.p664ui.widget.DmtTextView android:textStyle="bold" android:textColor="@color/aso" android:id="@+id/f2v" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/gz3" android:layout_marginStart="8dp" app:fontType="2" style="@style/uu"/>
+            <ImageView android:layout_width="24dp" android:layout_height="24dp" android:layout_marginTop="4dp" android:src="@drawable/cwa"/>
+        </LinearLayout>
+    </FrameLayout>
+</FrameLayout>

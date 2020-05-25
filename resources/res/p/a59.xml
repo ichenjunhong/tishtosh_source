@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:oneshot="false">
+    <item android:duration="42" android:drawable="0x7f1313f7"/>
+    <item android:duration="42" android:drawable="0x7f1313f8"/>
+    <item android:duration="42" android:drawable="0x7f131403"/>
+    <item android:duration="42" android:drawable="0x7f131408"/>
+    <item android:duration="42" android:drawable="0x7f131409"/>
+    <item android:duration="42" android:drawable="0x7f13140a"/>
+    <item android:duration="42" android:drawable="0x7f13140b"/>
+    <item android:duration="42" android:drawable="0x7f13140c"/>
+    <item android:duration="42" android:drawable="0x7f13140d"/>
+    <item android:duration="42" android:drawable="0x7f13140e"/>
+    <item android:duration="42" android:drawable="0x7f1313f9"/>
+    <item android:duration="42" android:drawable="0x7f1313fa"/>
+    <item android:duration="42" android:drawable="0x7f1313fb"/>
+    <item android:duration="42" android:drawable="0x7f1313fc"/>
+    <item android:duration="42" android:drawable="0x7f1313fd"/>
+    <item android:duration="42" android:drawable="0x7f1313fe"/>
+    <item android:duration="42" android:drawable="0x7f1313ff"/>
+    <item android:duration="42" android:drawable="0x7f131400"/>
+    <item android:duration="42" android:drawable="0x7f131401"/>
+    <item android:duration="42" android:drawable="0x7f131402"/>
+    <item android:duration="42" android:drawable="0x7f131404"/>
+    <item android:duration="42" android:drawable="0x7f131405"/>
+    <item android:duration="42" android:drawable="0x7f131406"/>
+    <item android:duration="42" android:drawable="0x7f131407"/>
+</animation-list>

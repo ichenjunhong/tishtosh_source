@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout android:id="@+id/dj6" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <ImageButton android:id="@+id/dj5" android:layout_centerVertical="true" style="@style/a06"/>
+        <ImageView android:id="@+id/djv" android:layout_width="@dimen/tx" android:layout_height="@dimen/tw" android:src="?attr/a9h" android:layout_centerInParent="true"/>
+        <ImageView android:id="@+id/dj3" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:layout_alignParentEnd="true" style="@style/a03"/>
+    </RelativeLayout>
+    <View android:id="@+id/dj7" android:visibility="invisible" style="@style/a07"/>
+    <com.twitter.sdk.android.tweetcomposer.internal.util.ObservableScrollView android:id="@+id/dj8" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1" android:overScrollMode="never">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <EditText android:id="@+id/djd" style="@style/a0_"/>
+            <ImageView android:id="@+id/djg" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/ty" android:adjustViewBounds="true"/>
+        </LinearLayout>
+    </com.twitter.sdk.android.tweetcomposer.internal.util.ObservableScrollView>
+    <View android:id="@+id/dj_" style="@style/a07"/>
+    <LinearLayout android:id="@+id/dj9" style="@style/a08">
+        <TextView android:id="@+id/dj4" style="@style/a04"/>
+        <Button android:id="@+id/djh" style="@style/a09"/>
+    </LinearLayout>
+</LinearLayout>

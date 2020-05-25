@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/drq" android:clipChildren="false" android:layout_width="match_parent" android:layout_height="match_parent">
+    <FrameLayout android:id="@+id/ao4" android:background="@color/b1n" android:fitsSystemWindows="true" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <ImageView android:layout_gravity="left|center_vertical|center_horizontal|center|start" android:id="@+id/d7v" android:src="@drawable/afr" style="@style/a1a"/>
+        <TextView android:textSize="17sp" android:textColor="@color/a17" android:gravity="center_horizontal" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/a2q"/>
+        <ImageView android:layout_gravity="right|center_vertical|center_horizontal|center|end" android:id="@+id/d7w" android:src="@drawable/afv" style="@style/a1a"/>
+    </FrameLayout>
+    <FrameLayout android:id="@+id/ca9" android:background="@color/a0_" android:clipChildren="false" android:layout_width="match_parent" android:layout_height="136dp" android:layout_marginLeft="16dp" android:layout_marginRight="16dp" android:layout_alignParentBottom="true" android:layoutDirection="ltr">
+        <com.bytedance.ies.dmt.p664ui.widget.DmtTextView android:textColor="@color/a1a" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="17dp" android:layout_marginBottom="17dp" android:text="@string/c7s" style="@style/ul"/>
+        <com.p683ss.android.ugc.aweme.shortvideo.widget.ChooseVideoCoverViewV2 android:layout_gravity="bottom" android:id="@+id/tc" android:layout_width="match_parent" android:layout_height="64dp" android:layout_marginBottom="20dp"/>
+    </FrameLayout>
+    <FrameLayout android:id="@+id/dqc" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_above="@+id/ca9" android:layout_below="@+id/ao4" android:layout_centerHorizontal="true"/>
+</RelativeLayout>

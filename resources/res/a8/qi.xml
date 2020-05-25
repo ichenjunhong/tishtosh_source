@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent" android:layout_height="210dp">
+    <com.p683ss.android.ugc.aweme.themechange.base.AVDmtPanelLinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <RelativeLayout android:orientation="horizontal" android:id="@+id/b_3" android:layout_width="match_parent" android:layout_height="40dp">
+            <com.p683ss.android.ugc.aweme.themechange.base.AVDmtTabLayout android:id="@+id/afm" android:layout_width="match_parent" android:layout_height="wrap_content" app:secondPanel="true" app:tabGravity="0" app:tabIndicatorColor="?attr/z2" app:tabIndicatorHeight="2dp" app:tabMinWidth="30dp" app:tabMode="0" app:tabPaddingEnd="0dp" app:tabPaddingStart="0dp" app:theme="@style/r4"/>
+            <View android:id="@+id/cx3" android:layout_width="match_parent" android:layout_height="0.5dp" android:layout_alignLeft="@+id/afm" android:layout_alignStart="@+id/afm"/>
+        </RelativeLayout>
+        <RelativeLayout android:id="@+id/af7" android:layout_width="match_parent" android:layout_height="match_parent">
+            <com.p683ss.android.ugc.aweme.themechange.base.AVDmtPanelRecyleView android:id="@+id/afj" android:layout_width="match_parent" android:layout_height="82.5dp" android:layout_marginTop="16dp" app:firstItemMargin="16dp" app:itemMargin="16dp" app:lastItemMargin="16dp"/>
+            <RelativeLayout android:id="@+id/af2" android:layout_width="match_parent" android:layout_height="52dp" android:layout_alignParentBottom="true">
+                <com.p683ss.android.ugc.aweme.themechange.base.AVDmtImageView android:id="@+id/af4" android:layout_width="65dp" android:layout_height="match_parent" android:scaleType="centerInside" android:tint="@color/a0n" android:layout_alignParentLeft="true" android:layout_alignParentStart="true" app:srcCompat="@drawable/ak1"/>
+                <com.p683ss.android.ugc.aweme.themechange.base.AVDmtImageView android:id="@+id/af6" android:layout_width="65dp" android:layout_height="match_parent" android:scaleType="centerInside" android:tint="@color/a0n" android:layout_alignParentRight="true" android:layout_alignParentEnd="true" app:srcCompat="@drawable/ak2"/>
+                <com.p683ss.android.ugc.aweme.themechange.base.AVDmtTextView android:textColor="@color/a1k" android:gravity="center" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="@string/b2m" android:layout_centerInParent="true" app:isChangeTextSize="false" style="@style/a8p"/>
+            </RelativeLayout>
+            <include android:layout_width="match_parent" android:layout_height="0.5dp" android:layout_above="@+id/af2" layout="@layout/a2n"/>
+        </RelativeLayout>
+    </com.p683ss.android.ugc.aweme.themechange.base.AVDmtPanelLinearLayout>
+    <com.p683ss.android.ugc.aweme.themechange.base.AVDmtPanelRelativeLayout android:id="@+id/afi" android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/aff" android:layout_width="match_parent" android:layout_height="52dp" android:layout_alignParentBottom="true">
+            <com.p683ss.android.ugc.aweme.themechange.base.AVDmtTextView android:textColor="@color/a4f" android:gravity="center" android:id="@+id/afg" android:background="#00ffffff" android:layout_width="0dp" android:layout_height="match_parent" android:text="@string/wf" android:layout_weight="1" app:isChangeTextSize="false" style="@style/a8p"/>
+            <com.p683ss.android.ugc.aweme.themechange.base.AVDmtTextView android:textColor="@color/a4f" android:gravity="center" android:id="@+id/afh" android:background="#00ffffff" android:layout_width="0dp" android:layout_height="match_parent" android:text="@string/buu" android:layout_weight="1" app:isChangeTextSize="false" style="@style/a8p"/>
+        </LinearLayout>
+        <FrameLayout android:layout_width="match_parent" android:layout_height="match_parent" android:layout_above="@+id/aff">
+            <com.p683ss.android.ugc.aweme.filter.widget.FilterBeautySeekBar android:layout_gravity="center" android:id="@+id/ckb" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="52dp" android:layout_marginRight="52dp" android:maxHeight="3dp" android:max="100" android:progress="80" android:progressDrawable="@drawable/d1" android:thumb="@drawable/d2" android:layout_marginStart="52dp" android:layout_marginEnd="52dp" app:rateTextColor="@color/a1a" app:rateTextSize="12sp"/>
+        </FrameLayout>
+        <include android:layout_width="match_parent" android:layout_height="1px" android:layout_above="@+id/aff" layout="@layout/a2n"/>
+    </com.p683ss.android.ugc.aweme.themechange.base.AVDmtPanelRelativeLayout>
+</FrameLayout>

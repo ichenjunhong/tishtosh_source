@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:layout_gravity="bottom" android:orientation="vertical" android:id="@+id/ac" android:background="@color/abg" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:id="@+id/erx" android:background="@color/alt" android:layout_width="match_parent" android:layout_height="57dp" android:layout_marginBottom="0.5dp" android:text="@string/h00" style="@style/y4"/>
+        <TextView android:id="@+id/erv" android:background="@color/alt" android:layout_width="match_parent" android:layout_height="57dp" style="@style/y4"/>
+        <TextView android:id="@+id/bp1" android:background="@color/alt" android:layout_width="match_parent" android:layout_height="57dp" android:layout_marginTop="0.5dp" style="@style/y4"/>
+        <TextView android:id="@+id/b66" android:background="@color/alt" android:layout_width="match_parent" android:layout_height="57dp" android:layout_marginTop="0.5dp" style="@style/y4"/>
+        <TextView android:id="@+id/q7" android:background="@color/alt" android:layout_width="match_parent" android:layout_height="57dp" android:layout_marginTop="8dp" android:text="@string/e45" style="@style/y4"/>
+    </LinearLayout>
+    <include android:layout_gravity="bottom" android:id="@+id/bhy" android:visibility="gone" android:layout_width="match_parent" android:layout_height="200dp" layout="@layout/aqe"/>
+</FrameLayout>

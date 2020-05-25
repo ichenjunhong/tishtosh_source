@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <View android:id="@+id/bd4" android:layout_width="match_parent" android:layout_height="24dp"/>
+    <TextView android:textSize="18sp" android:textStyle="bold" android:textColor="@color/ahq" android:gravity="start" android:id="@+id/bd1" android:background="@color/alt" android:paddingLeft="16dp" android:paddingRight="16dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="16dp" android:paddingEnd="16dp"/>
+    <View android:id="@+id/bd3" android:layout_width="match_parent" android:layout_height="8dp"/>
+    <TextView android:textSize="12sp" android:textColor="#5a161823" android:id="@+id/bcw" android:background="@color/alt" android:paddingLeft="16dp" android:paddingRight="16dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:includeFontPadding="false" android:textAllCaps="false" android:paddingStart="16dp" android:paddingEnd="16dp"/>
+    <View android:id="@+id/bd2" android:layout_width="match_parent" android:layout_height="8dp"/>
+    <TextView android:textSize="14sp" android:textColor="@color/ahp" android:id="@+id/bd0" android:background="@color/alt" android:paddingLeft="16dp" android:paddingRight="16dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:includeFontPadding="false" android:textAllCaps="false" android:paddingStart="16dp" android:paddingEnd="16dp"/>
+    <View android:id="@+id/bcn" android:layout_width="match_parent" android:layout_height="16dp"/>
+</LinearLayout>

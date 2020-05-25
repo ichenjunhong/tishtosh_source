@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.p683ss.android.ugc.aweme.p2377ug.guide.SwipeUpGuideStrengthenLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/cvw" android:background="#7f000000" android:layout_width="match_parent" android:layout_height="match_parent" android:alpha="0.5">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+        <RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent">
+            <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+                <ImageView android:id="@+id/eew" android:paddingLeft="65dp" android:visibility="gone" android:layout_width="match_parent" android:layout_height="196dp" android:src="@drawable/ct3"/>
+                <com.p683ss.android.ugc.aweme.base.p1420ui.AnimationImageView android:layout_gravity="center" android:id="@+id/b15" android:layout_width="match_parent" android:layout_height="210dp"/>
+                <FrameLayout android:paddingTop="20dp" android:clipChildren="false" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingEnd="32dp" android:layout_marginStart="32dp">
+                    <com.bytedance.ies.dmt.p664ui.widget.DmtTextView android:textSize="24sp" android:textColor="#ffffff" android:gravity="center" android:id="@+id/dgt" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/duu" app:fontType="2"/>
+                    <com.bytedance.ies.dmt.p664ui.widget.DmtTextView android:textSize="24sp" android:textColor="#ffffff" android:gravity="center" android:id="@+id/f4n" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/duu" app:fontType="2"/>
+                    <com.bytedance.ies.dmt.p664ui.widget.DmtTextView android:textSize="20sp" android:textColor="#ffffff" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@+id/f4m" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="38dp" android:text="@string/ghr" android:maxLines="2" android:lineSpacingExtra="2sp"/>
+                </FrameLayout>
+            </LinearLayout>
+        </RelativeLayout>
+    </LinearLayout>
+</com.p683ss.android.ugc.aweme.p2377ug.guide.SwipeUpGuideStrengthenLayout>

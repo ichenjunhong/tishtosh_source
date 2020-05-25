@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:background="@color/a8w" android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout android:id="@+id/z6" android:background="@drawable/bqx" android:layout_width="match_parent" android:layout_height="88dp" android:layout_alignParentBottom="true">
+        <com.bytedance.android.live.core.widget.HSImageView android:id="@+id/ay2" android:layout_width="40dp" android:layout_height="40dp" android:layout_marginLeft="12dp" android:layout_centerVertical="true" app:placeholderImage="@drawable/c2g" app:roundAsCircle="true"/>
+        <TextView android:textSize="14dp" android:textColor="@color/alt" android:gravity="center" android:id="@+id/dfp" android:background="@drawable/bqw" android:layout_width="88dp" android:layout_height="32dp" android:layout_marginRight="12dp" android:text="@string/f10" android:layout_alignParentRight="true" android:layout_centerVertical="true"/>
+        <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8dp" android:layout_toLeftOf="@+id/dfp" android:layout_toRightOf="@+id/ay2" android:layout_centerVertical="true">
+            <TextView android:textSize="16sp" android:textColor="@color/af4" android:ellipsize="marquee" android:id="@+id/dco" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:includeFontPadding="false" android:lineSpacingExtra="4sp"/>
+            <TextView android:textSize="14sp" android:textColor="@color/af3" android:id="@+id/d98" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4dp" android:text="@string/f13" android:includeFontPadding="false" android:lineSpacingExtra="2sp"/>
+        </LinearLayout>
+    </RelativeLayout>
+    <View android:id="@+id/z1" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_above="@+id/z6"/>
+</RelativeLayout>

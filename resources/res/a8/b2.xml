@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <View android:id="@+id/csm" android:layout_width="match_parent" android:layout_height="0dp" style="@style/iw"/>
+    <RelativeLayout android:id="@+id/ce1" android:layout_width="match_parent" android:layout_height="44dp">
+        <ImageView android:id="@+id/ayq" android:layout_width="24dp" android:layout_height="24dp" android:layout_marginLeft="16dp" android:src="@drawable/ag1" android:scaleType="fitXY" android:layout_centerVertical="true" android:onClick="true" android:layout_marginStart="16dp"/>
+        <com.bytedance.ies.dmt.p664ui.widget.DmtTextView android:textSize="17sp" android:textColor="@color/g" android:layout_width="wrap_content" android:layout_height="24dp" android:text="@string/d9x" android:layout_centerInParent="true"/>
+    </RelativeLayout>
+    <View android:id="@+id/a6f" android:background="@color/a0s" android:layout_width="match_parent" android:layout_height="0.5dp"/>
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="49dp" android:layout_marginTop="8dp">
+        <com.p683ss.android.ugc.aweme.base.p1420ui.RemoteImageView android:id="@+id/cok" android:layout_width="37dp" android:layout_height="match_parent" android:layout_marginLeft="12dp" android:layout_marginStart="12dp" app:placeholderImage="@drawable/bbl" app:roundedCornerRadius="2dp"/>
+        <com.bytedance.ies.dmt.p664ui.widget.DmtTextView android:textSize="14sp" android:textColor="@color/g" android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="18dp" android:layout_marginLeft="12dp" android:text="@string/b3c" android:lineSpacingExtra="4sp" android:layout_marginStart="12dp"/>
+    </LinearLayout>
+    <FrameLayout android:id="@+id/coj" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="12dp"/>
+</LinearLayout>

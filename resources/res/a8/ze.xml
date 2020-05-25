@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="70dp" android:layout_height="wrap_content" android:layout_marginLeft="5dp" android:layout_marginRight="5dp" android:layout_marginStart="5dp" android:layout_marginEnd="5dp">
+    <com.airbnb.lottie.LottieAnimationView android:layout_gravity="center_horizontal" android:id="@+id/c7x" android:visibility="visible" android:layout_width="70dp" android:layout_height="70dp"/>
+    <FrameLayout android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12dp">
+        <com.bytedance.android.live.core.widget.HSImageView android:layout_gravity="center_horizontal" android:id="@+id/amw" android:background="@drawable/c2g" android:layout_width="48dp" android:layout_height="48dp" app:placeholderImage="@drawable/c2g" app:roundAsCircle="true"/>
+        <ImageView android:layout_gravity="center_horizontal" android:id="@+id/an0" android:background="@drawable/bmb" android:layout_width="48dp" android:layout_height="48dp"/>
+        <ImageView android:layout_gravity="center_horizontal" android:id="@+id/an1" android:layout_width="24dp" android:layout_height="24dp" android:layout_marginTop="12dp" android:src="@drawable/byu"/>
+    </FrameLayout>
+    <LinearLayout android:gravity="center_vertical" android:layout_gravity="center_horizontal" android:orientation="horizontal" android:background="@drawable/bma" android:layout_width="wrap_content" android:layout_height="14dp" android:layout_marginTop="46dp">
+        <com.bytedance.android.live.core.widget.LiveTextView android:textSize="10dp" android:textColor="@color/alt" android:gravity="center" android:id="@+id/amz" android:background="@drawable/bm9" android:layout_width="12dp" android:layout_height="12dp"/>
+        <View android:background="@drawable/btn" android:layout_width="8dp" android:layout_height="8dp" android:layout_marginLeft="2dp" android:layout_marginStart="2dp"/>
+        <com.bytedance.android.live.core.widget.LiveTextView android:textSize="8dp" android:textColor="@color/alt" android:id="@+id/amx" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="2dp" android:layout_marginRight="4dp" android:layout_marginStart="2dp" android:layout_marginEnd="4dp"/>
+    </LinearLayout>
+    <com.bytedance.android.live.core.widget.LiveTextView android:textSize="12dp" android:textColor="@color/alt" android:ellipsize="end" android:layout_gravity="center_horizontal" android:id="@+id/amy" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="68dp" android:maxLines="1" android:maxLength="6"/>
+</FrameLayout>

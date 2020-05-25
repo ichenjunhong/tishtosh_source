@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/am3" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.p683ss.android.ugc.aweme.base.p1420ui.ScrollableViewPager android:id="@+id/ds2" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <com.p683ss.android.ugc.aweme.feed.p1736ui.DisLikeAwemeLayout android:id="@+id/a6b" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <FrameLayout android:layout_gravity="top|left|center_vertical|center_horizontal|center|start" android:id="@+id/cu7" android:paddingLeft="16dp" android:paddingTop="30dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="16dp"/>
+    <ImageView android:layout_gravity="top|left|center_vertical|center_horizontal|center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/df1"/>
+    <ImageView android:layout_gravity="top|right|center_vertical|center_horizontal|center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/df2"/>
+    <include android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" layout="?attr/abg"/>
+    <include android:layout_width="270dp" android:layout_height="295dp" layout="?attr/ab2"/>
+    <ViewStub android:id="@+id/dwq" android:layout="?attr/ab1" android:layout_width="match_parent" android:layout_height="match_parent"/>
+</FrameLayout>

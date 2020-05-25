@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:id="@+id/cfi" android:background="@color/a0f" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="12dp" android:contentDescription="@string/b64">
+    <include android:layout_width="match_parent" android:layout_height="wrap_content" layout="@layout/ba2"/>
+    <FrameLayout android:id="@+id/b_i" android:layout_width="match_parent" android:layout_height="343dp">
+        <com.p683ss.android.ugc.playerkit.videoview.KeepSurfaceTextureView android:layout_gravity="center" android:id="@+id/czh" android:layout_width="match_parent" android:layout_height="match_parent" android:layerType="hardware"/>
+        <com.p683ss.android.ugc.aweme.base.p1420ui.RemoteImageView android:layout_gravity="center" android:id="@+id/azj" android:background="0x7f130b78" android:layout_width="match_parent" android:layout_height="match_parent" android:contentDescription="@string/b64"/>
+        <com.p683ss.android.ugc.aweme.feed.p1736ui.LongPressLayout android:id="@+id/bji" android:layout_width="match_parent" android:layout_height="match_parent" android:contentDescription="@string/b64"/>
+        <com.p683ss.android.ugc.aweme.common.widget.DiggLayout android:id="@+id/a5q" android:layout_width="match_parent" android:layout_height="match_parent"/>
+        <FrameLayout android:layout_gravity="center" android:id="@+id/auf" android:layout_width="match_parent" android:layout_height="match_parent"/>
+        <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+            <LinearLayout android:id="@+id/bm_" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+                <include android:visibility="gone" android:layout_width="match_parent" android:layout_height="32dp" layout="@layout/baa"/>
+            </LinearLayout>
+            <View android:background="@drawable/cxs" android:layout_width="match_parent" android:layout_height="50dp" android:layout_above="@+id/bm_"/>
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/b8g" android:paddingTop="6dp" android:paddingBottom="6dp" android:layout_width="152dp" android:layout_height="40dp" android:layout_marginLeft="12dp" android:layout_above="@+id/bm_" android:layout_marginStart="12dp">
+                <ImageView android:id="@+id/bo7" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="1dp" android:src="@drawable/dfb" android:alpha="0.9" android:layout_marginEnd="1dp"/>
+                <com.bytedance.ies.dmt.p664ui.widget.DmtTextView android:textStyle="bold" android:textColor="@color/je" android:id="@+id/boc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/cme" android:shadowColor="@color/a4p" android:shadowDx="0" android:shadowDy="2" android:shadowRadius="2" style="@style/un"/>
+                <FrameLayout android:id="@+id/b8h" android:paddingTop="5dp" android:paddingBottom="5dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4.5dp" android:layout_marginStart="4.5dp">
+                    <com.p683ss.android.ugc.aweme.feed.widget.MarqueeView android:id="@+id/bot" android:layout_width="match_parent" android:layout_height="wrap_content" app:speed="25dp" app:txt_color="@color/jf" app:txt_shadow="@color/n5" app:txt_size="13sp"/>
+                </FrameLayout>
+            </LinearLayout>
+            <FrameLayout android:id="@+id/b8z" android:layout_width="50dp" android:layout_height="50dp" android:layout_above="@+id/bm_" android:layout_alignParentRight="true" android:layout_alignParentEnd="true">
+                <ImageView android:id="@+id/b2x" android:paddingTop="16dp" android:paddingBottom="6dp" android:visibility="gone" android:layout_width="50dp" android:layout_height="50dp" android:src="@drawable/cxe" android:scaleType="fitXY" android:paddingStart="16dp" android:paddingEnd="6dp"/>
+                <ImageView android:layout_gravity="bottom|right|center_vertical|center_horizontal|center|end" android:id="@+id/b25" android:padding="6dp" android:visibility="gone" android:layout_width="40dp" android:layout_height="40dp" android:src="@drawable/cxc"/>
+                <ImageView android:id="@+id/b37" android:paddingTop="16dp" android:paddingBottom="6dp" android:visibility="gone" android:layout_width="50dp" android:layout_height="50dp" android:src="@drawable/cxf" android:scaleType="fitXY" android:paddingStart="16dp" android:paddingEnd="6dp"/>
+            </FrameLayout>
+        </RelativeLayout>
+        <com.p683ss.android.ugc.aweme.shortvideo.p2242ui.VideoPlayerProgressbar android:layout_gravity="bottom" android:id="@+id/dpu" android:visibility="gone" android:layout_width="match_parent" android:layout_height="1.5dp" app:reached_color="@color/a1l" app:reached_height="1.5dp"/>
+        <com.bytedance.ies.dmt.p664ui.widget.DmtTextView android:textColor="@color/n6" android:layout_gravity="top|right|center_vertical|center_horizontal|center|end" android:id="@+id/d6z" android:background="@drawable/cx3" android:paddingLeft="3.5dp" android:paddingTop="3.5dp" android:paddingRight="3.5dp" android:paddingBottom="0.5dp" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="20dp" android:layout_marginTop="12dp" android:layout_marginRight="18dp" android:text="@string/b73" android:layout_marginEnd="18dp" style="@style/uh"/>
+    </FrameLayout>
+</LinearLayout>

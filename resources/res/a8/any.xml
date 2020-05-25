@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:id="@+id/cfg" android:background="@drawable/jl" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:orientation="vertical" android:id="@+id/dlb" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="21dp" android:layout_marginTop="16dp" android:layout_marginStart="21dp">
+        <ImageView android:layout_gravity="center_horizontal" android:layout_width="48dp" android:layout_height="48dp" android:src="@drawable/cq4"/>
+        <com.bytedance.ies.dmt.p664ui.widget.DmtTextView android:textColor="@color/a44" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="7dp" android:text="@string/wj" style="@style/uh"/>
+    </LinearLayout>
+    <View android:background="@color/j4" android:layout_width="match_parent" android:layout_height="0.5dp" android:layout_marginTop="14dp"/>
+    <com.bytedance.ies.dmt.p664ui.widget.DmtTextView android:textColor="@color/a4a" android:gravity="center" android:id="@+id/dla" android:background="@drawable/deb" android:layout_width="match_parent" android:layout_height="49dp" android:text="@string/wf" style="@style/ur"/>
+</LinearLayout>

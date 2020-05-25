@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.bytedance.android.live.core.widget.HSImageView android:id="@+id/dox" android:layout_width="match_parent" android:layout_height="match_parent" android:foreground="@color/afm"/>
+    <TextureView android:id="@+id/dqi" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <com.bytedance.android.live.core.widget.HSImageView android:id="@+id/iz" android:visibility="visible" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="fitXY" app:placeholderImage="@drawable/c3n" app:placeholderImageScaleType="6"/>
+    <ProgressBar android:layout_gravity="center" android:id="@+id/c66" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+    <FrameLayout android:id="@+id/auk" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <FrameLayout android:id="@+id/aai" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent"/>
+</FrameLayout>

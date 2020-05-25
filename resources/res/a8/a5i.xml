@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/ahd" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.p683ss.android.ugc.aweme.base.opensourcemodified.android.support.p1419v4.widget.SwipeRefreshLayout android:id="@+id/crb" android:layout_width="match_parent" android:layout_height="match_parent">
+        <com.p683ss.android.ugc.aweme.base.p1420ui.CustomInterceptTouchEventFrameLayout android:id="@+id/agx" android:layout_width="match_parent" android:layout_height="match_parent">
+            <com.p683ss.android.ugc.aweme.base.p1420ui.FlippableViewPager android:id="@+id/ds2" android:layout_width="match_parent" android:layout_height="match_parent"/>
+            <ImageView android:id="@+id/d1i" android:visibility="visible" android:layout_width="match_parent" android:layout_height="wrap_content" android:src="@drawable/cyq"/>
+            <ViewStub android:id="@+id/dt9" android:layout="?attr/adq" android:layout_width="100dp" android:layout_height="100dp" android:layout_marginTop="80dp"/>
+            <LinearLayout android:orientation="vertical" android:id="@+id/d12" android:layout_width="match_parent" android:layout_height="match_parent">
+                <View android:id="@+id/csm" android:layout_width="match_parent" android:layout_height="0dp"/>
+                <FrameLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <FrameLayout android:layout_gravity="center_vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+                        <FrameLayout android:layout_gravity="left|center_vertical|center_horizontal|center|start" android:id="@+id/ejm" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="44dp" android:layout_marginLeft="16dp" android:layout_marginStart="16dp">
+                            <ImageView android:layout_gravity="center" android:id="@+id/ejn" android:layout_width="24dp" android:layout_height="24dp" android:src="@drawable/d1r" android:scaleType="centerInside"/>
+                        </FrameLayout>
+                        <FrameLayout android:id="@+id/ce3" android:layout_width="match_parent" android:layout_height="wrap_content">
+                            <com.p683ss.android.ugc.aweme.homepage.p1801ui.view.MainTabStrip android:layout_gravity="center" android:id="@+id/bvy" android:background="@color/arz" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+                            <View android:layout_gravity="bottom" android:id="@+id/el7" android:background="@drawable/cyn" android:visibility="gone" android:layout_width="28dp" android:layout_height="5dp" android:layout_marginBottom="7dp"/>
+                            <ViewStub android:layout_gravity="right|center_vertical|center_horizontal|center|end" android:id="@+id/bjv" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+                        </FrameLayout>
+                    </FrameLayout>
+                    <include layout="@layout/bbs"/>
+                </FrameLayout>
+            </LinearLayout>
+        </com.p683ss.android.ugc.aweme.base.p1420ui.CustomInterceptTouchEventFrameLayout>
+    </com.p683ss.android.ugc.aweme.base.opensourcemodified.android.support.p1419v4.widget.SwipeRefreshLayout>
+    <FrameLayout android:id="@+id/agv" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    <View android:layout_gravity="bottom" android:id="@+id/do7" android:background="@color/a49" android:visibility="gone" android:layout_width="match_parent" android:layout_height="@dimen/a05"/>
+</FrameLayout>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent" android:layout_height="40dp">
+    <com.p683ss.android.ugc.tools.view.widget.AVTextView android:textColor="@color/jm" android:id="@+id/cj1" android:paddingTop="20dp" android:layout_width="match_parent" android:layout_height="40dp" android:text="@string/das" android:lineSpacingExtra="3sp" android:paddingStart="16dp" app:avFontType="7" style="@style/a8n"/>
+</RelativeLayout>

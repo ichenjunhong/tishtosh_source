@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:background="@color/a2j" android:fitsSystemWindows="true" android:layout_width="match_parent" android:layout_height="match_parent">
+    <include android:id="@+id/d1b" layout="@layout/buj"/>
+    <ScrollView android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:orientation="vertical" android:id="@+id/c4w" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <com.p683ss.android.ugc.aweme.setting.p2148ui.Divider android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="5dp" app:hideLine="true" app:startText="@string/dgs"/>
+            <com.bytedance.ies.dmt.p664ui.common.views.CommonItemView android:id="@+id/c4t" android:layout_width="match_parent" android:layout_height="wrap_content" app:desc="@string/h3u" app:left_text="@string/cx9" app:right_ui_mode="1"/>
+            <com.bytedance.ies.dmt.p664ui.common.views.CommonItemView android:id="@+id/c4q" android:layout_width="match_parent" android:layout_height="wrap_content" app:desc="@string/h3x" app:left_text="@string/h3w" app:right_ui_mode="1"/>
+            <com.bytedance.ies.dmt.p664ui.widget.setting.Divider android:layout_width="match_parent" android:layout_height="wrap_content"/>
+            <com.p683ss.android.ugc.aweme.setting.p2148ui.Divider android:id="@+id/bxd" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="5dp" app:hideLine="true" app:startText="@string/h3t"/>
+            <com.bytedance.ies.dmt.p664ui.common.views.CommonItemView android:id="@+id/bxf" android:layout_width="match_parent" android:layout_height="wrap_content" app:left_text="@string/h3t"/>
+            <com.bytedance.ies.dmt.p664ui.widget.setting.Divider android:id="@+id/cgh" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+            <com.p683ss.android.ugc.aweme.setting.p2148ui.Divider android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="5dp" app:hideLine="true" app:startText="@string/dfo"/>
+            <com.bytedance.ies.dmt.p664ui.common.views.CommonItemView android:id="@+id/c4r" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" app:left_text="@string/h3m"/>
+            <com.bytedance.ies.dmt.p664ui.common.views.CommonItemView android:id="@+id/c4v" android:layout_width="match_parent" android:layout_height="wrap_content" app:left_text="@string/h40"/>
+            <com.bytedance.ies.dmt.p664ui.common.views.CommonItemView android:id="@+id/c4s" android:layout_width="match_parent" android:layout_height="wrap_content" app:left_text="@string/h3z"/>
+            <com.bytedance.ies.dmt.p664ui.common.views.CommonItemView android:id="@+id/c4u" android:layout_width="match_parent" android:layout_height="wrap_content" app:left_text="@string/dfm"/>
+            <com.bytedance.ies.dmt.p664ui.common.views.CommonItemView android:id="@+id/dv4" android:layout_width="match_parent" android:layout_height="wrap_content" app:left_text="@string/h41"/>
+            <com.bytedance.ies.dmt.p664ui.common.views.CommonItemView android:id="@+id/xc" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" app:left_text="@string/h3y"/>
+            <com.bytedance.ies.dmt.p664ui.common.views.CommonItemView android:id="@+id/x7" android:layout_width="match_parent" android:layout_height="wrap_content" app:left_text="@string/deh"/>
+            <com.bytedance.ies.dmt.p664ui.common.views.CommonItemView android:id="@+id/c4p" android:layout_width="match_parent" android:layout_height="wrap_content" app:left_text="@string/h3n"/>
+            <com.bytedance.ies.dmt.p664ui.common.views.CommonItemView android:id="@+id/a43" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" app:left_text="@string/ao7"/>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

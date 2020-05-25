@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="horizontal" android:padding="16dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <ImageView android:layout_gravity="center_vertical" android:id="@+id/b37" android:layout_width="28dp" android:layout_height="28dp" android:src="@drawable/a9h"/>
+    <com.p683ss.android.ugc.aweme.longvideo.view.VideoPlaySeekBar android:layout_gravity="center_vertical" android:id="@+id/dq2" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_marginLeft="16dp" android:layout_weight="1" android:layout_marginStart="16dp"/>
+    <ImageView android:layout_gravity="center_vertical" android:id="@+id/b4s" android:layout_width="28dp" android:layout_height="28dp" android:layout_marginLeft="16dp" android:src="@drawable/a9j" android:scaleType="fitXY" android:layout_marginStart="16dp"/>
+</LinearLayout>

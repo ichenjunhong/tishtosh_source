@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:background="@color/a0_" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.p683ss.android.ugc.aweme.common.widget.ZeusFrameLayout android:id="@+id/bby" android:layout_width="match_parent" android:layout_height="match_parent">
+        <com.p683ss.android.ugc.aweme.base.opensourcemodified.android.support.p1419v4.widget.SwipeRefreshLayout android:id="@+id/caw" android:layout_width="match_parent" android:layout_height="match_parent">
+            <com.p683ss.android.ugc.aweme.common.widget.NestedScrollingRecyclerView android:id="@+id/bc2" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="6dp"/>
+        </com.p683ss.android.ugc.aweme.base.opensourcemodified.android.support.p1419v4.widget.SwipeRefreshLayout>
+        <com.bytedance.ies.dmt.p664ui.widget.DmtStatusView android:id="@+id/csk" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    </com.p683ss.android.ugc.aweme.common.widget.ZeusFrameLayout>
+    <com.bytedance.ies.dmt.p664ui.widget.DmtStatusView android:id="@+id/csv" android:layout_width="match_parent" android:layout_height="match_parent"/>
+</FrameLayout>

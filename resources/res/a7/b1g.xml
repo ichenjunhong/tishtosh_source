@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent" android:layout_height="match_parent">
+    <FrameLayout android:background="@color/as0" android:layout_width="match_parent" android:layout_height="match_parent">
+        <com.p683ss.android.ugc.aweme.shortvideo.mvtemplate.choosemedia.FastScrollRecyclerView android:id="@+id/arb" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    </FrameLayout>
+    <com.bytedance.ies.dmt.p664ui.widget.DmtTextView android:textColor="@color/a2y" android:layout_gravity="center" android:id="@+id/br2" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/ur"/>
+    <com.bytedance.ies.dmt.p664ui.widget.DmtLoadingLayout android:id="@+id/ard" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="200dp"/>
+    <LinearLayout android:orientation="vertical" android:id="@+id/es9" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent">
+        <View android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="2"/>
+        <RelativeLayout android:layout_gravity="center_horizontal" android:layout_width="310dp" android:layout_height="240dp">
+            <LinearLayout android:orientation="vertical" android:id="@+id/e28" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <ImageView android:layout_gravity="center_horizontal" android:layout_width="72dp" android:layout_height="72dp" android:src="@drawable/ccn"/>
+                <com.bytedance.ies.dmt.p664ui.widget.DmtTextView android:textSize="17dp" android:textColor="@color/avv" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20dp" android:text="@string/gh9" android:fontFamily="ProximaNova-Semibold" app:fontType="2"/>
+                <com.bytedance.ies.dmt.p664ui.widget.DmtTextView android:textSize="14dp" android:textColor="@color/av6" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12dp" android:text="@string/ghe" android:fontFamily="ProximaNova-Semibold" app:fontType="2"/>
+            </LinearLayout>
+        </RelativeLayout>
+        <View android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="3"/>
+    </LinearLayout>
+</FrameLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+        <com.bytedance.ies.dmt.p664ui.widget.DmtTextView android:textSize="36sp" android:textColor="@color/iu" android:gravity="center" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="90dp" android:text="@string/ik"/>
+        <com.bytedance.ies.dmt.p664ui.widget.DmtTextView android:textColor="@color/iu" android:gravity="center" android:id="@+id/ur" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="40dp" android:layout_marginTop="8dp" android:layout_marginRight="40dp" android:text="@string/ij" android:layout_marginStart="40dp" android:layout_marginEnd="40dp"/>
+        <include layout="@layout/a2x"/>
+    </LinearLayout>
+    <com.bytedance.ies.dmt.p664ui.widget.DmtStatusView android:id="@+id/csv" android:layout_width="match_parent" android:layout_height="match_parent"/>
+</FrameLayout>

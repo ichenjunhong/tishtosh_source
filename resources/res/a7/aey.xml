@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/m_" android:background="@drawable/bk_" android:layout_width="match_parent" android:layout_height="440dp">
+    <LinearLayout android:orientation="vertical" android:id="@+id/cf7" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="18sp" android:textStyle="bold" android:textColor="@color/aif" android:gravity="center" android:layout_gravity="center" android:id="@+id/cf5" android:layout_width="wrap_content" android:layout_height="48dp"/>
+        <TextView android:textSize="12sp" android:textColor="@color/aig" android:gravity="bottom|left|center_vertical|center_horizontal|center|start" android:layout_gravity="start" android:id="@+id/cf6" android:background="@color/aii" android:paddingLeft="8dp" android:paddingBottom="7dp" android:visibility="gone" android:layout_width="match_parent" android:layout_height="40dp"/>
+        <View android:background="@color/aii" android:layout_width="match_parent" android:layout_height="1px"/>
+    </LinearLayout>
+    <android.support.p043v7.widget.RecyclerView android:id="@+id/cf3" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_below="@+id/cf7"/>
+    <com.bytedance.android.live.uikit.recyclerview.LoadingStatusView android:id="@+id/cf4" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_below="@+id/cf7"/>
+</RelativeLayout>

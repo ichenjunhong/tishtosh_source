@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:background="@color/a2j" android:fitsSystemWindows="true" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.bytedance.ies.dmt.p664ui.titlebar.TextTitleBar android:id="@+id/d10" android:layout_width="match_parent" android:layout_height="@dimen/vn" app:endButtonType="1" app:endText="@string/b3g" app:endTextSize="15dp" app:startText="@string/vj" app:startTextColor="@color/a19" app:startTextSize="15dp" app:titleText="@string/zn" app:titleTextColor="@color/a19" app:useBackIcon="false"/>
+    <android.support.p043v7.widget.RecyclerView android:id="@+id/bbx" android:layout_width="match_parent" android:layout_height="match_parent"/>
+</LinearLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/dy7" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.bytedance.lighten.loader.SmartImageView android:id="@+id/dy6" android:layout_width="match_parent" android:layout_height="match_parent" app:actualImageScaleType="6" app:failureImage="@drawable/dlh" app:placeholderImage="@drawable/dlh"/>
+    <com.bytedance.lighten.loader.SmartImageView android:id="@+id/dy4" android:layout_width="240dp" android:layout_height="240dp" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0"/>
+    <com.bytedance.lighten.loader.SmartCircleImageView android:id="@+id/dy5" android:layout_width="180dp" android:layout_height="180dp" app:failureImage="@drawable/dlg" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0" app:placeholderImage="@drawable/dlg"/>
+</android.support.constraint.ConstraintLayout>

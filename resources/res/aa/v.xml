@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:background="@drawable/bid" android:paddingLeft="16dp" android:paddingTop="16dp" android:paddingRight="16dp" android:paddingBottom="16dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="16dp" android:paddingEnd="16dp">
+    <RelativeLayout android:id="@+id/zr" android:visibility="invisible" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="horizontal" android:id="@+id/aob" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:textSize="18sp" android:textColor="@color/ah2" android:id="@+id/aoc" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+            <ProgressBar android:layout_gravity="center_vertical" android:id="@+id/ao9" android:layout_width="20dp" android:layout_height="20dp" android:layout_marginLeft="8dp" android:layout_marginStart="8dp" android:indeterminateTint="@color/agz"/>
+        </LinearLayout>
+        <TextView android:textSize="12sp" android:textColor="@color/ah0" android:id="@+id/ao_" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6dp" android:layout_below="@+id/aob"/>
+        <RelativeLayout android:id="@+id/dtn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="40dp" android:minHeight="35dp" android:layout_below="@+id/ao_">
+            <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_centerInParent="true">
+                <TextView android:textSize="12sp" android:textColor="@color/ah0" android:gravity="center" android:id="@+id/dto" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minHeight="35dp" android:layout_weight="1"/>
+                <TextView android:textSize="12sp" android:textColor="@color/ah0" android:gravity="center" android:id="@+id/dtp" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minHeight="35dp" android:layout_weight="1"/>
+            </LinearLayout>
+            <TextView android:textSize="16sp" android:textColor="@color/agz" android:gravity="center" android:id="@+id/rm" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minHeight="35dp" android:layout_centerInParent="true"/>
+        </RelativeLayout>
+        <RelativeLayout android:id="@+id/c9g" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="32dp" android:layout_below="@+id/dtn">
+            <View android:background="@color/ah1" android:layout_width="wrap_content" android:layout_height="0.5dp" android:layout_toLeftOf="@+id/c9h" android:layout_centerVertical="true" android:layout_toStartOf="@+id/c9h"/>
+            <TextView android:textSize="12sp" android:textColor="@color/ah2" android:id="@+id/c9h" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/eom" android:layout_centerInParent="true" android:layout_marginStart="8dp" android:layout_marginEnd="8dp"/>
+            <View android:background="@color/ah1" android:layout_width="wrap_content" android:layout_height="0.5dp" android:layout_toRightOf="@+id/c9h" android:layout_centerVertical="true" android:layout_toEndOf="@+id/c9h"/>
+        </RelativeLayout>
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@+id/lx" android:visibility="invisible" android:layout_width="match_parent" android:layout_height="64dp" android:layout_marginTop="16dp" android:layout_below="@+id/c9g"/>
+    </RelativeLayout>
+    <com.bytedance.android.live.uikit.recyclerview.LoadingStatusView android:layout_gravity="center" android:id="@+id/bh5" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+</FrameLayout>

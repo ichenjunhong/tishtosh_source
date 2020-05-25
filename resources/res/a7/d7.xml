@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:background="@color/xi" android:layout_width="match_parent" android:layout_height="match_parent">
+    <FrameLayout android:id="@+id/ajo" android:layout_width="match_parent" android:layout_height="match_parent">
+        <com.p683ss.android.ugc.aweme.photomovie.CompatTextureView android:id="@+id/cva" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    </FrameLayout>
+</RelativeLayout>

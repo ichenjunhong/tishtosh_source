@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:background="@android:color/transparent" android:layout_width="match_parent" android:layout_height="match_parent">
+    <View android:id="@+id/csm" android:layout_width="match_parent" android:layout_height="0dp"/>
+    <android.support.constraint.ConstraintLayout android:id="@+id/tl" android:background="@color/au2" android:layout_width="match_parent" android:layout_height="match_parent">
+        <com.p683ss.android.ugc.aweme.crossplatform.view.CrossPlatformTitleBar android:id="@+id/a2l" android:layout_width="match_parent" android:layout_height="wrap_content" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0"/>
+        <View android:id="@+id/a6f" android:background="@color/aus" android:layout_width="match_parent" android:layout_height="0.5dp" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toBottomOf="@+id/a2l"/>
+        <com.p683ss.android.ugc.aweme.crossplatform.view.CrossPlatformWebView android:id="@+id/a2j" android:layout_width="0dp" android:layout_height="0dp" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toBottomOf="@+id/a6f"/>
+        <com.bytedance.ies.dmt.p664ui.widget.DmtTextView android:textColor="@color/auk" android:gravity="center" android:id="@+id/f3r" android:background="@drawable/cmw" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="110dp" android:text="@string/g8w" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toStartOf="0" style="@style/uu"/>
+    </android.support.constraint.ConstraintLayout>
+</LinearLayout>

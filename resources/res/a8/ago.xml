@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.p683ss.android.ugc.aweme.common.keyboard.MeasureLinearLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:id="@+id/bvl" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="horizontal" android:id="@+id/bvk" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1"/>
+    <LinearLayout android:layout_gravity="bottom" android:orientation="vertical" android:id="@+id/yw" android:background="@drawable/ci3" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <View android:id="@+id/cwp" android:background="@color/vr" android:layout_width="match_parent" android:layout_height="0.5dp"/>
+        <include android:id="@+id/a9b" android:background="@color/a8w" android:layout_width="match_parent" android:layout_height="47dp" layout="@layout/b1f"/>
+        <View android:id="@+id/c4" android:background="@color/b" android:visibility="gone" android:layout_width="match_parent" android:layout_height="47dp" android:layout_marginTop="-47dp"/>
+        <android.support.p043v7.widget.AppCompatCheckBox android:textColor="@color/a1t" android:gravity="center_vertical" android:id="@+id/r7" android:layout_width="wrap_content" android:layout_height="42.5dp" android:layout_marginLeft="12dp" android:button="@null" android:text="@string/d0u" android:drawableLeft="@drawable/cjc" android:drawablePadding="4dp" android:drawableStart="@drawable/cjc" android:layout_marginStart="12dp" style="@style/up"/>
+        <LinearLayout android:orientation="vertical" android:id="@+id/bw1" android:background="@color/ano" android:visibility="gone" android:layout_width="match_parent" android:layout_height="244dp"/>
+    </LinearLayout>
+</com.p683ss.android.ugc.aweme.common.keyboard.MeasureLinearLayout>

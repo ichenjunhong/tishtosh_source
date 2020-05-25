@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.p683ss.android.ugc.aweme.commercialize.views.OpenURLHintLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/a2k" android:background="@color/a2j" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.p683ss.android.ugc.aweme.crossplatform.view.GradualChangeLinearLayout android:orientation="vertical" android:id="@+id/bfi" android:layout_width="match_parent" android:layout_height="match_parent">
+        <Space android:id="@+id/bpy" android:layout_width="match_parent" android:layout_height="@dimen/n8"/>
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1">
+            <ViewStub android:layout_gravity="top" android:id="@+id/cy7" android:layout="@layout/b86" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+            <com.p683ss.android.ugc.aweme.crossplatform.view.CrossPlatformWebView android:id="@+id/a2j" android:layout_width="match_parent" android:layout_height="match_parent"/>
+        </LinearLayout>
+    </com.p683ss.android.ugc.aweme.crossplatform.view.GradualChangeLinearLayout>
+    <com.p683ss.android.ugc.aweme.crossplatform.view.CrossPlatformTitleBar android:id="@+id/a2l" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    <FrameLayout android:layout_gravity="bottom" android:id="@+id/bk" android:background="@color/aso" android:visibility="gone" android:layout_width="match_parent" android:layout_height="58dp">
+        <View android:layout_gravity="top" android:background="#26ffffff" android:layout_width="match_parent" android:layout_height="1dp"/>
+        <com.bytedance.ies.dmt.p664ui.widget.DmtTextView android:textColor="@color/l9" android:gravity="center" android:layout_gravity="center" android:id="@+id/bm" android:background="@drawable/cth" android:layout_width="335dp" android:layout_height="40dp" android:layout_marginLeft="20dp" android:layout_marginRight="20dp" android:text="@string/aox" style="@style/ur"/>
+        <com.bytedance.ies.dmt.p664ui.widget.DmtTextView android:textSize="13dp" android:textColor="@color/as0" android:layout_gravity="bottom|left|center_vertical|center_horizontal|center" android:id="@+id/e4k" android:background="@color/ao6" android:paddingLeft="7dp" android:paddingTop="4dp" android:paddingRight="7dp" android:paddingBottom="4dp" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:layout_marginBottom="10dp" android:text="WebView"/>
+    </FrameLayout>
+    <ViewStub android:id="@+id/e3a" android:layout="@layout/b81" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+</com.p683ss.android.ugc.aweme.commercialize.views.OpenURLHintLayout>

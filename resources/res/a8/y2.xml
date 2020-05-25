@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_alignParentBottom="true">
+    <LinearLayout android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1">
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@+id/dv2" android:clipChildren="false" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1">
+            <TextView android:textSize="14sp" android:textColor="@color/afr" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12dp" android:text="@string/eyx" android:layout_marginStart="12dp"/>
+            <SeekBar android:id="@+id/dv3" android:background="#0000" android:paddingLeft="12dp" android:paddingTop="12dp" android:paddingRight="12dp" android:paddingBottom="12dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:maxHeight="4dp" android:progress="30" android:progressDrawable="@drawable/bm5" android:thumb="@drawable/c4a" android:paddingStart="12dp" android:paddingEnd="12dp"/>
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@+id/jn" android:clipChildren="false" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1">
+            <TextView android:textSize="14sp" android:textColor="@color/afr" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/e3r"/>
+            <SeekBar android:id="@+id/jo" android:background="#0000" android:paddingLeft="12dp" android:paddingTop="12dp" android:paddingRight="12dp" android:paddingBottom="12dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:maxHeight="4dp" android:progress="30" android:progressDrawable="@drawable/bm5" android:thumb="@drawable/c4a" android:paddingStart="12dp" android:paddingEnd="12dp"/>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1">
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@+id/kq" android:clipChildren="false" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1">
+            <TextView android:textSize="14sp" android:textColor="@color/afr" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12dp" android:text="@string/e3t" android:layout_marginStart="12dp"/>
+            <SeekBar android:id="@+id/kr" android:background="#0000" android:paddingLeft="12dp" android:paddingTop="12dp" android:paddingRight="12dp" android:paddingBottom="12dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:maxHeight="4dp" android:progress="30" android:progressDrawable="@drawable/bm5" android:thumb="@drawable/c4a" android:paddingStart="12dp" android:paddingEnd="12dp"/>
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@+id/ad6" android:clipChildren="false" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1">
+            <TextView android:textSize="14sp" android:textColor="@color/afr" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ea1"/>
+            <SeekBar android:id="@+id/ad7" android:background="#0000" android:paddingLeft="12dp" android:paddingTop="12dp" android:paddingRight="12dp" android:paddingBottom="12dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:maxHeight="4dp" android:progress="30" android:progressDrawable="@drawable/bm5" android:thumb="@drawable/c4a" android:paddingStart="12dp" android:paddingEnd="12dp"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

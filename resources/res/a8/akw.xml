@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent" android:layout_height="72dp">
+    <com.p683ss.android.ugc.aweme.discover.alading.ScrollToOpenLayout android:layout_gravity="center_vertical" android:orientation="horizontal" android:id="@+id/chw" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <android.support.p043v7.widget.RecyclerView android:id="@+id/bbq" android:paddingTop="16dp" android:paddingBottom="16dp" android:layout_width="match_parent" android:layout_height="72dp"/>
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@+id/f8_" android:layout_width="45dp" android:layout_height="match_parent">
+            <ImageView android:layout_width="8dp" android:layout_height="8dp" android:src="@drawable/dft"/>
+            <com.bytedance.ies.dmt.p664ui.widget.DmtTextView android:textSize="10dp" android:textColor="#57ffffff" android:id="@+id/cyg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/fke" android:ems="1" android:layout_marginStart="8dp" android:layout_marginEnd="8dp"/>
+        </LinearLayout>
+    </com.p683ss.android.ugc.aweme.discover.alading.ScrollToOpenLayout>
+    <ViewStub android:layout_gravity="center_vertical" android:id="@+id/bku" android:layout="@layout/bpi" android:layout_width="match_parent" android:layout_height="40dp" android:layout_marginLeft="16dp" android:layout_marginRight="16dp" android:layout_marginStart="16dp" android:layout_marginEnd="16dp"/>
+</FrameLayout>

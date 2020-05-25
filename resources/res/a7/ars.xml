@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/ak2" android:background="@drawable/cp0" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.bytedance.ies.uikit.viewpager.ImageViewTouchViewPager android:id="@+id/arg" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <com.bytedance.ies.dmt.p664ui.widget.DmtTextView android:textColor="@color/aso" android:gravity="center" android:id="@+id/cgy" android:background="@drawable/cqf" android:layout_width="50dp" android:layout_height="28dp" android:layout_marginRight="5dp" android:layout_marginBottom="5dp" android:text="@string/d_8" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" style="@style/up"/>
+    <com.bytedance.ies.dmt.p664ui.widget.DmtTextView android:textColor="@color/aso" android:gravity="center" android:id="@+id/bvu" android:background="@drawable/cqf" android:layout_width="50dp" android:layout_height="28dp" android:layout_marginLeft="5dp" android:layout_marginBottom="5dp" android:layout_alignParentLeft="true" android:layout_alignParentBottom="true" style="@style/up"/>
+</RelativeLayout>

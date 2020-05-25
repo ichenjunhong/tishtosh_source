@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:paddingLeft="32dp" android:paddingRight="32dp" android:layout_width="match_parent" android:layout_height="match_parent" android:paddingStart="32dp" android:paddingEnd="32dp">
+    <LinearLayout android:orientation="vertical" android:id="@+id/ecp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/xe">
+        <com.p683ss.android.ugc.aweme.account.p1307ui.InputWithIndicator android:id="@+id/ecy" android:layout_width="match_parent" android:layout_height="20dp" android:maxLines="1" android:inputType="textPassword" app:indicatorType="1"/>
+        <com.p683ss.android.ugc.aweme.account.login.p1292v2.p1295ui.InputResultIndicator android:textSize="@dimen/x5" android:id="@+id/ecz" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/x5" app:marginTop="@dimen/x4"/>
+    </LinearLayout>
+    <include android:id="@+id/eco" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/x8" layout="@layout/b13"/>
+    <com.p683ss.android.ugc.aweme.account.p1307ui.LoadingButton android:textSize="@dimen/x6" android:id="@+id/ecq" android:layout_width="match_parent" android:layout_height="44dp" android:layout_marginTop="@dimen/x8" android:text="@string/adb"/>
+</LinearLayout>

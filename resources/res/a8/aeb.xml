@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" style="@style/a5y">
+    <include layout="@layout/bge"/>
+    <android.support.constraint.ConstraintLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="horizontal" android:id="@+id/b7b" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="52dp" android:layout_marginStart="52dp" app:layout_constraintLeft_toLeftOf="@+id/b6z" app:layout_constraintStart_toStartOf="@+id/b6z" app:layout_constraintTop_toTopOf="0">
+            <View android:background="@color/s8" android:layout_width="0.5dp" android:layout_height="match_parent"/>
+            <LinearLayout android:gravity="start" android:orientation="vertical" android:id="@+id/ze" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="9.5dp" android:layout_marginStart="9.5dp">
+                <com.bytedance.ies.dmt.p664ui.widget.DmtTextView android:textColor="@color/ar5" android:ellipsize="end" android:id="@+id/ctj" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="8dp" android:text="@string/boe" android:maxLines="1" style="@style/un"/>
+                <include layout="@layout/beq"/>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:id="@+id/b6z" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8dp" app:layout_constraintLeft_toRightOf="@+id/b9l" app:layout_constraintStart_toEndOf="@+id/b9l" app:layout_constraintTop_toBottomOf="@+id/b7b">
+            <com.p683ss.android.ugc.aweme.base.p1420ui.AvatarImageView android:id="@+id/i0" style="@style/a5z"/>
+            <LinearLayout android:gravity="center" android:id="@+id/elw" android:background="@drawable/aws" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <com.p683ss.android.ugc.aweme.p1807im.sdk.widget.SpanInterceptNoTextView android:id="@+id/dgq" style="@style/a61"/>
+            </LinearLayout>
+        </LinearLayout>
+        <include android:id="@+id/b9l" android:layout_width="wrap_content" android:layout_height="32dp" android:layout_marginLeft="16dp" android:layout_marginRight="4dp" android:layout_marginStart="16dp" android:layout_marginEnd="4dp" app:layout_constraintLeft_toLeftOf="0" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="@+id/b6z" layout="@layout/bgq"/>
+    </android.support.constraint.ConstraintLayout>
+</LinearLayout>
